@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Test-Fixture: nachgebaute Struktur einer hockey.de-Teamseite (wU12, Auszug).
+     Dient dem Parser-Test ohne Live-Zugriff. Vor Produktivbetrieb den Parser
+     einmal per `python sync.py --dry-run` gegen die ECHTE Seite prüfen. -->
+<html lang="de">
+<body>
+<main>
+  <h1>Crefelder HTC — WHV Regionalliga wU12 2026</h1>
+
+  <section class="matches">
+    <div class="match-item">
+      <span class="date">Sonntag, 26.04.2026</span>
+      <span class="team home">Crefelder HTC</span>
+      <span class="team away">HTC Schwarz-Weiß Neuss</span>
+      <span class="result">3 : 1</span>
+      <span class="venue">Gerd-Wellen-Hockeyanlage (Crefelder HTC)</span>
+    </div>
+    <div class="match-item">
+      <span class="date">Sonntag, 03.05.2026</span>
+      <span class="team home">HTC Uhlenhorst Mülheim</span>
+      <span class="team away">Crefelder HTC</span>
+      <span class="result">1 : 4</span>
+      <span class="venue">Sportanlage Uhlenhorst</span>
+    </div>
+    <div class="match-item">
+      <span class="date">Sonntag, 12.07.2026</span>
+      <span class="team home">Düsseldorfer SC</span>
+      <span class="team away">Crefelder HTC</span>
+      <span class="result">0 : 4</span>
+      <span class="venue">Anlage DSC 99</span>
+    </div>
+    <div class="match-item">
+      <span class="date">Sonntag, 13.09.2026</span> <span class="time">14:00 Uhr</span>
+      <span class="team home">Crefelder HTC</span>
+      <span class="team away">Rot-Weiss Köln</span>
+      <span class="result">- : -</span>
+      <span class="venue">Gerd-Wellen-Hockeyanlage (Crefelder HTC)</span>
+    </div>
+  </section>
+
+  <section class="standings">
+    <table>
+      <tr><th>Platz</th><th>Mannschaft</th><th>Spiele</th><th>S</th><th>U</th><th>N</th><th>Tore</th><th>Punkte</th></tr>
+      <tr><td>1.</td><td>Crefelder HTC</td><td>9</td><td>8</td><td>0</td><td>1</td><td>32:9</td><td>24</td></tr>
+      <tr><td>2.</td><td>DSD Düsseldorf</td><td>8</td><td>7</td><td>0</td><td>1</td><td>34:6</td><td>21</td></tr>
+      <tr><td>3.</td><td>HTC Uhlenhorst Mülheim</td><td>8</td><td>6</td><td>1</td><td>1</td><td>25:7</td><td>19</td></tr>
+      <tr><td>4.</td><td>Rot-Weiss Köln</td><td>8</td><td>6</td><td>0</td><td>2</td><td>29:8</td><td>18</td></tr>
+      <tr><td>13.</td><td>ETB Essen</td><td>8</td><td>0</td><td>2</td><td>6</td><td>3:34</td><td>2</td></tr>
+    </table>
+  </section>
+</main>
+</body>
+</html>

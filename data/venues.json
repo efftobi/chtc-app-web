@@ -1,0 +1,16 @@
+{
+  "_hinweis": "Spielorte mit Adressen. 'erkennung' = Textbausteine, an denen der Daten-Lauf den Spielort aus hockey.de erkennt. Direkt auf GitHub bearbeitbar.",
+  "gwa":        { "name": "Gerd-Wellen-Hockeyanlage", "adresse": "In der Vreed (ggü. Stadtwald)", "ort": "47800 Krefeld-Bockum", "maps": "Gerd-Wellen-Hockeyanlage, Krefeld", "erkennung": ["Gerd-Wellen", "Crefelder"] },
+  "muelheim":   { "name": "Sportanlage Uhlenhorst", "ort": "Mülheim an der Ruhr", "maps": "HTC Uhlenhorst Mülheim", "erkennung": ["Uhlenhorst"] },
+  "gladbach":   { "name": "Anlage Gladbacher HTC", "ort": "Mönchengladbach", "maps": "Gladbacher HTC", "erkennung": ["Gladbach"] },
+  "dsd":        { "name": "Sportanlage DSD", "ort": "Düsseldorf", "maps": "DSD Düsseldorf Hockey", "erkennung": ["DSD"] },
+  "msc":        { "name": "Anlage Marienburger SC", "ort": "Köln", "maps": "Marienburger SC Köln", "erkennung": ["Marienburg"] },
+  "dsc99":      { "name": "Anlage DSC 99", "ort": "Düsseldorf", "maps": "Düsseldorfer SC 99 Hockey", "erkennung": ["DSC", "Düsseldorfer SC"] },
+  "raffelberg": { "name": "Anlage Club Raffelberg", "ort": "Duisburg", "maps": "Club Raffelberg Duisburg", "erkennung": ["Raffelberg"] },
+  "neuss":      { "name": "Anlage HTC SW Neuss", "ort": "Neuss", "maps": "HTC Schwarz-Weiß Neuss", "erkennung": ["Neuss"] },
+  "rwk":        { "name": "Anlage Rot-Weiss Köln", "ort": "Köln", "maps": "KTHC Stadion Rot-Weiss Köln", "erkennung": ["Rot-Weiss", "Rot-Weiß Köln"] },
+  "bwk":        { "name": "Anlage Blau-Weiß Köln", "ort": "Köln", "maps": "HTC Blau-Weiß Köln", "erkennung": ["Blau-Weiß"] },
+  "etb":        { "name": "Anlage ETB Essen", "ort": "Essen", "maps": "ETB Schwarz-Weiß Essen Hockey", "erkennung": ["ETB"] },
+  "dhc":        { "name": "Anlage Düsseldorfer HC", "ort": "Düsseldorf", "maps": "Düsseldorfer HC", "erkennung": ["Düsseldorfer HC", "DHC"] },
+  "swk":        { "name": "Anlage Schwarz-Weiß Köln", "ort": "Köln", "maps": "HTC Schwarz-Weiß Köln", "erkennung": ["Schwarz-Weiß Köln"] }
+}
