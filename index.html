@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#187a4a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CHTC">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<title>CHTC Hockey</title>
+<style>
+  :root{
+    /* CHTC-Vereinsfarben (aus dem Logo): Grün & Rot */
+    --primary:#187a4a; --primary-dark:#0f5c37; --primary-light:#219660; --accent:#e63f2a;
+    --bg:#f4f5f4; --card:#fff; --text:#1a1a1a; --muted:#6b7280;
+    --win:#16a34a; --loss:#dc2626; --draw:#6b7280;
+    --sat:env(safe-area-inset-top,0px); --sab:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,'Segoe UI',Roboto,sans-serif;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--text)}
+  #app{min-height:100%;display:flex;flex-direction:column}
+  header{background:var(--primary);color:#fff;padding:calc(var(--sat) + 14px) 16px 12px;position:sticky;top:0;z-index:5;border-bottom:3px solid var(--accent)}
+  header h1{font-size:19px;font-weight:700}
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand img{width:36px;height:36px;border-radius:50%;background:#fff}
+  header .sub{font-size:12px;opacity:.75;margin-top:2px}
+  .back{background:none;border:none;color:#fff;font-size:15px;padding:0 0 6px;cursor:pointer;opacity:.9}
+  .content{padding:14px 14px calc(var(--sab) + 20px);flex:1;max-width:560px;width:100%;margin:0 auto}
+  .section-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:14px 4px 6px}
+  .card{background:var(--card);border-radius:14px;padding:13px 14px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  .tappable{cursor:pointer;transition:transform .08s}
+  .tappable:active{transform:scale(.98)}
+  .team-row{display:flex;align-items:center;gap:12px}
+  .badge{min-width:44px;height:38px;padding:0 6px;border-radius:10px;background:var(--primary-dark);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;flex-shrink:0}
+  .badge.j{background:var(--accent)}
+  .team-row .info{flex:1;min-width:0}
+  .team-row .name{font-weight:600;font-size:15px}
+  .team-row .liga{font-size:12px;color:var(--muted)}
+  .star{color:#d1d5db;font-size:20px;background:none;border:none;cursor:pointer;padding:4px}
+  .star.on{color:var(--accent)}
+  .fav-card{border-left:4px solid var(--accent)}
+  .nextline{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .pill{display:inline-block;font-size:10.5px;font-weight:700;color:var(--primary-dark);background:#e4f2ea;border-radius:8px;padding:2px 8px;margin-top:6px}
+  .tabs{display:flex;background:var(--primary);position:sticky;top:calc(var(--sat) + 64px);z-index:4}
+  .tabs button{flex:1;padding:11px 4px;background:none;border:none;color:rgba(255,255,255,.65);font-size:12.5px;font-weight:600;cursor:pointer;border-bottom:3px solid transparent}
+  .tabs button.on{color:#fff;border-bottom-color:var(--accent)}
+  .match{display:flex;align-items:center;gap:10px}
+  .match .date{width:54px;text-align:center;flex-shrink:0}
+  .match .date .d{font-weight:700;font-size:14px}
+  .match .date .m{font-size:10.5px;color:var(--muted);text-transform:uppercase}
+  .match .vs{flex:1;min-width:0}
+  .match .vs .opp{font-weight:600;font-size:13.5px}
+  .match .vs .where{font-size:11.5px;color:var(--muted)}
+  .score{font-weight:700;font-size:15px}
+  .score.w{color:var(--win)}.score.l{color:var(--loss)}.score.d{color:var(--draw)}
+  .time{font-size:13px;font-weight:600;color:var(--primary)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  th{background:#eef1ef;color:var(--muted);font-size:10.5px;text-transform:uppercase;padding:8px 5px;text-align:center}
+  th:nth-child(2){text-align:left}
+  td{padding:8px 5px;text-align:center;border-top:1px solid #f0f2f0}
+  td:nth-child(2){text-align:left;font-weight:500}
+  tr.me{background:#e9f2ec;font-weight:700}
+  .train .day{font-weight:700;font-size:14px;color:var(--primary)}
+  .train .tinfo{font-size:13px;margin-top:2px}
+  .train .tplace{font-size:12px;color:var(--muted);margin-top:1px}
+  .detail-hero{background:var(--primary);color:#fff;padding:18px 16px;border-radius:14px;text-align:center;margin-bottom:10px}
+  .detail-hero .teams{font-size:16px;font-weight:700}
+  .detail-hero .when{font-size:13px;opacity:.85;margin-top:6px}
+  .label{font-size:11px;text-transform:uppercase;color:var(--muted);letter-spacing:.06em}
+  .a{font-size:14px;margin-top:4px;line-height:1.45}
+  .btnrow{display:flex;gap:8px;margin-top:10px}
+  .btn{flex:1;padding:12px;border:none;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;text-align:center;text-decoration:none;color:inherit;display:block}
+  .btn.p{background:var(--primary);color:#fff}
+  .btn.s{background:#e5e9e6;color:var(--primary)}
+  .hint{font-size:11px;color:var(--muted);text-align:center;margin:10px 0 4px}
+  .empty{text-align:center;color:var(--muted);font-size:13.5px;padding:30px 20px;line-height:1.6}
+  .banner{background:#fffbe8;border:1px solid #e8d78a;border-radius:12px;padding:10px 12px;font-size:12.5px;color:#57430a;margin-bottom:10px;line-height:1.45}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+"use strict";
+
+/* ================= Konfiguration =================
+   Sobald das Supabase-Backend steht, hier URL + anon key eintragen —
+   die App lädt dann live Daten und nutzt die eingebauten nur als Fallback. */
+const CONFIG = { SUPABASE_URL: "", SUPABASE_ANON_KEY: "" };
+
+/* ================= Eingebaute Daten (Echtdaten wU12, Stand 18.07.2026) ================= */
+const DATA = {
+  teams: [
+    { id:"wu12", badge:"wU12", jugend:true,  name:"Weibliche U12",     liga:"WHV Regionalliga wU12 · Feld 2026", live:true },
+    { id:"wu12-2", badge:"wU12", jugend:true, name:"Weibliche U12 · 2", liga:"WHV Oberliga wU12 · Feld 2026" },
+    { id:"wu12-3", badge:"wU12", jugend:true, name:"Weibliche U12 · 3", liga:"WHV Verbandsliga wU12 · Feld 2026" },
+    { id:"mu12", badge:"mU12", jugend:true,  name:"Männliche U12",     liga:"WHV Regionalliga mU12 · Feld 2026" },
+    { id:"h1", badge:"H1",  name:"1. Herren", liga:"1. Feldhockey-Bundesliga" },
+    { id:"d1", badge:"D1",  name:"1. Damen",  liga:"Regionalliga West" },
+    { id:"h2", badge:"H2",  name:"2. Herren", liga:"Regionalliga West" },
+    { id:"h3", badge:"H3",  name:"3. Herren", liga:"1. Verbandsliga" },
+    { id:"d2", badge:"D2",  name:"2. Damen",  liga:"Oberliga" }
+  ],
+  matches: { "wu12": [
+    { d:"2026-04-26", heim:"Crefelder HTC", gast:"HTC Schwarz-Weiß Neuss", h:true,  th:3, tg:1, ort:"gwa" },
+    { d:"2026-05-03", heim:"HTC Uhlenhorst Mülheim", gast:"Crefelder HTC", h:false, th:1, tg:4, ort:"muelheim" },
+    { d:"2026-05-10", heim:"Crefelder HTC", gast:"Blau-Weiß Köln", h:true,  th:3, tg:2, ort:"gwa" },
+    { d:"2026-06-07", heim:"Crefelder HTC", gast:"ETB Essen", h:true,  th:5, tg:0, ort:"gwa" },
+    { d:"2026-06-14", heim:"Gladbacher HTC", gast:"Crefelder HTC", h:false, th:0, tg:3, ort:"gladbach" },
+    { d:"2026-06-21", heim:"DSD Düsseldorf", gast:"Crefelder HTC", h:false, th:4, tg:0, ort:"dsd" },
+    { d:"2026-06-28", heim:"Marienburger SC", gast:"Crefelder HTC", h:false, th:1, tg:7, ort:"msc" },
+    { d:"2026-07-05", heim:"Crefelder HTC", gast:"Düsseldorfer HC", h:true,  th:3, tg:0, ort:"gwa" },
+    { d:"2026-07-12", heim:"Düsseldorfer SC", gast:"Crefelder HTC", h:false, th:0, tg:4, ort:"dsc99" },
+    { d:"2026-09-13", zeit:"14:00", heim:"Crefelder HTC", gast:"Rot-Weiss Köln", h:true, ort:"gwa",
+      hinweis:"Spitzenspiel: Tabellenführer CHTC (24 Pkt.) empfängt den Vierten Rot-Weiss Köln (18 Pkt.)." },
+    { d:"2026-09-20", zeit:"12:00", heim:"Crefelder HTC", gast:"Schwarz-Weiß Köln 1", h:true, ort:"gwa" },
+    { d:"2026-09-27", heim:"Club Raffelberg", gast:"Crefelder HTC", h:false, ort:"raffelberg" }
+  ]},
+  standings: { "wu12": [
+    [1,"Crefelder HTC",9,8,0,1,"32:9",24,true],
+    [2,"DSD Düsseldorf",8,7,0,1,"34:6",21],
+    [3,"HTC Uhlenhorst Mülheim",8,6,1,1,"25:7",19],
+    [4,"Rot-Weiss Köln",8,6,0,2,"29:8",18],
+    [5,"Düsseldorfer HC",8,5,0,3,"21:9",15],
+    [6,"Blau-Weiß Köln",8,5,0,3,"22:11",15],
+    [7,"Gladbacher HTC",8,3,1,4,"12:17",10],
+    [8,"HTC Schwarz-Weiß Neuss",9,3,0,6,"13:19",9],
+    [9,"Schwarz-Weiß Köln 1",9,2,2,5,"13:34",8],
+    [10,"Club Raffelberg",9,1,2,6,"15:28",5],
+    [11,"Marienburger SC",8,1,2,5,"6:23",5],
+    [12,"Düsseldorfer SC",8,1,2,5,"6:26",5],
+    [13,"ETB Essen",8,0,2,6,"3:34",2]
+  ]},
+  trainings: {
+    "wu12": [
+      { tag:"Dienstag",   von:"16:00", bis:"17:30", ort:"Platz Tokio, Gerd-Wellen-Anlage" },
+      { tag:"Donnerstag", von:"15:30", bis:"17:00", ort:"Platz Tokio, Gerd-Wellen-Anlage" },
+      { tag:"Freitag",    von:"16:30", bis:"18:00", ort:"Platz Paris, Gerd-Wellen-Anlage", info:"nur wU12-1" }
+    ],
+    "wu12-2": [
+      { tag:"Dienstag",   von:"16:00", bis:"17:30", ort:"Platz Tokio, Gerd-Wellen-Anlage" },
+      { tag:"Donnerstag", von:"15:30", bis:"17:00", ort:"Platz Tokio, Gerd-Wellen-Anlage" }
+    ],
+    "wu12-3": [
+      { tag:"Dienstag",   von:"16:00", bis:"17:30", ort:"Platz Tokio, Gerd-Wellen-Anlage" },
+      { tag:"Donnerstag", von:"15:30", bis:"17:00", ort:"Platz Tokio, Gerd-Wellen-Anlage" }
+    ]
+  },
+  venues: {
+    gwa:        { name:"Gerd-Wellen-Hockeyanlage", adresse:"In der Vreed (ggü. Stadtwald)", ort:"47800 Krefeld-Bockum", maps:"Gerd-Wellen-Hockeyanlage, Krefeld" },
+    muelheim:   { name:"Sportanlage Uhlenhorst", ort:"Mülheim an der Ruhr", maps:"HTC Uhlenhorst Mülheim" },
+    gladbach:   { name:"Anlage Gladbacher HTC", ort:"Mönchengladbach", maps:"Gladbacher HTC" },
+    dsd:        { name:"Sportanlage DSD", ort:"Düsseldorf", maps:"DSD Düsseldorf Hockey" },
+    msc:        { name:"Anlage Marienburger SC", ort:"Köln", maps:"Marienburger SC Köln" },
+    dsc99:      { name:"Anlage DSC 99", ort:"Düsseldorf", maps:"Düsseldorfer SC 99 Hockey" },
+    raffelberg: { name:"Anlage Club Raffelberg", ort:"Duisburg", maps:"Club Raffelberg Duisburg" }
+  },
+  stand: "18.07.2026"
+};
+
+/* ================= Helpers ================= */
+const $ = (s) => document.querySelector(s);
+const MON = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+const WTAGE = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function store(key, val) { try { if (val === undefined) return JSON.parse(localStorage.getItem(key)); localStorage.setItem(key, JSON.stringify(val)); } catch { return null; } }
+let favs = store("chtc_favs") || ["wu12"];
+
+const dOf = (m) => new Date(m.d + "T" + (m.zeit || "23:59"));
+const played = (m) => m.th !== undefined;
+const chtcWon = (m) => played(m) && ((m.h && m.th > m.tg) || (!m.h && m.tg > m.th));
+const chtcLost = (m) => played(m) && ((m.h && m.th < m.tg) || (!m.h && m.tg < m.th));
+
+function nextMatch(teamId) {
+  const now = new Date();
+  return (DATA.matches[teamId] || []).filter(m => !played(m) && dOf(m) >= now)[0];
+}
+
+/* ================= Views ================= */
+function render(html) { $("#app").innerHTML = html; window.scrollTo(0, 0); }
+
+function homeView() {
+  const teamCard = (t, fav) => {
+    const nm = t.live ? nextMatch(t.id) : null;
+    const st = t.live ? (DATA.standings[t.id] || []).find(r => r[8]) : null;
+    return `<div class="card tappable ${fav ? "fav-card" : ""}" onclick="openTeam('${t.id}')">
+      <div class="team-row">
+        <div class="badge ${t.jugend ? "j" : ""}">${esc(t.badge)}</div>
+        <div class="info"><div class="name">${esc(t.name)}</div><div class="liga">${esc(t.liga)}</div></div>
+        <button class="star ${favs.includes(t.id) ? "on" : ""}" onclick="toggleFav(event,'${t.id}')">★</button>
+      </div>
+      ${nm ? `<div class="nextline">Nächstes Spiel: ${fmtShort(nm)}</div>` : ""}
+      ${st ? `<span class="pill">Platz ${st[0]} · ${st[7]} Punkte</span>` : ""}
+    </div>`;
+  };
+  const favTeams = DATA.teams.filter(t => favs.includes(t.id));
+  const rest = DATA.teams.filter(t => !favs.includes(t.id));
+  render(`
+    <header><div class="brand"><img src="logo-header.png" alt=""><div><h1>CHTC Hockey</h1><div class="sub">Crefelder Hockey- und Tennis-Club 1890</div></div></div></header>
+    <div class="content">
+      ${favTeams.length ? `<div class="section-label">★ Meine Teams</div>` + favTeams.map(t => teamCard(t, true)).join("") : ""}
+      <div class="section-label">Jugend</div>
+      ${rest.filter(t => t.jugend).map(t => teamCard(t)).join("")}
+      <div class="section-label">Erwachsene</div>
+      ${rest.filter(t => !t.jugend).map(t => teamCard(t)).join("")}
+      <div class="hint">Beta · wU12 mit echten Daten von hockey.de (Stand ${DATA.stand})</div>
+    </div>`);
+}
+
+function fmtShort(m) {
+  const d = new Date(m.d + "T12:00");
+  return `${WTAGE[d.getDay()].slice(0,2)} ${String(d.getDate()).padStart(2,"0")}.${String(d.getMonth()+1).padStart(2,"0")}.` +
+         (m.zeit ? ` · ${m.zeit}` : "") + ` · ${m.h ? "Heim vs. " + m.gast : "@ " + m.heim}`;
+}
+
+let curTab = "spiele";
+function teamView(teamId, tab) {
+  curTab = tab || "spiele";
+  const t = DATA.teams.find(x => x.id === teamId);
+  const matches = DATA.matches[teamId] || [];
+  const tabBtn = (id, label) => `<button class="${curTab === id ? "on" : ""}" onclick="openTeam('${teamId}','${id}')">${label}</button>`;
+
+  let body = "";
+  if (!t.live && curTab !== "training") {
+    body = `<div class="empty">Für dieses Team werden die Spieldaten mit der Backend-Anbindung freigeschaltet.<br><br>Die wU12 (Regionalliga) zeigt schon, wie es aussieht!</div>`;
+  } else if (curTab === "spiele") {
+    body = matches.map((m, i) => matchCard(teamId, m, i)).join("") +
+           `<div class="hint">Echte Daten: hockey.de · Stand ${DATA.stand}</div>`;
+  } else if (curTab === "tabelle") {
+    const rows = (DATA.standings[teamId] || []).map(r =>
+      `<tr class="${r[8] ? "me" : ""}"><td>${r[0]}</td><td>${esc(r[1])}</td><td>${r[2]}</td><td>${r[3]}</td><td>${r[4]}</td><td>${r[5]}</td><td>${r[6]}</td><td>${r[7]}</td></tr>`).join("");
+    body = `<table><tr><th>#</th><th>Mannschaft</th><th>Sp</th><th>S</th><th>U</th><th>N</th><th>Tore</th><th>Pkt</th></tr>${rows}</table>
+            <div class="hint">${esc(t.liga)} · Stand ${DATA.stand}</div>`;
+  } else if (curTab === "next") {
+    const up = matches.map((m, i) => [m, i]).filter(([m]) => !played(m));
+    body = up.length ? up.map(([m, i]) => matchCard(teamId, m, i)).join("") : `<div class="empty">Keine anstehenden Spiele.</div>`;
+  } else {
+    const tr = DATA.trainings[teamId] || [];
+    body = (tr.length ? tr.map(x => `<div class="card train"><div class="day">${esc(x.tag)}</div>
+        <div class="tinfo">${esc(x.von)} – ${esc(x.bis)} Uhr</div>
+        <div class="tplace">${esc(x.ort)}${x.info ? " · " + esc(x.info) : ""}</div></div>`).join("")
+      : `<div class="empty">Noch keine Trainingszeiten hinterlegt.</div>`);
+  }
+
+  render(`
+    <header><button class="back" onclick="homeView()">‹ Teams</button>
+      <h1>${esc(t.name)}</h1><div class="sub">${esc(t.liga)}</div></header>
+    <div class="tabs">${tabBtn("spiele","Spiele")}${tabBtn("tabelle","Tabelle")}${tabBtn("next","Nächste")}${tabBtn("training","Training")}</div>
+    <div class="content">${body}</div>`);
+}
+
+function matchCard(teamId, m, i) {
+  const d = new Date(m.d + "T12:00");
+  const right = played(m)
+    ? `<div class="score ${chtcWon(m) ? "w" : chtcLost(m) ? "l" : "d"}">${m.th} : ${m.tg}</div>`
+    : `<div class="time">${m.zeit || "–"}</div>`;
+  const v = DATA.venues[m.ort];
+  const sub = played(m) ? (m.h ? "Heim" : "Auswärts")
+                        : `${v ? esc(v.name) + ", " + esc((v.ort || "").replace(/^\d+\s*/, "")) : (m.h ? "Heim" : "Auswärts")}`;
+  return `<div class="card tappable" onclick="detailView('${teamId}',${i})">
+    <div class="match">
+      <div class="date"><div class="d">${String(d.getDate()).padStart(2,"0")}</div><div class="m">${MON[d.getMonth()]}</div></div>
+      <div class="vs"><div class="opp">${esc(short(m.heim))} – ${esc(short(m.gast))}</div><div class="where">${sub}</div></div>
+      ${right}</div></div>`;
+}
+const short = (n) => n.replace("Crefelder HTC", "CHTC").replace("HTC Uhlenhorst Mülheim", "Uhlenhorst Mülheim");
+
+function detailView(teamId, i) {
+  const t = DATA.teams.find(x => x.id === teamId);
+  const m = DATA.matches[teamId][i];
+  const v = DATA.venues[m.ort] || {};
+  const d = new Date(m.d + "T12:00");
+  const when = `${WTAGE[d.getDay()]}, ${d.getDate()}. ${["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"][d.getMonth()]} ${d.getFullYear()}` + (m.zeit ? ` · ${m.zeit} Uhr` : " · Uhrzeit folgt");
+  const mapsQ = encodeURIComponent(v.maps || v.name || "");
+  const result = played(m) ? `<div style="font-size:26px;font-weight:800;margin-top:8px">${m.th} : ${m.tg}</div>` : "";
+  render(`
+    <header><button class="back" onclick="openTeam('${teamId}','${curTab}')">‹ ${esc(t.name)}</button>
+      <h1>${m.h ? "Heimspiel" : "Auswärtsspiel"}</h1><div class="sub">${esc(t.liga)}</div></header>
+    <div class="content">
+      <div class="detail-hero"><div class="teams">${esc(m.heim)} – ${esc(m.gast)}</div><div class="when">${when}</div>${result}</div>
+      <div class="card"><div class="label">Spielort</div>
+        <div class="a"><strong>${esc(v.name || "Wird noch bekannt gegeben")}</strong>${v.adresse ? "<br>" + esc(v.adresse) : ""}${v.ort ? "<br>" + esc(v.ort) : ""}</div>
+        ${v.name ? `<div class="btnrow">
+          <a class="btn p" target="_blank" rel="noopener" href="https://maps.apple.com/?q=${mapsQ}">🧭 Route öffnen</a>
+          ${!played(m) ? `<a class="btn s" href="${icsUrl(m, v)}" download="chtc-spiel.ics">📅 In Kalender</a>` : ""}
+        </div>` : ""}</div>
+      ${m.hinweis ? `<div class="card"><div class="label">Info</div><div class="a">${esc(m.hinweis)}</div></div>` : ""}
+    </div>`);
+}
+
+function icsUrl(m, v) {
+  const dt = m.d.replace(/-/g, "");
+  const start = m.zeit ? dt + "T" + m.zeit.replace(":", "") + "00" : dt;
+  const end = m.zeit ? dt + "T" + String(parseInt(m.zeit) + 2).padStart(2, "0") + m.zeit.slice(3).replace(":", "") + "00" : dt;
+  const ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//CHTC//App//DE","BEGIN:VEVENT",
+    `UID:chtc-${dt}-${(m.gast || "").replace(/\W/g, "")}@chtc`,
+    m.zeit ? `DTSTART:${start}` : `DTSTART;VALUE=DATE:${start}`,
+    m.zeit ? `DTEND:${end}` : `DTEND;VALUE=DATE:${start}`,
+    `SUMMARY:🏑 ${m.heim} – ${m.gast}`,
+    `LOCATION:${(v.name || "") + (v.ort ? ", " + v.ort : "")}`,
+    "END:VEVENT","END:VCALENDAR"].join("\r\n");
+  return "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
+}
+
+/* ================= Aktionen ================= */
+window.openTeam = (id, tab) => teamView(id, tab);
+window.detailView = detailView;
+window.homeView = homeView;
+window.toggleFav = (ev, id) => {
+  ev.stopPropagation();
+  favs = favs.includes(id) ? favs.filter(x => x !== id) : [...favs, id];
+  store("chtc_favs", favs);
+  homeView();
+};
+
+/* ================= Start ================= */
+homeView();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>
