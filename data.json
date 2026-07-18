@@ -1,0 +1,427 @@
+{
+ "teams": [
+  {
+   "id": "wu12",
+   "badge": "wU12",
+   "jugend": true,
+   "name": "Weibliche U12",
+   "liga": "WHV Regionalliga wU12 · Feld 2026",
+   "live": true
+  },
+  {
+   "id": "wu12-2",
+   "badge": "wU12",
+   "jugend": true,
+   "name": "Weibliche U12 · 2",
+   "liga": "WHV Oberliga wU12 · Feld 2026"
+  },
+  {
+   "id": "wu12-3",
+   "badge": "wU12",
+   "jugend": true,
+   "name": "Weibliche U12 · 3",
+   "liga": "WHV Verbandsliga wU12 · Feld 2026"
+  },
+  {
+   "id": "mu12",
+   "badge": "mU12",
+   "jugend": true,
+   "name": "Männliche U12",
+   "liga": "WHV Regionalliga mU12 · Feld 2026"
+  },
+  {
+   "id": "h1",
+   "badge": "H1",
+   "name": "1. Herren",
+   "liga": "1. Feldhockey-Bundesliga"
+  },
+  {
+   "id": "d1",
+   "badge": "D1",
+   "name": "1. Damen",
+   "liga": "Regionalliga West"
+  },
+  {
+   "id": "h2",
+   "badge": "H2",
+   "name": "2. Herren",
+   "liga": "Regionalliga West"
+  },
+  {
+   "id": "h3",
+   "badge": "H3",
+   "name": "3. Herren",
+   "liga": "1. Verbandsliga"
+  },
+  {
+   "id": "d2",
+   "badge": "D2",
+   "name": "2. Damen",
+   "liga": "Oberliga"
+  }
+ ],
+ "matches": {
+  "wu12": [
+   {
+    "d": "2026-04-26",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true,
+    "th": 3,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "HTC Uhlenhorst Mülheim",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 4,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC",
+    "gast": "Blau-Weiß Köln",
+    "h": true,
+    "th": 3,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-07",
+    "heim": "Crefelder HTC",
+    "gast": "ETB Essen",
+    "h": true,
+    "th": 5,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 3,
+    "ort": "gladbach"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 0,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Marienburger SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 7,
+    "ort": "msc"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "th": 3,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 4,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-13",
+    "zeit": "14:00",
+    "heim": "Crefelder HTC",
+    "gast": "Rot-Weiss Köln",
+    "h": true,
+    "ort": "gwa",
+    "hinweis": "Spitzenspiel: Tabellenführer CHTC (24 Pkt.) empfängt den Vierten Rot-Weiss Köln (18 Pkt.)."
+   },
+   {
+    "d": "2026-09-20",
+    "zeit": "12:00",
+    "heim": "Crefelder HTC",
+    "gast": "Schwarz-Weiß Köln 1",
+    "h": true,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-27",
+    "heim": "Club Raffelberg",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "ort": "raffelberg"
+   }
+  ]
+ },
+ "standings": {
+  "wu12": [
+   [
+    1,
+    "Crefelder HTC",
+    9,
+    8,
+    0,
+    1,
+    "32:9",
+    24,
+    true
+   ],
+   [
+    2,
+    "DSD Düsseldorf",
+    8,
+    7,
+    0,
+    1,
+    "34:6",
+    21
+   ],
+   [
+    3,
+    "HTC Uhlenhorst Mülheim",
+    8,
+    6,
+    1,
+    1,
+    "25:7",
+    19
+   ],
+   [
+    4,
+    "Rot-Weiss Köln",
+    8,
+    6,
+    0,
+    2,
+    "29:8",
+    18
+   ],
+   [
+    5,
+    "Düsseldorfer HC",
+    8,
+    5,
+    0,
+    3,
+    "21:9",
+    15
+   ],
+   [
+    6,
+    "Blau-Weiß Köln",
+    8,
+    5,
+    0,
+    3,
+    "22:11",
+    15
+   ],
+   [
+    7,
+    "Gladbacher HTC",
+    8,
+    3,
+    1,
+    4,
+    "12:17",
+    10
+   ],
+   [
+    8,
+    "HTC Schwarz-Weiß Neuss",
+    9,
+    3,
+    0,
+    6,
+    "13:19",
+    9
+   ],
+   [
+    9,
+    "Schwarz-Weiß Köln 1",
+    9,
+    2,
+    2,
+    5,
+    "13:34",
+    8
+   ],
+   [
+    10,
+    "Club Raffelberg",
+    9,
+    1,
+    2,
+    6,
+    "15:28",
+    5
+   ],
+   [
+    11,
+    "Marienburger SC",
+    8,
+    1,
+    2,
+    5,
+    "6:23",
+    5
+   ],
+   [
+    12,
+    "Düsseldorfer SC",
+    8,
+    1,
+    2,
+    5,
+    "6:26",
+    5
+   ],
+   [
+    13,
+    "ETB Essen",
+    8,
+    0,
+    2,
+    6,
+    "3:34",
+    2
+   ]
+  ]
+ },
+ "trainings": {
+  "wu12": [
+   {
+    "tag": "Dienstag",
+    "von": "16:00",
+    "bis": "17:30",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   },
+   {
+    "tag": "Donnerstag",
+    "von": "15:30",
+    "bis": "17:00",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   },
+   {
+    "tag": "Freitag",
+    "von": "16:30",
+    "bis": "18:00",
+    "ort": "Platz Paris, Gerd-Wellen-Anlage",
+    "info": "nur wU12-1"
+   }
+  ],
+  "wu12-2": [
+   {
+    "tag": "Dienstag",
+    "von": "16:00",
+    "bis": "17:30",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   },
+   {
+    "tag": "Donnerstag",
+    "von": "15:30",
+    "bis": "17:00",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   }
+  ],
+  "wu12-3": [
+   {
+    "tag": "Dienstag",
+    "von": "16:00",
+    "bis": "17:30",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   },
+   {
+    "tag": "Donnerstag",
+    "von": "15:30",
+    "bis": "17:00",
+    "ort": "Platz Tokio, Gerd-Wellen-Anlage"
+   }
+  ]
+ },
+ "venues": {
+  "gwa": {
+   "name": "Gerd-Wellen-Hockeyanlage",
+   "adresse": "In der Vreed (ggü. Stadtwald)",
+   "ort": "47800 Krefeld-Bockum",
+   "maps": "Gerd-Wellen-Hockeyanlage, Krefeld"
+  },
+  "muelheim": {
+   "name": "Sportanlage Uhlenhorst",
+   "ort": "Mülheim an der Ruhr",
+   "maps": "HTC Uhlenhorst Mülheim"
+  },
+  "gladbach": {
+   "name": "Anlage Gladbacher HTC",
+   "ort": "Mönchengladbach",
+   "maps": "Gladbacher HTC"
+  },
+  "dsd": {
+   "name": "Sportanlage DSD",
+   "ort": "Düsseldorf",
+   "maps": "DSD Düsseldorf Hockey"
+  },
+  "msc": {
+   "name": "Anlage Marienburger SC",
+   "ort": "Köln",
+   "maps": "Marienburger SC Köln"
+  },
+  "dsc99": {
+   "name": "Anlage DSC 99",
+   "ort": "Düsseldorf",
+   "maps": "Düsseldorfer SC 99 Hockey"
+  },
+  "raffelberg": {
+   "name": "Anlage Club Raffelberg",
+   "ort": "Duisburg",
+   "maps": "Club Raffelberg Duisburg"
+  },
+  "neuss": {
+   "name": "Anlage HTC SW Neuss",
+   "ort": "Neuss",
+   "maps": "HTC Schwarz-Weiß Neuss"
+  },
+  "rwk": {
+   "name": "Anlage Rot-Weiss Köln",
+   "ort": "Köln",
+   "maps": "KTHC Stadion Rot-Weiss Köln"
+  },
+  "bwk": {
+   "name": "Anlage Blau-Weiß Köln",
+   "ort": "Köln",
+   "maps": "HTC Blau-Weiß Köln"
+  },
+  "etb": {
+   "name": "Anlage ETB Essen",
+   "ort": "Essen",
+   "maps": "ETB Schwarz-Weiß Essen Hockey"
+  },
+  "dhc": {
+   "name": "Anlage Düsseldorfer HC",
+   "ort": "Düsseldorf",
+   "maps": "Düsseldorfer HC"
+  },
+  "swk": {
+   "name": "Anlage Schwarz-Weiß Köln",
+   "ort": "Köln",
+   "maps": "HTC Schwarz-Weiß Köln"
+  }
+ },
+ "stand": "18.07.2026 (initial)"
+}

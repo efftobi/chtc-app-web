@@ -40,10 +40,7 @@ Den Link kannst du genauso an alle Eltern/Spielerinnen der wU12 weitergeben.
 - Trainingszeiten aller drei wU12-Teams sind hinterlegt (Di/Do „Tokio",
   Fr „Paris" nur wU12-1).
 
-## Nächster Ausbauschritt
+## Automatischer Betrieb
 
-In `index.html` oben steht ein `CONFIG`-Block. Sobald das Supabase-Backend
-aus dem Phase-1-Paket eingerichtet ist, werden dort `SUPABASE_URL` und
-`SUPABASE_ANON_KEY` eingetragen — dann lädt die App live die Daten aller
-Teams, die der Sync-Worker von hockey.de holt. (Die Lade-Logik dafür bauen
-wir ein, wenn das Backend steht.)
+Wie die App im laufenden Betrieb aktuell bleibt (automatisches Daten-Update
+von hockey.de über GitHub Actions), steht in **BETRIEB.md**.

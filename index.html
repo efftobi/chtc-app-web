@@ -86,10 +86,9 @@
 <script>
 "use strict";
 
-/* ================= Konfiguration =================
-   Sobald das Supabase-Backend steht, hier URL + anon key eintragen —
-   die App lädt dann live Daten und nutzt die eingebauten nur als Fallback. */
-const CONFIG = { SUPABASE_URL: "", SUPABASE_ANON_KEY: "" };
+/* ================= Betrieb =================
+   Die App lädt ihre Daten aus data.json (siehe unten am Dateiende).
+   data.json wird automatisch per GitHub Actions von hockey.de aktualisiert. */
 
 /* ================= Eingebaute Daten (Echtdaten wU12, Stand 18.07.2026) ================= */
 const DATA = {
@@ -320,6 +319,18 @@ window.toggleFav = (ev, id) => {
 /* ================= Start ================= */
 homeView();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+
+/* Live-Daten laden: data.json wird von GitHub Actions automatisch aktualisiert.
+   Eingebaute Daten oben dienen nur noch als Fallback (z. B. komplett offline). */
+fetch("data.json?t=" + Date.now())
+  .then((r) => (r.ok ? r.json() : null))
+  .then((d) => {
+    if (d && Array.isArray(d.teams) && d.teams.length) {
+      Object.assign(DATA, d);
+      homeView();
+    }
+  })
+  .catch(() => {});
 </script>
 </body>
 </html>
