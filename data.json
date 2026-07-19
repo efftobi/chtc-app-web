@@ -13,21 +13,24 @@
    "badge": "wU12",
    "name": "Weibliche U12 · 2",
    "liga": "WHV Oberliga wU12 · Feld 2026",
-   "jugend": true
+   "jugend": true,
+   "live": true
   },
   {
    "id": "wu12-3",
    "badge": "wU12",
    "name": "Weibliche U12 · 3",
    "liga": "WHV Verbandsliga wU12 · Feld 2026",
-   "jugend": true
+   "jugend": true,
+   "live": true
   },
   {
    "id": "mu12",
    "badge": "mU12",
    "name": "Männliche U12",
    "liga": "WHV Regionalliga mU12 · Feld 2026",
-   "jugend": true
+   "jugend": true,
+   "live": true
   },
   {
    "id": "h1",
@@ -145,27 +148,260 @@
    },
    {
     "d": "2026-09-13",
-    "zeit": "14:00",
     "heim": "Crefelder HTC",
     "gast": "Rot-Weiss Köln",
     "h": true,
-    "ort": "gwa",
-    "hinweis": "Spitzenspiel: Tabellenführer CHTC (24 Pkt.) empfängt den Vierten Rot-Weiss Köln (18 Pkt.)."
+    "zeit": "14:00",
+    "ort": "gwa"
    },
    {
     "d": "2026-09-20",
-    "zeit": "12:00",
     "heim": "Crefelder HTC",
     "gast": "Schwarz-Weiß Köln 1",
     "h": true,
+    "zeit": "12:00",
     "ort": "gwa"
    },
    {
     "d": "2026-09-27",
     "heim": "Club Raffelberg",
     "gast": "Crefelder HTC",
+    "h": false
+   }
+  ],
+  "wu12-2": [
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC  2",
+    "gast": "Kahlenberger HTC wU12 OL",
+    "h": true,
+    "th": 0,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-07",
+    "heim": "Eintracht Dortmund",
+    "gast": "Crefelder HTC  2",
     "h": false,
-    "ort": "raffelberg"
+    "th": 2,
+    "tg": 1
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Crefelder HTC  2",
+    "gast": "ETUF Essen",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC  2",
+    "gast": "SG Preußen Duisburg / MSV Duisburg 1",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "TV Jahn Hiesfeld",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 2,
+    "tg": 0
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Moerser TV 1",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 1,
+    "tg": 1
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC  2",
+    "gast": "Club Raffelberg 2",
+    "h": true,
+    "th": 1,
+    "tg": 5,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC Uhlenhorst Mülheim 3",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Mettmanner THC wU12",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "14:30"
+   }
+  ],
+  "wu12-3": [
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC 3",
+    "gast": "Moerser TV 2",
+    "h": true,
+    "th": 0,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Crefelder HTC 3",
+    "gast": "Oberhausener THC",
+    "h": true,
+    "th": 2,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "HTC Kupferdreh",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "th": 1,
+    "tg": 0
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Crefelder HTC 3",
+    "gast": "Club Raffelberg 3",
+    "h": true,
+    "th": 0,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "SG Preußen Duisburg / MSV Duisburg 2",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Kahlenberger HTC 2 wU12 VL",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Crefelder HTC 3",
+    "gast": "TV Jahn Hiesfeld 2",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "gwa"
+   }
+  ],
+  "mu12": [
+   {
+    "d": "2026-04-26",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true,
+    "zeit": "17:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "HTC Uhlenhorst Mülheim",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 5,
+    "tg": 1,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "th": 2,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-07",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer SC",
+    "h": true,
+    "th": 4,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 1,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC",
+    "gast": "HC Essen 99",
+    "h": true,
+    "th": 4,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Rot-Weiss Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 7,
+    "tg": 1
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC",
+    "gast": "Club Raffelberg",
+    "h": true,
+    "th": 4,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Blau-Weiß Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 3
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC",
+    "gast": "Schwarz-Weiß Köln 1",
+    "h": true,
+    "zeit": "14:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Marienburger SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "ort": "msc"
+   },
+   {
+    "d": "2026-09-27",
+    "heim": "TV Jahn Hiesfeld",
+    "gast": "Crefelder HTC",
+    "h": false
    }
   ]
  },
@@ -254,7 +490,7 @@
    ],
    [
     9,
-    "Schwarz-Weiß Köln 1",
+    "Schwarz-Weiß Köln 1 SWK 1",
     9,
     2,
     2,
@@ -301,6 +537,305 @@
     6,
     "3:34",
     2
+   ]
+  ],
+  "wu12-2": [
+   [
+    1,
+    "Kahlenberger HTC wU12 OL",
+    7,
+    7,
+    0,
+    0,
+    "21:4",
+    21
+   ],
+   [
+    2,
+    "Club Raffelberg 2",
+    7,
+    5,
+    1,
+    1,
+    "24:8",
+    16
+   ],
+   [
+    3,
+    "TV Jahn Hiesfeld",
+    7,
+    4,
+    2,
+    1,
+    "19:9",
+    14
+   ],
+   [
+    4,
+    "Moerser TV 1 MTV 1",
+    7,
+    4,
+    1,
+    2,
+    "20:5",
+    13
+   ],
+   [
+    5,
+    "ETUF Essen",
+    6,
+    4,
+    0,
+    2,
+    "12:6",
+    12
+   ],
+   [
+    6,
+    "SG Preußen Duisburg / MSV Duisburg 1 PRDUI/MSV...",
+    7,
+    3,
+    1,
+    3,
+    "13:18",
+    10
+   ],
+   [
+    7,
+    "Eintracht Dortmund",
+    7,
+    3,
+    0,
+    4,
+    "8:10",
+    9
+   ],
+   [
+    8,
+    "Mettmanner THC wU12 MTHC wU12",
+    6,
+    1,
+    0,
+    5,
+    "6:12",
+    3
+   ],
+   [
+    9,
+    "Crefelder HTC 2",
+    7,
+    0,
+    1,
+    6,
+    "3:16",
+    1,
+    true
+   ],
+   [
+    10,
+    "HTC Uhlenhorst Mülheim 3 HTCU 3",
+    7,
+    0,
+    0,
+    7,
+    "2:40",
+    0
+   ]
+  ],
+  "wu12-3": [
+   [
+    1,
+    "Club Raffelberg 3",
+    5,
+    4,
+    1,
+    0,
+    "11:4",
+    13
+   ],
+   [
+    2,
+    "Oberhausener THC",
+    5,
+    3,
+    1,
+    1,
+    "11:7",
+    10
+   ],
+   [
+    3,
+    "TV Jahn Hiesfeld 2 TVJH 2",
+    5,
+    3,
+    0,
+    2,
+    "9:8",
+    9
+   ],
+   [
+    4,
+    "Kahlenberger HTC 2 wU12 VL KHTC 2",
+    4,
+    2,
+    0,
+    2,
+    "2:2",
+    6
+   ],
+   [
+    5,
+    "Crefelder HTC 3 CHTC 3",
+    4,
+    1,
+    1,
+    2,
+    "2:3",
+    4,
+    true
+   ],
+   [
+    6,
+    "HTC Kupferdreh",
+    6,
+    1,
+    1,
+    4,
+    "3:10",
+    4
+   ],
+   [
+    7,
+    "Moerser TV 2 MTV 2",
+    5,
+    0,
+    2,
+    3,
+    "3:7",
+    2
+   ]
+  ],
+  "mu12": [
+   [
+    1,
+    "HTC Uhlenhorst Mülheim",
+    8,
+    7,
+    1,
+    0,
+    "32:7",
+    22
+   ],
+   [
+    2,
+    "Rot-Weiss Köln",
+    7,
+    6,
+    0,
+    1,
+    "57:10",
+    18
+   ],
+   [
+    3,
+    "DSD Düsseldorf",
+    7,
+    6,
+    0,
+    1,
+    "26:8",
+    18
+   ],
+   [
+    4,
+    "Crefelder HTC",
+    8,
+    5,
+    0,
+    3,
+    "20:22",
+    15,
+    true
+   ],
+   [
+    5,
+    "Club Raffelberg",
+    7,
+    4,
+    1,
+    2,
+    "23:12",
+    13
+   ],
+   [
+    6,
+    "Marienburger SC",
+    8,
+    3,
+    2,
+    3,
+    "16:21",
+    11
+   ],
+   [
+    7,
+    "Blau-Weiß Köln",
+    8,
+    3,
+    0,
+    5,
+    "12:14",
+    9
+   ],
+   [
+    8,
+    "TV Jahn Hiesfeld",
+    7,
+    2,
+    0,
+    5,
+    "9:30",
+    6
+   ],
+   [
+    9,
+    "HC Essen 99",
+    7,
+    1,
+    2,
+    4,
+    "10:12",
+    5
+   ],
+   [
+    10,
+    "Düsseldorfer HC",
+    7,
+    1,
+    2,
+    4,
+    "9:21",
+    5
+   ],
+   [
+    11,
+    "Düsseldorfer SC",
+    7,
+    1,
+    2,
+    4,
+    "7:21",
+    5
+   ],
+   [
+    12,
+    "Schwarz-Weiß Köln 1",
+    7,
+    0,
+    0,
+    7,
+    "7:50",
+    0
    ]
   ]
  },
@@ -423,5 +958,5 @@
    "maps": "HTC Schwarz-Weiß Köln"
   }
  },
- "stand": "19.07.2026 02:38"
+ "stand": "19.07.2026 02:43"
 }
