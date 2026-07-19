@@ -1,10 +1,43 @@
 {
  "teams": [
   {
+   "id": "h1",
+   "badge": "H1",
+   "name": "1. Herren",
+   "liga": "1. Feldhockey-Bundesliga · Feld 2025/26",
+   "gruppe": "Damen & Herren",
+   "live": true
+  },
+  {
+   "id": "d1",
+   "badge": "D1",
+   "name": "1. Damen",
+   "liga": "WHV Regionalliga · Feld 2025/26",
+   "gruppe": "Damen & Herren",
+   "live": true
+  },
+  {
+   "id": "h2",
+   "badge": "H2",
+   "name": "2. Herren",
+   "liga": "WHV Regionalliga · Feld 2025/26",
+   "gruppe": "Damen & Herren",
+   "live": true
+  },
+  {
+   "id": "d2",
+   "badge": "D2",
+   "name": "2. Damen",
+   "liga": "WHV 1. Verbandsliga Gruppe B · Feld 2025/26",
+   "gruppe": "Damen & Herren",
+   "live": true
+  },
+  {
    "id": "wu12",
    "badge": "wU12",
    "name": "Weibliche U12",
    "liga": "WHV Regionalliga wU12 · Feld 2026",
+   "gruppe": "Jugend weiblich",
    "jugend": true,
    "live": true
   },
@@ -13,6 +46,7 @@
    "badge": "wU12",
    "name": "Weibliche U12 · 2",
    "liga": "WHV Oberliga wU12 · Feld 2026",
+   "gruppe": "Jugend weiblich",
    "jugend": true,
    "live": true
   },
@@ -21,6 +55,52 @@
    "badge": "wU12",
    "name": "Weibliche U12 · 3",
    "liga": "WHV Verbandsliga wU12 · Feld 2026",
+   "gruppe": "Jugend weiblich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu14",
+   "badge": "wU14",
+   "name": "Weibliche U14",
+   "liga": "WHV Oberliga wU14 · Feld 2026",
+   "gruppe": "Jugend weiblich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu14-2",
+   "badge": "wU14",
+   "name": "Weibliche U14 · 2",
+   "liga": "WHV Verbandsliga wU14 · Feld 2026",
+   "gruppe": "Jugend weiblich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu16",
+   "badge": "wU16",
+   "name": "Weibliche U16",
+   "liga": "WHV Regionalliga wU16 · Feld 2026",
+   "gruppe": "Jugend weiblich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu16-2",
+   "badge": "wU16",
+   "name": "Weibliche U16 · 2",
+   "liga": "WHV Verbandsliga wU16 · Feld 2026",
+   "gruppe": "Jugend weiblich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu18",
+   "badge": "wU18",
+   "name": "Weibliche U18",
+   "liga": "WHV Oberliga wU18 · Feld 2026",
+   "gruppe": "Jugend weiblich",
    "jugend": true,
    "live": true
   },
@@ -29,41 +109,801 @@
    "badge": "mU12",
    "name": "Männliche U12",
    "liga": "WHV Regionalliga mU12 · Feld 2026",
+   "gruppe": "Jugend männlich",
    "jugend": true,
    "live": true
   },
   {
-   "id": "h1",
-   "badge": "H1",
-   "name": "1. Herren",
-   "liga": "1. Feldhockey-Bundesliga"
+   "id": "mu12-2",
+   "badge": "mU12",
+   "name": "Männliche U12 · 2",
+   "liga": "WHV Verbandsliga mU12 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
   },
   {
-   "id": "d1",
-   "badge": "D1",
-   "name": "1. Damen",
-   "liga": "Regionalliga West"
+   "id": "mu14",
+   "badge": "mU14",
+   "name": "Männliche U14",
+   "liga": "WHV Regionalliga mU14 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
   },
   {
-   "id": "h2",
-   "badge": "H2",
-   "name": "2. Herren",
-   "liga": "Regionalliga West"
+   "id": "mu14-2",
+   "badge": "mU14",
+   "name": "Männliche U14 · 2",
+   "liga": "WHV Oberliga mU14 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
   },
   {
-   "id": "h3",
-   "badge": "H3",
-   "name": "3. Herren",
-   "liga": "1. Verbandsliga"
+   "id": "mu16",
+   "badge": "mU16",
+   "name": "Männliche U16",
+   "liga": "WHV Regionalliga mU16 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
   },
   {
-   "id": "d2",
-   "badge": "D2",
-   "name": "2. Damen",
-   "liga": "Oberliga"
+   "id": "mu16-2",
+   "badge": "mU16",
+   "name": "Männliche U16 · 2",
+   "liga": "WHV Oberliga mU16 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu18",
+   "badge": "mU18",
+   "name": "Männliche U18",
+   "liga": "WHV Regionalliga mU18 · Feld 2026",
+   "gruppe": "Jugend männlich",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu10-1",
+   "badge": "wU10",
+   "name": "Weibliche U10 · 1",
+   "liga": "Rhein-Wupper 1. Bezirksliga wU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu10-2",
+   "badge": "wU10",
+   "name": "Weibliche U10 · 2",
+   "liga": "Rhein-Wupper 2. Bezirksliga wU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu10-3",
+   "badge": "wU10",
+   "name": "Weibliche U10 · 3",
+   "liga": "Rhein-Wupper 3. Bezirksliga wU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu10-4",
+   "badge": "wU10",
+   "name": "Weibliche U10 · 4",
+   "liga": "Rhein-Wupper 3. Bezirksliga wU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu8-1",
+   "badge": "wU8",
+   "name": "Weibliche U8 · 1",
+   "liga": "Rhein-Wupper 1. Bezirksliga wU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true
+  },
+  {
+   "id": "wu8-2",
+   "badge": "wU8",
+   "name": "Weibliche U8 · 2",
+   "liga": "Rhein-Wupper 2. Bezirksliga wU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu8-3",
+   "badge": "wU8",
+   "name": "Weibliche U8 · 3",
+   "liga": "Rhein-Wupper 3. Bezirksliga wU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu6-1",
+   "badge": "wU6",
+   "name": "Weibliche U6 · 1",
+   "liga": "Rhein-Wupper Bezirksliga wU6",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "wu6-2",
+   "badge": "wU6",
+   "name": "Weibliche U6 · 2",
+   "liga": "Rhein-Wupper Bezirksliga wU6",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu10-1",
+   "badge": "mU10",
+   "name": "Männliche U10 · 1",
+   "liga": "Rhein-Wupper 1. Bezirksliga mU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu10-2",
+   "badge": "mU10",
+   "name": "Männliche U10 · 2",
+   "liga": "Rhein-Wupper 2. Bezirksliga mU10",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu8-1",
+   "badge": "mU8",
+   "name": "Männliche U8 · 1",
+   "liga": "Rhein-Wupper 1. Bezirksliga mU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu8-2",
+   "badge": "mU8",
+   "name": "Männliche U8 · 2",
+   "liga": "Rhein-Wupper 2. Bezirksliga mU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu8-3",
+   "badge": "mU8",
+   "name": "Männliche U8 · 3",
+   "liga": "Rhein-Wupper 3. Bezirksliga mU8",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu6-1",
+   "badge": "mU6",
+   "name": "Männliche U6 · 1",
+   "liga": "Rhein-Wupper Bezirksliga mU6",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu6-2",
+   "badge": "mU6",
+   "name": "Männliche U6 · 2",
+   "liga": "Rhein-Wupper Bezirksliga mU6",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
+  },
+  {
+   "id": "mu6-3",
+   "badge": "mU6",
+   "name": "Männliche U6 · 3",
+   "liga": "Rhein-Wupper Bezirksliga mU6",
+   "gruppe": "Minis & Kinder (U6–U10)",
+   "jugend": true,
+   "live": true
   }
  ],
  "matches": {
+  "h1": [
+   {
+    "d": "2025-09-06",
+    "heim": "Münchner SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 8,
+    "tg": 7
+   },
+   {
+    "d": "2025-09-13",
+    "heim": "Crefelder HTC",
+    "gast": "UHC Hamburg",
+    "h": true,
+    "th": 6,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-14",
+    "heim": "Crefelder HTC",
+    "gast": "Der Club an der Alster",
+    "h": true,
+    "th": 4,
+    "tg": 5,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-20",
+    "heim": "Crefelder HTC",
+    "gast": "Gladbacher HTC",
+    "h": true,
+    "th": 9,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-27",
+    "heim": "SC Frankfurt 1880",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 2,
+    "tg": 4
+   },
+   {
+    "d": "2025-09-28",
+    "heim": "TSV Mannheim Hockey",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 1
+   },
+   {
+    "d": "2025-10-04",
+    "heim": "Harvestehuder THC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 5,
+    "tg": 2
+   },
+   {
+    "d": "2025-10-11",
+    "heim": "Crefelder HTC",
+    "gast": "RW Köln",
+    "h": true,
+    "th": 3,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-10-19",
+    "heim": "Uhlenhorst Mülheim",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 6,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2025-10-25",
+    "heim": "Hamburger Polo Club",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 6,
+    "tg": 4
+   },
+   {
+    "d": "2025-11-01",
+    "heim": "Crefelder HTC",
+    "gast": "Mannheimer HC",
+    "h": true,
+    "th": 5,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-11-02",
+    "heim": "Crefelder HTC",
+    "gast": "Münchner SC",
+    "h": true,
+    "th": 6,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-03-21",
+    "heim": "UHC Hamburg",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 2,
+    "tg": 3
+   },
+   {
+    "d": "2026-03-22",
+    "heim": "Der Club an der Alster",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 4
+   },
+   {
+    "d": "2026-03-28",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 7,
+    "tg": 4,
+    "ort": "gladbach"
+   },
+   {
+    "d": "2026-04-18",
+    "heim": "Crefelder HTC",
+    "gast": "SC Frankfurt 1880",
+    "h": true,
+    "th": 8,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-19",
+    "heim": "Crefelder HTC",
+    "gast": "TSV Mannheim Hockey",
+    "h": true,
+    "th": 2,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-25",
+    "heim": "Crefelder HTC",
+    "gast": "Hamburger Polo Club",
+    "h": true,
+    "th": 1,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-26",
+    "heim": "Crefelder HTC",
+    "gast": "Harvestehuder THC",
+    "h": true,
+    "th": 5,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-02",
+    "heim": "RW Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 2,
+    "tg": 1
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC",
+    "gast": "Uhlenhorst Mülheim",
+    "h": true,
+    "th": 4,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Mannheimer HC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 5
+   },
+   {
+    "d": "2026-05-16",
+    "heim": "Crefelder HTC",
+    "gast": "Hamburger Polo Club",
+    "h": true,
+    "th": 5,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-23",
+    "heim": "Hamburger Polo Club",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 3
+   },
+   {
+    "d": "2026-05-24",
+    "heim": "Hamburger Polo Club",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 3
+   }
+  ],
+  "d1": [
+   {
+    "d": "2025-08-31",
+    "heim": "Crefelder HTC",
+    "gast": "Eintracht Dortmund",
+    "h": true,
+    "th": 2,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-07",
+    "heim": "THC Bergisch Gladbach",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 2
+   },
+   {
+    "d": "2025-09-11",
+    "heim": "HC Essen 99",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 1
+   },
+   {
+    "d": "2025-09-14",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 0,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2025-09-21",
+    "heim": "Crefelder HTC",
+    "gast": "Rot-Weiss Köln 2",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-10-03",
+    "heim": "Crefelder HTC",
+    "gast": "THC Münster",
+    "h": true,
+    "th": 5,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-10-08",
+    "heim": "Düsseldorfer HC 2",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 0,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-04-26",
+    "heim": "Eintracht Dortmund",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 0
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC",
+    "gast": "THC Bergisch Gladbach",
+    "h": true,
+    "th": 0,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer SC",
+    "h": true,
+    "th": 0,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Rot-Weiss Köln 2",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 0
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC",
+    "gast": "HC Essen 99",
+    "h": true,
+    "th": 0,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "THC Münster",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 4
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer HC 2",
+    "h": true,
+    "th": 3,
+    "tg": 0,
+    "ort": "gwa"
+   }
+  ],
+  "h2": [
+   {
+    "d": "2025-08-31",
+    "heim": "Crefelder HTC 2",
+    "gast": "HTC Uhlenhorst Mülheim 2",
+    "h": true,
+    "th": 4,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-07",
+    "heim": "THC Bergisch Gladbach",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 0,
+    "tg": 3
+   },
+   {
+    "d": "2025-09-14",
+    "heim": "Oberhausener THC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 3,
+    "tg": 1
+   },
+   {
+    "d": "2025-09-16",
+    "heim": "Blau Weiss Köln",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 5,
+    "tg": 3
+   },
+   {
+    "d": "2025-09-21",
+    "heim": "Crefelder HTC 2",
+    "gast": "Kahlenberger HTC",
+    "h": true,
+    "th": 3,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-28",
+    "heim": "HC Essen 99",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 3,
+    "tg": 0
+   },
+   {
+    "d": "2025-10-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "Aachener HC",
+    "h": true,
+    "th": 2,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-26",
+    "heim": "HTC Uhlenhorst Mülheim 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 0,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "THC Bergisch Gladbach",
+    "h": true,
+    "th": 0,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-02",
+    "heim": "Crefelder HTC 2",
+    "gast": "Oberhausener THC",
+    "h": true,
+    "th": 5,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-09",
+    "heim": "Kahlenberger HTC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 3,
+    "tg": 1
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC 2",
+    "gast": "HC Essen 99",
+    "h": true,
+    "th": 1,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Aachener HC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 4,
+    "tg": 2
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Blau Weiss Köln",
+    "h": true,
+    "th": 2,
+    "tg": 3,
+    "ort": "gwa"
+   }
+  ],
+  "d2": [
+   {
+    "d": "2025-08-31",
+    "heim": "Crefelder HTC 2",
+    "gast": "Crefelder SV",
+    "h": true,
+    "zeit": "18:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-07",
+    "heim": "THC Bergisch Gladbach 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 2
+   },
+   {
+    "d": "2025-09-14",
+    "heim": "Viersener THC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 0,
+    "tg": 0
+   },
+   {
+    "d": "2025-09-21",
+    "heim": "Crefelder HTC 2",
+    "gast": "ETG Wuppertal",
+    "h": true,
+    "th": 4,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-09-28",
+    "heim": "DSD Düsseldorf 3",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 0,
+    "tg": 2,
+    "ort": "dsd"
+   },
+   {
+    "d": "2025-10-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "HTC Schwarz-Weiß Neuss 2",
+    "h": true,
+    "th": 0,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2025-10-05",
+    "heim": "Mettmanner THC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 6,
+    "tg": 0
+   },
+   {
+    "d": "2026-04-26",
+    "heim": "Crefelder SV",
+    "gast": "Crefelder HTC 2",
+    "h": true,
+    "zeit": "12:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "Viersener THC",
+    "h": true,
+    "th": 2,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-27",
+    "heim": "Crefelder HTC 2",
+    "gast": "THC Bergisch Gladbach 2",
+    "h": true,
+    "th": 0,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "ETG Wuppertal",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 0
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf 3",
+    "h": true,
+    "th": 2,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-01",
+    "heim": "HTC Schwarz-Weiß Neuss 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 8,
+    "tg": 0,
+    "ort": "neuss"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Mettmanner THC",
+    "h": true,
+    "th": 0,
+    "tg": 8,
+    "ort": "gwa"
+   }
+  ],
   "wu12": [
    {
     "d": "2026-04-26",
@@ -303,6 +1143,312 @@
     "ort": "gwa"
    }
   ],
+  "wu14": [
+   {
+    "d": "2026-05-02",
+    "heim": "Düsseldorfer HC  2",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 1,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "ETG Wuppertal",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 2
+   },
+   {
+    "d": "2026-05-31",
+    "heim": "Crefelder HTC",
+    "gast": "SG MSV Duisburg / Preußen Duisburg",
+    "h": true,
+    "th": 6,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer SC 2",
+    "h": true,
+    "th": 1,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Club Raffelberg 2",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 0,
+    "ort": "raffelberg"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Crefelder HTC",
+    "gast": "Gladbacher HTC",
+    "h": true,
+    "th": 1,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC",
+    "gast": "ETUF Essen",
+    "h": true
+   }
+  ],
+  "wu14-2": [
+   {
+    "d": "2026-05-30",
+    "heim": "Rheydter SV",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 2,
+    "tg": 1
+   },
+   {
+    "d": "2026-06-06",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC 3",
+    "h": true,
+    "th": 3,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "DSD Düsseldorf  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 11,
+    "tg": 0,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC Schwarz-Weiß Neuss 2",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Crefelder HTC  2",
+    "gast": "SV Büderich",
+    "h": true,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Viersener THC",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "TV Ratingen",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "11:00"
+   }
+  ],
+  "wu16": [
+   {
+    "d": "2026-04-19",
+    "heim": "Crefelder HTC",
+    "gast": "Rot-Weiss Köln",
+    "h": true,
+    "th": 1,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-26",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 5,
+    "tg": 1,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-05-01",
+    "heim": "HTC Uhlenhorst Mülheim",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 2,
+    "tg": 0,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "Club Raffelberg",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 1,
+    "ort": "raffelberg"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "th": 0,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-17",
+    "heim": "Rot-Weiss Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 3,
+    "tg": 2
+   },
+   {
+    "d": "2026-06-05",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Uhlenhorst Mülheim",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-01",
+    "heim": "Crefelder HTC",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "11:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC",
+    "gast": "Club Raffelberg",
+    "h": true,
+    "zeit": "12:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC",
+    "h": false
+   }
+  ],
+  "wu16-2": [
+   {
+    "d": "2026-05-03",
+    "heim": "SV Büderich",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "zeit": "17:30"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "Hellerhofer SV",
+    "h": true,
+    "th": 1,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 0,
+    "tg": 0,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "DSD Düsseldorf  2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 2,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-06-24",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 1
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Rheydter SV",
+    "h": true,
+    "th": 8,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Crefelder HTC 2",
+    "gast": "Mettmanner THC wU16",
+    "h": true,
+    "zeit": "16:00",
+    "ort": "gwa"
+   }
+  ],
+  "wu18": [
+   {
+    "d": "2026-05-02",
+    "heim": "Crefelder HTC",
+    "gast": "SG HTC Kupferdreh / Hockey Club Essen 1899",
+    "h": true,
+    "th": 2,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-22",
+    "heim": "Crefelder HTC",
+    "gast": "ETUF Essen",
+    "h": true,
+    "th": 14,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-24",
+    "heim": "Kahlenberger HTC wU18 OL",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 7
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC",
+    "h": false
+   }
+  ],
   "mu12": [
    {
     "d": "2026-04-26",
@@ -403,9 +1549,2342 @@
     "gast": "Crefelder HTC",
     "h": false
    }
+  ],
+  "mu12-2": [
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "Gold-Weiß Wuppertal",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Düsseldorfer HC  3",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 2,
+    "tg": 0,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-07",
+    "heim": "Gladbacher HTC 3",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 3,
+    "tg": 1,
+    "ort": "gladbach"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Crefelder HTC 2",
+    "gast": "Kahlenberger HTC 2",
+    "h": true,
+    "th": 2,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Club Raffelberg 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "th": 1,
+    "tg": 2,
+    "ort": "raffelberg"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Mettmanner THC  mU12-1",
+    "h": true,
+    "th": 0,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf  4",
+    "h": true,
+    "zeit": "12:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Moerser TV 2",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   }
+  ],
+  "mu14": [
+   {
+    "d": "2026-04-18",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Uhlenhorst Mülheim",
+    "h": true,
+    "th": 10,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-04-25",
+    "heim": "Marienburger SC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 6,
+    "ort": "msc"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer SC",
+    "h": true,
+    "th": 6,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-06",
+    "heim": "Rot-Weiss Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 0,
+    "tg": 4
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 2,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-07-07",
+    "heim": "Crefelder HTC",
+    "gast": "Bonner THV",
+    "h": true,
+    "th": 8,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 4,
+    "tg": 3,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true,
+    "zeit": "12:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC",
+    "gast": "Schwarz-Weiß Köln 1",
+    "h": true,
+    "zeit": "12:00",
+    "ort": "gwa"
+   }
+  ],
+  "mu14-2": [
+   {
+    "d": "2026-05-02",
+    "heim": "Crefelder HTC  2",
+    "gast": "RTHC Bayer Leverkusen",
+    "h": true,
+    "th": 3,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-30",
+    "heim": "Rot-Weiss Köln  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 0,
+    "tg": 4
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "DSD Düsseldorf  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 1,
+    "tg": 0,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC  2",
+    "h": true,
+    "th": 4,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "HTC SW Bonn",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 1,
+    "tg": 2
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC  2",
+    "gast": "Gladbacher HTC",
+    "h": true,
+    "th": 1,
+    "tg": 5,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC Uhlenhorst Mülheim  2",
+    "h": true
+   }
+  ],
+  "mu16": [
+   {
+    "d": "2026-04-26",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Uhlenhorst Mülheim",
+    "h": true,
+    "th": 1,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-03",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true,
+    "th": 5,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 7,
+    "tg": 2,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-07",
+    "heim": "Crefelder HTC",
+    "gast": "Rot-Weiss Köln",
+    "h": true,
+    "th": 2,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Crefelder HTC",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "th": 3,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Bonner THV",
+    "gast": "Crefelder HTC",
+    "h": false
+   },
+   {
+    "d": "2026-09-13",
+    "heim": "Blau-Weiß Köln",
+    "gast": "Crefelder HTC",
+    "h": false
+   }
+  ],
+  "mu16-2": [
+   {
+    "d": "2026-05-03",
+    "heim": "SG TV Jahn Hiesfeld / Kahlenberger HTC",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 5,
+    "tg": 2
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC  2",
+    "gast": "Club Raffelberg",
+    "h": true,
+    "th": 2,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "RTHC Bayer Leverkusen",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 6,
+    "tg": 3
+   },
+   {
+    "d": "2026-06-21",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC Uhlenhorst Mülheim  2",
+    "h": true,
+    "th": 4,
+    "tg": 4,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "SG ETB/HCE",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 2,
+    "tg": 2
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC  2",
+    "gast": "Schwarz-Weiß Köln",
+    "h": true,
+    "th": 6,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC SW Bonn",
+    "h": true
+   },
+   {
+    "d": "2026-09-27",
+    "heim": "Schwarz-Weiß Köln",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   }
+  ],
+  "mu18": [
+   {
+    "d": "2026-04-29",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 2,
+    "tg": 2,
+    "ort": "dsd"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "HC Essen 99",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "th": 1,
+    "tg": 4
+   },
+   {
+    "d": "2026-06-08",
+    "heim": "Crefelder HTC",
+    "gast": "HTC Uhlenhorst Mülheim",
+    "h": true,
+    "th": 2,
+    "tg": 3,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-23",
+    "heim": "Crefelder HTC",
+    "gast": "Bonner THV",
+    "h": true,
+    "th": 6,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-16",
+    "heim": "Crefelder HTC",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "zeit": "18:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Schwarz-Weiß Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "zeit": "10:00",
+    "ort": "swk"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Rot-Weiss Köln",
+    "gast": "Crefelder HTC",
+    "h": false
+   }
+  ],
+  "wu10-1": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf 1",
+    "h": true,
+    "th": 1,
+    "tg": 1,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 0,
+    "tg": 5,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 0,
+    "tg": 1,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer SC",
+    "h": true,
+    "th": 3,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC  2",
+    "h": true,
+    "th": 6,
+    "tg": 0,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 1,
+    "tg": 4,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 2,
+    "tg": 1,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Düsseldorfer HC  2",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "DSD Düsseldorf 1",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Crefelder HTC 1",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Crefelder HTC 1",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true
+   }
+  ],
+  "wu10-2": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "DSD Düsseldorf  2",
+    "h": true,
+    "th": 6,
+    "tg": 0
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC  3",
+    "h": true,
+    "th": 6,
+    "tg": 0
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "Mettmanner THC wU10 1",
+    "h": true,
+    "th": 2,
+    "tg": 1
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer SC 3",
+    "h": true,
+    "th": 2,
+    "tg": 0,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer SC 2",
+    "h": true,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "HTC Schwarz-Weiß Neuss  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 0,
+    "tg": 1,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Gladbacher HTC  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 2,
+    "tg": 5,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Mettmanner THC wU10 1",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 3,
+    "tg": 1,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "10:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "DSD Düsseldorf  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "11:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  2",
+    "gast": "HTC Schwarz-Weiß Neuss  2",
+    "h": true,
+    "zeit": "12:30"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Düsseldorfer HC  3",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Crefelder HTC  2",
+    "gast": "Gladbacher HTC  2",
+    "h": true
+   }
+  ],
+  "wu10-3": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  3",
+    "gast": "Düsseldorfer HC  4",
+    "h": true,
+    "th": 0,
+    "tg": 1
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Hellerhofer SV",
+    "gast": "Crefelder HTC  3",
+    "h": false,
+    "th": 1,
+    "tg": 1
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "HTC Schwarz-Weiß Neuss  3",
+    "gast": "Crefelder HTC  3",
+    "h": false,
+    "th": 0,
+    "tg": 1,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC  3",
+    "gast": "Düsseldorfer SC 4",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Viersener THC 2",
+    "gast": "Crefelder HTC  3",
+    "h": false,
+    "th": 3,
+    "tg": 0
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC  3",
+    "gast": "ETG Wuppertal",
+    "h": true
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC  3",
+    "h": false,
+    "th": 3,
+    "tg": 0
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  3",
+    "gast": "Viersener THC 2",
+    "h": true,
+    "zeit": "10:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "ETG Wuppertal",
+    "gast": "Crefelder HTC  3",
+    "h": false,
+    "zeit": "11:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  3",
+    "gast": "Hellerhofer SV",
+    "h": true,
+    "zeit": "12:00"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Düsseldorfer HC  4",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "HTC Schwarz-Weiß Neuss  3",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   }
+  ],
+  "wu10-4": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  4",
+    "gast": "Düsseldorfer HC  6",
+    "h": true
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "DSD Düsseldorf  3",
+    "gast": "Crefelder HTC  4",
+    "h": false
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Crefelder HTC  4",
+    "gast": "Düsseldorfer SC 6",
+    "h": true
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Mettmanner THC wU10 2",
+    "gast": "Crefelder HTC  4",
+    "h": false,
+    "th": 0,
+    "tg": 0
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Gold-Weiß Wuppertal",
+    "gast": "Crefelder HTC  4",
+    "h": false,
+    "th": 2,
+    "tg": 0
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC  4",
+    "gast": "ETG Wuppertal 2",
+    "h": true,
+    "th": 1,
+    "tg": 1
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Düsseldorfer SC 6",
+    "gast": "Crefelder HTC  4",
+    "h": false
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  4",
+    "gast": "Gold-Weiß Wuppertal",
+    "h": true,
+    "zeit": "14:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "ETG Wuppertal 2",
+    "gast": "Crefelder HTC  4",
+    "h": false,
+    "zeit": "15:30"
+   },
+   {
+    "d": "2026-09-12",
+    "heim": "Crefelder HTC  4",
+    "gast": "DSD Düsseldorf  3",
+    "h": true,
+    "zeit": "16:00"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Düsseldorfer HC  6",
+    "gast": "Crefelder HTC  4",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Mettmanner THC wU10 2",
+    "gast": "Crefelder HTC  4",
+    "h": false
+   }
+  ],
+  "wu8-2": [
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "ETG Wuppertal",
+    "h": true,
+    "zeit": "14:00"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "14:00"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "ETG Wuppertal",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "zeit": "12:00"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "12:00"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Crefelder HTC 2",
+    "gast": "Gladbacher HTC",
+    "h": true,
+    "zeit": "17:00"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "ETG Wuppertal",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "zeit": "10:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC  2",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Düsseldorfer HC  2",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC  3",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Düsseldorfer HC  3",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "HTC Schwarz-Weiß Neuss",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "ETG Wuppertal",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Crefelder HTC 2",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   }
+  ],
+  "wu8-3": [
+   {
+    "d": "2026-05-10",
+    "heim": "Gold-Weiß Wuppertal",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "zeit": "13:00"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "ETG Wuppertal  2",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "zeit": "13:30",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 3",
+    "gast": "SV Büderich  2",
+    "h": true,
+    "zeit": "16:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Hellerhofer SV",
+    "h": true,
+    "zeit": "11:30"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "HTC Schwarz-Weiß Neuss  2",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Gladbacher HTC  2",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "SV Büderich",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "DSD Düsseldorf  3",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "DSD Düsseldorf  4",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC  7",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC  8",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 9",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 5",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer SC  2",
+    "h": true
+   }
+  ],
+  "wu6-1": [
+   {
+    "d": "2026-05-10",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "16:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 2",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Mettmanner THC Mini-U6",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "09:30",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf 1",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf  2",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 2",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 3",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 4",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 5",
+    "h": true
+   }
+  ],
+  "wu6-2": [
+   {
+    "d": "2026-05-10",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "zeit": "16:00"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "Mettmanner THC Mini-U6",
+    "h": true,
+    "zeit": "16:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 2",
+    "h": false,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 2",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 5",
+    "h": true,
+    "zeit": "09:30",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf 1",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf  2",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 2",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 3",
+    "h": true
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 4",
+    "h": true
+   }
+  ],
+  "mu10-1": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC 1",
+    "gast": "Gladbacher HTC  2",
+    "h": true,
+    "th": 5,
+    "tg": 2,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Gladbacher HTC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 0,
+    "tg": 7,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "th": 2,
+    "tg": 0,
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 1,
+    "tg": 2,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 0,
+    "tg": 1,
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "th": 2,
+    "tg": 1,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-04",
+    "heim": "Düsseldorfer HC  2",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "th": 1,
+    "tg": 4,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC  2",
+    "h": true
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Gladbacher HTC  2",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer SC",
+    "h": true
+   }
+  ],
+  "mu10-2": [
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "DSD Düsseldorf  3",
+    "h": true,
+    "th": 0,
+    "tg": 1,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer SC 2",
+    "h": true,
+    "th": 1,
+    "tg": 2,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-05-09",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC  3",
+    "h": true,
+    "th": 0,
+    "tg": 5,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Düsseldorfer HC  3",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 5,
+    "tg": 0
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "Mettmanner THC mU10-1",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 3,
+    "tg": 3
+   },
+   {
+    "d": "2026-06-13",
+    "heim": "DSD Düsseldorf  3",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 3,
+    "tg": 3
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC  2",
+    "gast": "Mettmanner THC mU10-1",
+    "h": true,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC  2",
+    "gast": "DSD Düsseldorf  3",
+    "h": true,
+    "th": 1,
+    "tg": 2,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "th": 4,
+    "tg": 0,
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer HC  3",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer SC 2",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Mettmanner THC mU10-1",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   }
+  ],
+  "mu8-1": [
+   {
+    "d": "2026-05-10",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "10:00",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "zeit": "10:30",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "11:00",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer SC",
+    "h": true,
+    "zeit": "10:30",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "11:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-07-05",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "11:30",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf",
+    "h": true
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer SC",
+    "h": true
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Düsseldorfer HC",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   }
+  ],
+  "mu8-2": [
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder SV",
+    "gast": "Crefelder HTC  2",
+    "h": true,
+    "zeit": "17:00",
+    "ort": "gladbach"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "Viersener THC",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "08:30"
+   },
+   {
+    "d": "2026-06-28",
+    "heim": "DSD Düsseldorf  2",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "08:30"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC  5",
+    "h": true,
+    "zeit": "15:30",
+    "ort": "dsc99"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Rheydter SV",
+    "gast": "Crefelder HTC  2",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer HC  3",
+    "h": true
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Crefelder HTC  2",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Crefelder HTC  2",
+    "gast": "Düsseldorfer SC 3",
+    "h": true
+   }
+  ],
+  "mu8-3": [
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC  3",
+    "gast": "DSD Düsseldorf  4",
+    "h": true,
+    "zeit": "16:00"
+   },
+   {
+    "d": "2026-06-14",
+    "heim": "Crefelder HTC  3",
+    "gast": "Düsseldorfer HC  7",
+    "h": true,
+    "zeit": "09:30"
+   },
+   {
+    "d": "2026-07-12",
+    "heim": "Crefelder HTC  3",
+    "gast": "Düsseldorfer HC  8",
+    "h": true,
+    "zeit": "14:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "Düsseldorfer HC  9",
+    "h": true,
+    "zeit": "09:30"
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "ETG Wuppertal  2",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Düsseldorfer SC 6",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Düsseldorfer SC 7",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Düsseldorfer SC 8",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Gladbacher HTC  2",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Reinshagener TB",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Gold-Weiß Wuppertal  2",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "Hellerhofer SV",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "SV Büderich",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "Gold-Weiß Wuppertal  3",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "Viersener THC 2",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "HTC Schwarz-Weiß Neuss  2",
+    "h": true
+   },
+   {
+    "d": "2026-09-06",
+    "heim": "Crefelder HTC  3",
+    "gast": "HTC Schwarz-Weiß Neuss  3",
+    "h": true
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Düsseldorfer SC 5",
+    "gast": "Crefelder HTC  3",
+    "h": false
+   }
+  ],
+  "mu6-1": [
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 2",
+    "h": true,
+    "zeit": "14:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 3",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf 2",
+    "h": true,
+    "zeit": "09:30",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 2",
+    "h": true,
+    "zeit": "12:30"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 1",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Hellerhofer SV",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 3",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 4",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 5",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Viersener THC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 1",
+    "gast": "Gladbacher HTC 2",
+    "h": true
+   }
+  ],
+  "mu6-2": [
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 2",
+    "h": true,
+    "zeit": "14:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-05-10",
+    "heim": "Crefelder HTC 2",
+    "gast": "Viersener THC",
+    "h": true,
+    "zeit": "14:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 2",
+    "gast": "Crefelder HTC 3",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "09:30",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "zeit": "12:30"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 2",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Hellerhofer SV",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf 2",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 2",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 3",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 4",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 5",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Gladbacher HTC 2",
+    "h": true
+   }
+  ],
+  "mu6-3": [
+   {
+    "d": "2026-05-10",
+    "heim": "HTC Schwarz-Weiß Neuss",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "zeit": "14:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "Crefelder HTC 3",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-06-20",
+    "heim": "Crefelder HTC 2",
+    "gast": "Crefelder HTC 3",
+    "h": true,
+    "zeit": "10:00"
+   },
+   {
+    "d": "2026-07-11",
+    "heim": "Crefelder HTC 3",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "09:30",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "DSD Düsseldorf 2",
+    "h": true,
+    "zeit": "12:30"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC 3",
+    "h": false
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Gladbacher HTC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Hellerhofer SV",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 2",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 3",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 4",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 5",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Viersener THC",
+    "h": true
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 3",
+    "gast": "Gladbacher HTC 2",
+    "h": true
+   }
   ]
  },
  "standings": {
+  "h1": [
+   [
+    1,
+    "Hamburger Polo Club",
+    22,
+    18,
+    5,
+    3,
+    "99:44",
+    51
+   ],
+   [
+    2,
+    "RW Köln",
+    22,
+    16,
+    1,
+    5,
+    "76:38",
+    49
+   ],
+   [
+    3,
+    "Der Club an der Alster",
+    22,
+    14,
+    5,
+    6,
+    "74:52",
+    41
+   ],
+   [
+    4,
+    "TSV Mannheim Hockey",
+    22,
+    14,
+    6,
+    6,
+    "58:48",
+    40
+   ],
+   [
+    5,
+    "Harvestehuder THC",
+    22,
+    13,
+    7,
+    6,
+    "68:55",
+    38
+   ],
+   [
+    6,
+    "Uhlenhorst Mülheim",
+    22,
+    12,
+    4,
+    7,
+    "55:49",
+    38
+   ],
+   [
+    7,
+    "UHC Hamburg",
+    22,
+    11,
+    3,
+    8,
+    "80:48",
+    36
+   ],
+   [
+    8,
+    "Crefelder HTC",
+    22,
+    12,
+    6,
+    7,
+    "76:58",
+    36,
+    true
+   ],
+   [
+    9,
+    "Mannheimer HC",
+    22,
+    11,
+    5,
+    8,
+    "64:48",
+    34
+   ],
+   [
+    10,
+    "Münchner SC",
+    22,
+    6,
+    5,
+    14,
+    "39:78",
+    17
+   ],
+   [
+    11,
+    "Gladbacher HTC",
+    22,
+    5,
+    3,
+    15,
+    "49:113",
+    16
+   ],
+   [
+    12,
+    "SC Frankfurt 1880",
+    22,
+    0,
+    0,
+    22,
+    "22:129",
+    0
+   ]
+  ],
+  "d1": [
+   [
+    1,
+    "Düsseldorfer SC",
+    14,
+    8,
+    5,
+    1,
+    "23:10",
+    29
+   ],
+   [
+    2,
+    "THC Bergisch Gladbach",
+    14,
+    8,
+    2,
+    4,
+    "29:13",
+    26
+   ],
+   [
+    3,
+    "HC Essen 99",
+    14,
+    5,
+    6,
+    3,
+    "20:13",
+    21
+   ],
+   [
+    4,
+    "Eintracht Dortmund",
+    14,
+    6,
+    3,
+    5,
+    "21:20",
+    21
+   ],
+   [
+    5,
+    "Düsseldorfer HC 2 DHC 2",
+    14,
+    7,
+    0,
+    7,
+    "19:23",
+    21
+   ],
+   [
+    6,
+    "Crefelder HTC",
+    14,
+    4,
+    4,
+    6,
+    "17:18",
+    16,
+    true
+   ],
+   [
+    7,
+    "Rot-Weiss Köln 2 RWK 2",
+    14,
+    4,
+    3,
+    7,
+    "25:22",
+    15
+   ],
+   [
+    8,
+    "THC Münster",
+    14,
+    2,
+    1,
+    11,
+    "15:50",
+    7
+   ]
+  ],
+  "h2": [
+   [
+    1,
+    "Blau Weiss Köln",
+    14,
+    10,
+    3,
+    1,
+    "56:21",
+    33
+   ],
+   [
+    2,
+    "Aachener HC",
+    14,
+    8,
+    2,
+    4,
+    "34:32",
+    26
+   ],
+   [
+    3,
+    "HTC Uhlenhorst Mülheim 2 HTCU 2",
+    14,
+    7,
+    2,
+    5,
+    "39:36",
+    23
+   ],
+   [
+    4,
+    "HC Essen 99",
+    14,
+    7,
+    0,
+    7,
+    "41:34",
+    21
+   ],
+   [
+    5,
+    "Kahlenberger HTC",
+    14,
+    6,
+    1,
+    7,
+    "33:36",
+    19
+   ],
+   [
+    6,
+    "THC Bergisch Gladbach",
+    14,
+    5,
+    3,
+    6,
+    "34:38",
+    18
+   ],
+   [
+    7,
+    "Crefelder HTC 2 CHTC 2",
+    14,
+    4,
+    1,
+    9,
+    "27:35",
+    13,
+    true
+   ],
+   [
+    8,
+    "Oberhausener THC",
+    14,
+    3,
+    0,
+    11,
+    "28:60",
+    9
+   ]
+  ],
+  "d2": [
+   [
+    1,
+    "Mettmanner THC",
+    12,
+    11,
+    1,
+    0,
+    "68:1",
+    34
+   ],
+   [
+    2,
+    "HTC Schwarz-Weiß Neuss 2 SWN 2",
+    12,
+    8,
+    2,
+    2,
+    "43:12",
+    26
+   ],
+   [
+    3,
+    "Crefelder HTC 2 CHTC 2",
+    12,
+    5,
+    2,
+    5,
+    "12:28",
+    17,
+    true
+   ],
+   [
+    4,
+    "THC Bergisch Gladbach 2",
+    12,
+    4,
+    2,
+    6,
+    "19:29",
+    11
+   ],
+   [
+    5,
+    "ETG Wuppertal",
+    12,
+    3,
+    2,
+    7,
+    "13:42",
+    11
+   ],
+   [
+    6,
+    "DSD Düsseldorf 3 DSD 3",
+    12,
+    4,
+    1,
+    7,
+    "12:24",
+    10
+   ],
+   [
+    7,
+    "Viersener THC",
+    12,
+    1,
+    2,
+    9,
+    "8:39",
+    5
+   ]
+  ],
   "wu12": [
    [
     1,
@@ -715,6 +4194,351 @@
     2
    ]
   ],
+  "wu14": [
+   [
+    1,
+    "Düsseldorfer SC 2 DSC 2",
+    6,
+    5,
+    0,
+    1,
+    "25:5",
+    15
+   ],
+   [
+    2,
+    "Crefelder HTC",
+    6,
+    4,
+    2,
+    0,
+    "11:1",
+    14,
+    true
+   ],
+   [
+    3,
+    "Düsseldorfer HC  2 DHC 2",
+    6,
+    3,
+    1,
+    2,
+    "9:5",
+    10
+   ],
+   [
+    4,
+    "Club Raffelberg 2",
+    6,
+    3,
+    1,
+    2,
+    "7:6",
+    10
+   ],
+   [
+    5,
+    "Gladbacher HTC",
+    6,
+    2,
+    1,
+    3,
+    "4:5",
+    7
+   ],
+   [
+    6,
+    "ETG Wuppertal",
+    6,
+    1,
+    1,
+    4,
+    "8:12",
+    4
+   ],
+   [
+    7,
+    "SG MSV Duisburg / Preußen Duisburg SG MSV/PR...",
+    6,
+    0,
+    0,
+    6,
+    "0:30",
+    0
+   ]
+  ],
+  "wu14-2": [
+   [
+    1,
+    "SV Büderich",
+    3,
+    3,
+    0,
+    0,
+    "7:3",
+    9
+   ],
+   [
+    2,
+    "DSD Düsseldorf 2",
+    4,
+    2,
+    1,
+    1,
+    "18:7",
+    7
+   ],
+   [
+    3,
+    "TV Ratingen",
+    4,
+    2,
+    1,
+    1,
+    "12:7",
+    7
+   ],
+   [
+    4,
+    "HTC Schwarz-Weiß Neuss 2 SWN 2",
+    4,
+    2,
+    1,
+    1,
+    "5:4",
+    7
+   ],
+   [
+    5,
+    "Düsseldorfer HC 3",
+    4,
+    1,
+    1,
+    2,
+    "5:6",
+    4
+   ],
+   [
+    6,
+    "Rheydter SV",
+    5,
+    1,
+    0,
+    4,
+    "2:10",
+    3
+   ],
+   [
+    7,
+    "Crefelder HTC 2",
+    4,
+    1,
+    0,
+    3,
+    "4:16",
+    3,
+    true
+   ]
+  ],
+  "wu16": [
+   [
+    1,
+    "HTC Uhlenhorst Mülheim",
+    8,
+    6,
+    2,
+    0,
+    "29:7",
+    20
+   ],
+   [
+    2,
+    "Düsseldorfer HC",
+    8,
+    6,
+    2,
+    0,
+    "21:4",
+    20
+   ],
+   [
+    3,
+    "Rot-Weiss Köln",
+    8,
+    2,
+    5,
+    1,
+    "14:14",
+    11
+   ],
+   [
+    4,
+    "DSD Düsseldorf",
+    7,
+    1,
+    2,
+    4,
+    "8:19",
+    5
+   ],
+   [
+    5,
+    "Crefelder HTC",
+    7,
+    1,
+    1,
+    5,
+    "5:14",
+    4,
+    true
+   ],
+   [
+    6,
+    "Club Raffelberg",
+    8,
+    0,
+    2,
+    6,
+    "5:24",
+    2
+   ]
+  ],
+  "wu16-2": [
+   [
+    1,
+    "Hellerhofer SV",
+    6,
+    4,
+    1,
+    1,
+    "44:7",
+    13
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC 2",
+    4,
+    3,
+    1,
+    0,
+    "5:1",
+    10
+   ],
+   [
+    3,
+    "Crefelder HTC 2 CHTC 2",
+    5,
+    2,
+    3,
+    0,
+    "12:3",
+    9,
+    true
+   ],
+   [
+    4,
+    "Gladbacher HTC",
+    5,
+    2,
+    1,
+    2,
+    "8:6",
+    7
+   ],
+   [
+    5,
+    "Mettmanner THC wU16 MTHC wU16",
+    5,
+    1,
+    0,
+    4,
+    "4:20",
+    3
+   ],
+   [
+    6,
+    "Rheydter SV",
+    4,
+    1,
+    0,
+    3,
+    "2:29",
+    3
+   ],
+   [
+    7,
+    "DSD Düsseldorf 2",
+    5,
+    1,
+    0,
+    4,
+    "7:16",
+    0
+   ]
+  ],
+  "wu18": [
+   [
+    1,
+    "Crefelder HTC",
+    3,
+    2,
+    0,
+    1,
+    "23:4",
+    6,
+    true
+   ],
+   [
+    2,
+    "DSD Düsseldorf",
+    2,
+    2,
+    0,
+    0,
+    "7:0",
+    6
+   ],
+   [
+    3,
+    "Kahlenberger HTC wU18 OL",
+    3,
+    2,
+    0,
+    1,
+    "6:10",
+    6
+   ],
+   [
+    4,
+    "SG HTC Kupferdreh / Hockey Club Essen 1899 SG HTCK/H...",
+    2,
+    1,
+    0,
+    1,
+    "5:5",
+    3
+   ],
+   [
+    5,
+    "Düsseldorfer SC 2 DSC 2",
+    3,
+    1,
+    0,
+    2,
+    "4:8",
+    3
+   ],
+   [
+    6,
+    "ETUF Essen",
+    3,
+    0,
+    0,
+    3,
+    "2:20",
+    0
+   ]
+  ],
   "mu12": [
    [
     1,
@@ -835,6 +4659,2331 @@
     0,
     7,
     "7:50",
+    0
+   ]
+  ],
+  "mu12-2": [
+   [
+    1,
+    "Mettmanner THC  mU12-1 MTHC mU12...",
+    6,
+    6,
+    0,
+    0,
+    "46:2",
+    18
+   ],
+   [
+    2,
+    "Gladbacher HTC 3 GHTC 3",
+    6,
+    5,
+    0,
+    1,
+    "27:7",
+    15
+   ],
+   [
+    3,
+    "Gold-Weiß Wuppertal",
+    7,
+    4,
+    1,
+    2,
+    "10:9",
+    13
+   ],
+   [
+    4,
+    "Düsseldorfer HC  3 DHC 3",
+    6,
+    3,
+    2,
+    1,
+    "21:12",
+    11
+   ],
+   [
+    5,
+    "Club Raffelberg 2",
+    6,
+    3,
+    0,
+    3,
+    "18:15",
+    9
+   ],
+   [
+    6,
+    "DSD Düsseldorf  4 DSD 4",
+    6,
+    2,
+    0,
+    4,
+    "14:19",
+    6
+   ],
+   [
+    7,
+    "Kahlenberger HTC 2 KHTC 2",
+    7,
+    1,
+    2,
+    4,
+    "10:20",
+    5
+   ],
+   [
+    8,
+    "Crefelder HTC 2 CHTC 2",
+    6,
+    1,
+    1,
+    4,
+    "5:13",
+    4,
+    true
+   ],
+   [
+    9,
+    "Moerser TV 2 MTV 2",
+    6,
+    0,
+    0,
+    6,
+    "0:54",
+    0
+   ]
+  ],
+  "mu14": [
+   [
+    1,
+    "Düsseldorfer HC",
+    7,
+    7,
+    0,
+    0,
+    "38:7",
+    21
+   ],
+   [
+    2,
+    "Crefelder HTC",
+    7,
+    6,
+    0,
+    1,
+    "39:6",
+    18,
+    true
+   ],
+   [
+    3,
+    "DSD Düsseldorf",
+    7,
+    5,
+    0,
+    2,
+    "38:9",
+    15
+   ],
+   [
+    4,
+    "Rot-Weiss Köln",
+    7,
+    5,
+    0,
+    2,
+    "28:14",
+    15
+   ],
+   [
+    5,
+    "Schwarz-Weiß Köln 1",
+    7,
+    3,
+    2,
+    2,
+    "18:15",
+    11
+   ],
+   [
+    6,
+    "HTC Uhlenhorst Mülheim",
+    7,
+    2,
+    2,
+    3,
+    "13:27",
+    8
+   ],
+   [
+    7,
+    "HTC Schwarz-Weiß Neuss",
+    7,
+    1,
+    1,
+    5,
+    "12:29",
+    4
+   ],
+   [
+    8,
+    "Bonner THV",
+    7,
+    1,
+    1,
+    5,
+    "9:38",
+    4
+   ],
+   [
+    9,
+    "Düsseldorfer SC",
+    6,
+    0,
+    1,
+    5,
+    "2:25",
+    1
+   ],
+   [
+    10,
+    "Marienburger SC",
+    6,
+    0,
+    1,
+    5,
+    "3:30",
+    1
+   ]
+  ],
+  "mu14-2": [
+   [
+    1,
+    "Düsseldorfer HC  2 DHC 2",
+    6,
+    4,
+    0,
+    2,
+    "29:12",
+    12
+   ],
+   [
+    2,
+    "Gladbacher HTC",
+    6,
+    4,
+    0,
+    2,
+    "26:13",
+    12
+   ],
+   [
+    3,
+    "RTHC Bayer Leverkusen",
+    6,
+    4,
+    0,
+    2,
+    "20:9",
+    12
+   ],
+   [
+    4,
+    "Rot-Weiss Köln  2 RWK 2",
+    6,
+    3,
+    0,
+    3,
+    "17:12",
+    9
+   ],
+   [
+    5,
+    "Crefelder HTC  2 CHTC 2",
+    6,
+    3,
+    0,
+    3,
+    "14:13",
+    9,
+    true
+   ],
+   [
+    6,
+    "DSD Düsseldorf 2",
+    6,
+    2,
+    0,
+    4,
+    "5:20",
+    6
+   ],
+   [
+    7,
+    "HTC SW Bonn",
+    6,
+    1,
+    0,
+    5,
+    "4:36",
+    3
+   ]
+  ],
+  "mu16": [
+   [
+    1,
+    "HTC Uhlenhorst Mülheim",
+    6,
+    6,
+    0,
+    0,
+    "27:2",
+    18
+   ],
+   [
+    2,
+    "Düsseldorfer HC",
+    5,
+    4,
+    0,
+    1,
+    "30:8",
+    12
+   ],
+   [
+    3,
+    "DSD Düsseldorf",
+    7,
+    3,
+    1,
+    3,
+    "19:25",
+    10
+   ],
+   [
+    4,
+    "Rot-Weiss Köln",
+    5,
+    3,
+    0,
+    2,
+    "20:10",
+    9
+   ],
+   [
+    5,
+    "Crefelder HTC",
+    5,
+    2,
+    0,
+    3,
+    "13:17",
+    6,
+    true
+   ],
+   [
+    6,
+    "HTC Schwarz-Weiß Neuss",
+    5,
+    1,
+    2,
+    2,
+    "13:20",
+    5
+   ],
+   [
+    7,
+    "Bonner THV",
+    6,
+    0,
+    2,
+    4,
+    "10:25",
+    2
+   ],
+   [
+    8,
+    "Blau-Weiß Köln",
+    5,
+    0,
+    1,
+    4,
+    "6:31",
+    1
+   ]
+  ],
+  "mu16-2": [
+   [
+    1,
+    "Schwarz-Weiß Köln",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Crefelder HTC  2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    3,
+    "HTC SW Bonn",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu18": [
+   [
+    1,
+    "HTC Uhlenhorst Mülheim",
+    4,
+    4,
+    0,
+    0,
+    "22:5",
+    12
+   ],
+   [
+    2,
+    "Düsseldorfer HC",
+    4,
+    4,
+    0,
+    0,
+    "18:6",
+    12
+   ],
+   [
+    3,
+    "Rot-Weiss Köln",
+    4,
+    3,
+    0,
+    1,
+    "24:7",
+    9
+   ],
+   [
+    4,
+    "Crefelder HTC",
+    4,
+    2,
+    1,
+    1,
+    "14:6",
+    7,
+    true
+   ],
+   [
+    5,
+    "DSD Düsseldorf",
+    4,
+    1,
+    1,
+    2,
+    "9:14",
+    4
+   ],
+   [
+    6,
+    "HC Essen 99 HCE mU18",
+    5,
+    1,
+    0,
+    4,
+    "11:22",
+    3
+   ],
+   [
+    7,
+    "Bonner THV",
+    5,
+    1,
+    0,
+    4,
+    "8:31",
+    3
+   ],
+   [
+    8,
+    "Schwarz-Weiß Köln",
+    4,
+    0,
+    0,
+    4,
+    "7:22",
+    0
+   ]
+  ],
+  "wu10-1": [
+   [
+    1,
+    "Crefelder HTC 1 CHTC 1",
+    7,
+    5,
+    1,
+    1,
+    "21:6",
+    16,
+    true
+   ],
+   [
+    2,
+    "Düsseldorfer HC",
+    7,
+    5,
+    1,
+    1,
+    "12:4",
+    16
+   ],
+   [
+    3,
+    "DSD Düsseldorf 1 DSD 1",
+    7,
+    4,
+    2,
+    1,
+    "20:5",
+    14
+   ],
+   [
+    4,
+    "HTC Schwarz-Weiß Neuss",
+    7,
+    3,
+    3,
+    1,
+    "19:7",
+    12
+   ],
+   [
+    5,
+    "Düsseldorfer SC",
+    8,
+    2,
+    2,
+    4,
+    "12:17",
+    8
+   ],
+   [
+    6,
+    "Gladbacher HTC",
+    7,
+    1,
+    1,
+    5,
+    "8:20",
+    4
+   ],
+   [
+    7,
+    "Düsseldorfer HC  2 DHC 2",
+    7,
+    0,
+    0,
+    7,
+    "4:37",
+    0
+   ]
+  ],
+  "wu10-2": [
+   [
+    1,
+    "Crefelder HTC  2 CHTC 2",
+    8,
+    7,
+    0,
+    1,
+    "25:6",
+    21,
+    true
+   ],
+   [
+    2,
+    "Mettmanner THC wU10 1 MTHC wU10...",
+    8,
+    6,
+    1,
+    1,
+    "25:5",
+    19
+   ],
+   [
+    3,
+    "HTC Schwarz-Weiß Neuss 2",
+    8,
+    5,
+    1,
+    2,
+    "14:4",
+    16
+   ],
+   [
+    4,
+    "DSD Düsseldorf 2",
+    8,
+    3,
+    3,
+    2,
+    "11:18",
+    12
+   ],
+   [
+    5,
+    "Düsseldorfer SC 2 DSC 2",
+    9,
+    2,
+    3,
+    4,
+    "14:12",
+    9
+   ],
+   [
+    6,
+    "Düsseldorfer SC 3 DSC 3",
+    9,
+    2,
+    1,
+    6,
+    "10:14",
+    7
+   ],
+   [
+    7,
+    "Düsseldorfer HC  3 DHC 3",
+    8,
+    2,
+    1,
+    5,
+    "9:23",
+    7
+   ],
+   [
+    8,
+    "Gladbacher HTC 2",
+    6,
+    0,
+    0,
+    6,
+    "2:28",
+    0
+   ]
+  ],
+  "wu10-3": [
+   [
+    1,
+    "ETG Wuppertal",
+    7,
+    7,
+    0,
+    0,
+    "25:0",
+    21
+   ],
+   [
+    2,
+    "Düsseldorfer HC  4 DHC 4",
+    7,
+    4,
+    1,
+    2,
+    "11:7",
+    13
+   ],
+   [
+    3,
+    "Hellerhofer SV",
+    7,
+    4,
+    1,
+    2,
+    "10:6",
+    13
+   ],
+   [
+    4,
+    "Düsseldorfer SC 4 DSC 4",
+    7,
+    3,
+    1,
+    3,
+    "8:5",
+    10
+   ],
+   [
+    5,
+    "Viersener THC 2",
+    6,
+    2,
+    1,
+    3,
+    "7:7",
+    7
+   ],
+   [
+    6,
+    "Crefelder HTC  3 CHTC 3",
+    7,
+    1,
+    1,
+    5,
+    "2:12",
+    4,
+    true
+   ],
+   [
+    7,
+    "HTC Schwarz-Weiß Neuss 3",
+    7,
+    0,
+    1,
+    6,
+    "1:27",
+    1
+   ]
+  ],
+  "wu10-4": [
+   [
+    1,
+    "Mettmanner THC wU10 2 MTHC wU10...",
+    7,
+    5,
+    1,
+    1,
+    "15:7",
+    16
+   ],
+   [
+    2,
+    "DSD Düsseldorf 3",
+    6,
+    5,
+    0,
+    1,
+    "17:4",
+    15
+   ],
+   [
+    3,
+    "Düsseldorfer HC  6 DHC 6",
+    8,
+    4,
+    0,
+    4,
+    "18:12",
+    12
+   ],
+   [
+    4,
+    "ETG Wuppertal 2 ETG 2",
+    7,
+    3,
+    1,
+    3,
+    "10:15",
+    10
+   ],
+   [
+    5,
+    "Gold-Weiß Wuppertal",
+    7,
+    3,
+    0,
+    4,
+    "7:11",
+    9
+   ],
+   [
+    6,
+    "Crefelder HTC  4 CHTC 4",
+    6,
+    2,
+    2,
+    2,
+    "5:6",
+    8,
+    true
+   ],
+   [
+    7,
+    "Düsseldorfer SC 6 DSC 6",
+    7,
+    0,
+    0,
+    7,
+    "0:17",
+    0
+   ]
+  ],
+  "wu8-2": [
+   [
+    1,
+    "ETG Wuppertal",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    5,
+    "DSD Düsseldorf",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Düsseldorfer HC  2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    7,
+    "Düsseldorfer HC  3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "wu8-3": [
+   [
+    1,
+    "ETG Wuppertal 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 3 DSC99 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Düsseldorfer SC 4 DSC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "HTC Schwarz-Weiß Neuss 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "Gold-Weiß Wuppertal",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Crefelder HTC 3 CHTC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "Hellerhofer SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    8,
+    "Gladbacher HTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    9,
+    "SV Büderich GWRB 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "SV Büderich  2 GWRB 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "DSD Düsseldorf 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "DSD Düsseldorf 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC  7 DHC 7",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    14,
+    "Düsseldorfer HC  8 DHC 8",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    15,
+    "Düsseldorfer HC 9 DHC 9",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    16,
+    "Düsseldorfer HC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    17,
+    "Düsseldorfer SC  2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "wu6-1": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    6,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "DSD Düsseldorf 1 DSD 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    8,
+    "DSD Düsseldorf  2 DSD 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    9,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Düsseldorfer HC 2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "Düsseldorfer HC 3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "Düsseldorfer HC 4 DHC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC 5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "wu6-2": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    6,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "DSD Düsseldorf 1 DSD 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    8,
+    "DSD Düsseldorf  2 DSD 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    9,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Düsseldorfer HC 2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "Düsseldorfer HC 3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "Düsseldorfer HC 4 DHC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC 5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu10-1": [
+   [
+    1,
+    "Crefelder HTC 1 CHTC 1",
+    7,
+    7,
+    0,
+    0,
+    "23:5",
+    21,
+    true
+   ],
+   [
+    2,
+    "Düsseldorfer HC  2 DHC 2",
+    7,
+    4,
+    1,
+    2,
+    "19:9",
+    13
+   ],
+   [
+    3,
+    "DSD Düsseldorf",
+    7,
+    4,
+    0,
+    3,
+    "15:6",
+    12
+   ],
+   [
+    4,
+    "Düsseldorfer SC",
+    8,
+    3,
+    2,
+    3,
+    "10:14",
+    11
+   ],
+   [
+    5,
+    "Düsseldorfer HC",
+    7,
+    2,
+    2,
+    3,
+    "9:11",
+    8
+   ],
+   [
+    6,
+    "Gladbacher HTC",
+    7,
+    2,
+    1,
+    4,
+    "5:18",
+    7
+   ],
+   [
+    7,
+    "Gladbacher HTC 2",
+    7,
+    0,
+    0,
+    7,
+    "8:26",
+    0
+   ]
+  ],
+  "mu10-2": [
+   [
+    1,
+    "Düsseldorfer SC 2 DSC 2",
+    6,
+    6,
+    0,
+    0,
+    "19:3",
+    18
+   ],
+   [
+    2,
+    "Düsseldorfer HC  3 DHC 3",
+    6,
+    4,
+    1,
+    1,
+    "18:8",
+    13
+   ],
+   [
+    3,
+    "DSD Düsseldorf 3",
+    9,
+    3,
+    3,
+    3,
+    "18:20",
+    12
+   ],
+   [
+    4,
+    "Crefelder HTC  2 CHTC 2",
+    9,
+    1,
+    2,
+    6,
+    "11:25",
+    5,
+    true
+   ],
+   [
+    5,
+    "Mettmanner THC mU10-1 MTHC mU10...",
+    6,
+    0,
+    2,
+    4,
+    "8:18",
+    2
+   ]
+  ],
+  "mu8-1": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    3,
+    "DSD Düsseldorf",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu8-2": [
+   [
+    1,
+    "Düsseldorfer SC 3 DSC99 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Rheydter SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Crefelder HTC  2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    4,
+    "DSD Düsseldorf 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "Düsseldorfer HC  3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Düsseldorfer HC  5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    7,
+    "Viersener THC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    8,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    9,
+    "Crefelder SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ]
+  ],
+  "mu8-3": [
+   [
+    1,
+    "ETG Wuppertal  2 ETG 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 4 DSC99 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Düsseldorfer SC 5 DSC99 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Düsseldorfer SC 6 DSC99 6",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "Düsseldorfer SC 7 DSC99 7",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Düsseldorfer SC 8 DSC99 8",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    7,
+    "Gladbacher HTC  2 GHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    8,
+    "Reinshagener TB",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    9,
+    "Gold-Weiß Wuppertal  2 HCGWW 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Crefelder HTC  3 CHTC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    11,
+    "Hellerhofer SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "SV Büderich",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "DSD Düsseldorf  4 DSD 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    14,
+    "Düsseldorfer HC  7 DHC 7",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    15,
+    "Düsseldorfer HC  8 DHC 8",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    16,
+    "Düsseldorfer HC  9 DHC 9",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    17,
+    "Viersener THC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    18,
+    "HTC Schwarz-Weiß Neuss  2 SWN 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    19,
+    "HTC Schwarz-Weiß Neuss  3 SWN 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu6-1": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Düsseldorfer SC 3 DSC99 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Düsseldorfer SC 4 DSC99 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    8,
+    "Crefelder HTC 3 CHTC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    9,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Hellerhofer SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "DSD Düsseldorf",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "DSD Düsseldorf 2 DSD 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    14,
+    "Düsseldorfer HC 2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    15,
+    "Düsseldorfer HC 3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    16,
+    "Düsseldorfer HC 4 DHC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    17,
+    "Düsseldorfer HC 5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    18,
+    "Viersener THC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    19,
+    "Gladbacher HTC 2 GHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu6-2": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Düsseldorfer SC 3 DSC99 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Düsseldorfer SC 4 DSC99 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    8,
+    "Crefelder HTC 3 CHTC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    9,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Hellerhofer SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "DSD Düsseldorf",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "DSD Düsseldorf 2 DSD 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    14,
+    "Düsseldorfer HC 2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    15,
+    "Düsseldorfer HC 3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    16,
+    "Düsseldorfer HC 4 DHC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    17,
+    "Düsseldorfer HC 5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    18,
+    "Viersener THC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    19,
+    "Gladbacher HTC 2 GHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ]
+  ],
+  "mu6-3": [
+   [
+    1,
+    "Düsseldorfer SC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    2,
+    "Düsseldorfer SC 2 DSC99 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    3,
+    "Düsseldorfer SC 3 DSC99 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    4,
+    "Düsseldorfer SC 4 DSC99 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    5,
+    "HTC Schwarz-Weiß Neuss",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    6,
+    "Crefelder HTC 1 CHTC 1",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    7,
+    "Crefelder HTC 2 CHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    8,
+    "Crefelder HTC 3 CHTC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0,
+    true
+   ],
+   [
+    9,
+    "Gladbacher HTC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    10,
+    "Hellerhofer SV",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    11,
+    "DSD Düsseldorf",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    12,
+    "DSD Düsseldorf 2 DSD 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    13,
+    "Düsseldorfer HC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    14,
+    "Düsseldorfer HC 2 DHC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    15,
+    "Düsseldorfer HC 3 DHC 3",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    16,
+    "Düsseldorfer HC 4 DHC 4",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    17,
+    "Düsseldorfer HC 5 DHC 5",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    18,
+    "Viersener THC",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
+    0
+   ],
+   [
+    19,
+    "Gladbacher HTC 2 GHTC 2",
+    0,
+    0,
+    0,
+    0,
+    "0:0",
     0
    ]
   ]
@@ -958,5 +7107,5 @@
    "maps": "HTC Schwarz-Weiß Köln"
   }
  },
- "stand": "19.07.2026 13:41"
+ "stand": "19.07.2026 14:10"
 }
