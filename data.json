@@ -3,31 +3,31 @@
   {
    "id": "wu12",
    "badge": "wU12",
-   "jugend": true,
    "name": "Weibliche U12",
    "liga": "WHV Regionalliga wU12 · Feld 2026",
+   "jugend": true,
    "live": true
   },
   {
    "id": "wu12-2",
    "badge": "wU12",
-   "jugend": true,
    "name": "Weibliche U12 · 2",
-   "liga": "WHV Oberliga wU12 · Feld 2026"
+   "liga": "WHV Oberliga wU12 · Feld 2026",
+   "jugend": true
   },
   {
    "id": "wu12-3",
    "badge": "wU12",
-   "jugend": true,
    "name": "Weibliche U12 · 3",
-   "liga": "WHV Verbandsliga wU12 · Feld 2026"
+   "liga": "WHV Verbandsliga wU12 · Feld 2026",
+   "jugend": true
   },
   {
    "id": "mu12",
    "badge": "mU12",
-   "jugend": true,
    "name": "Männliche U12",
-   "liga": "WHV Regionalliga mU12 · Feld 2026"
+   "liga": "WHV Regionalliga mU12 · Feld 2026",
+   "jugend": true
   },
   {
    "id": "h1",
@@ -423,5 +423,5 @@
    "maps": "HTC Schwarz-Weiß Köln"
   }
  },
- "stand": "18.07.2026 (initial)"
+ "stand": "19.07.2026 02:05"
 }
