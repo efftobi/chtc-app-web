@@ -1,119 +1,225 @@
-STATUS 200 | FINAL-URL https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875 | LAENGE 285868
-TITLE: Crefelder HTC
-ANZAHL TABLES: 1
-TABLE 0: th=['', '', 'Sp.', 'S', 'SnP', 'U', 'N', 'Tore', 'Diff', 'Pkt.']
-TABLE 0: erste td=['01.', 'Crefelder HTC CHTC', '9', '8', '0', '0', '1', '32 : 9', '23', '24', '02.', 'DSD Düsseldorf DSD', '8', '7']
-EL <head class=''> :: Crefelder HTC
-EL <title class=''> :: Crefelder HTC
-EL <div class='team__header'> :: Crefelder HTC Kader Spielplan Tabelle
-EL <div class='national-team__hero hero-module__img'> :: Crefelder HTC
-EL <div class='team__header__banner team__header__banner--hero-img'> :: Crefelder HTC
-EL <div class='team__header__heading'> :: Crefelder HTC
-EL <h1 class='team__header__name'> :: Crefelder HTC
-EL <div class='table-schedule-condensed__table-row'> :: Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link'> :: Crefelder HTC CHTC
-EL <a class=''> :: Crefelder HTC CHTC
-EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
-EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <span class='mc-lite__team--desktop'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <a class=''> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <div class='table-schedule-condensed__table-row'> :: HTC Uhlenhorst Mülheim HTCU 1 : 4 1 : 0 Crefelder HTC CHTC WHV Regionalliga wU12 2026 Uhlenhorst Mülheim Sportanlage
-EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link'> :: Crefelder HTC CHTC
-EL <a class=''> :: Crefelder HTC CHTC
-EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
-EL <div class='table-schedule-condensed__table-row'> :: Crefelder HTC CHTC 3 : 2 2 : 0 Blau-Weiß Köln BWK WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link'> :: Crefelder HTC CHTC
-EL <a class=''> :: Crefelder HTC CHTC
-EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
-EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <span class='mc-lite__team--desktop'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-EL <a class=''> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
-=== ROH-HTML-AUSSCHNITT ===
-
-<!DOCTYPE html>
-<html lang="de">
-<head><script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="80514e1d-0263-4ed7-99a0-7ef212360b7e" data-blockingmode="auto" type="text/javascript"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/temp/images/hockey-favicon-96x.png" rel="shortcut icon">
-    <link href="/temp/manifest.json" rel="manifest">
-
-     
-            
-
-
-
-
-        <title>Crefelder HTC</title>        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:url" content="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875"/>
-        <meta name="twitter:title" content="Crefelder HTC"/>
-        <meta name="twitter:description" content=""/>
-        <meta name="twitter:image" content="https://www.hockeybundesliga.de/website/images/logo.svg"/>
-    
-        <meta property="og:site_name" content="Sulu"/>
-        <meta property="og:url" content="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875"/>
-        <meta property="og:title" content="Crefelder HTC"/>
-        <meta property="og:image" content="https://www.hockeybundesliga.de/website/images/logo.svg"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:description" content=""/>
-        <meta property="og:locale" content="de"/>
-    <meta name="keywords" content="crefelder-htc-chtc-47875, CHTC" /><meta name="robots" content="index,follow" /><link rel="canonical" href="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875" />    
-            <link rel="stylesheet" href="/build/website/main.cc3524df03ad832e1f48.css">
-    </head>
-<body class="hockey">
-<header class="header" id="navigation-scroller-1">
-                            <nav class="navbar">
-
-            
-    
-            <div class="main-grid navbar__grid">
-        <a href="https://www.hockeybundesliga.de/"
-           class="navbar__logo navbar__logo-hockey"
-           id=""
-        >
-            
-        <img id = "logo-position-1" src="/media/7355/download/Logo_HL_neg.svg?v=2&amp;inline=1"
-         alt="DHB.rocks"
-         class="navbar__logo-image navbar__logo-hockey-image"
-         onerror="this.src='/temp/images/dhb__logo.png'"/>
-        </a>
-         <div class="navbar__desktop navbar__links" id="navigation">
-    
-            
-                        
-        
-                    <div
-                class="navbar__item"
-            >
-                <div class="navbar__item-option navbar__item-option--reverse">
-                    <div
-                        class="navbar__item-icon navbar__subitem-icon"
-                        id="navigation-submenu-1"
-                    >
-                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M13 7L23 17L13 27" stroke="currentColor"/>
-</svg>
-                    </div>
-                    <div
-                        class="navbar__item-head"
-                    >
-                        <div
-                            class="navbar__item-label"
-                        >
-                            <a
-                                href="https://www.hockeybundesliga.de/news"
-                                title="News"
-                                class="navbar__desktop-link"
-                            >
-                                News
-                            </a>
-                        </div>
-                                            </div>
-                </div>
-            </div>
-                    
-                        
-        
-                    <div
-                class="navbar__item
+STATUS 200 LAENGE 285868
+KLASSEN: league-team-games | league-team-games__back-btn | league-team-games__header | league-team-games__header-option-links | match-header__report-links | match-header__tab-option | match-header__tab-option--active | match-header__tabs | matchcenter-groups | matchcenter-groups-wrapper | matchcenter-groups__table-title | schedule-lite | schedule-lite__title | table-schedule-condensed__country | table-schedule-condensed__country--left | table-schedule-condensed__country--right | table-schedule-condensed__flag | table-schedule-condensed__flag--left | table-schedule-condensed__flag--right | table-schedule-condensed__table | table-schedule-condensed__table-cell | table-schedule-condensed__table-cell--group | table-schedule-condensed__table-cell--report | table-schedule-condensed__table-cell--venue | table-schedule-condensed__table-row | table-schedule-condensed__time | table-schedule-condensed__time-wrapper | table-schedule-condensed__time-wrapper--final
+CONTAINER: <div class='main-container container'>
+=== STRUKTUR (Element / Klassen / Textanfang) ===
+<div> [team main-grid] :: SPIELERINNEN Luna R. Theresa E. Lili L. Matilda F. Ella K. Nele O. Anna F. Rosa Lie T. Frida v. Char
+<h2> [team__info-title] :: SPIELERINNEN
+<div> [team-players] :: Luna R. Theresa E. Lili L. Matilda F. Ella K. Nele O. Anna F. Rosa Lie T. Frida v. Charlotte W. Gret
+<div> [team-player] :: Luna R.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Luna
+<h4> [team-player__name] :: R.
+<div> [team-player] :: Theresa E.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Theresa
+<h4> [team-player__name] :: E.
+<div> [team-player] :: Lili L.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Lili
+<h4> [team-player__name] :: L.
+<div> [team-player] :: Matilda F.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Matilda
+<h4> [team-player__name] :: F.
+<div> [team-player] :: Ella K.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Ella
+<h4> [team-player__name] :: K.
+<div> [team-player] :: Nele O.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Nele
+<h4> [team-player__name] :: O.
+<div> [team-player] :: Anna F.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Anna
+<h4> [team-player__name] :: F.
+<div> [team-player] :: Rosa Lie T.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Rosa Lie
+<h4> [team-player__name] :: T.
+<div> [team-player] :: Frida v.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Frida
+<h4> [team-player__name] :: v.
+<div> [team-player] :: Charlotte W.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Charlotte
+<h4> [team-player__name] :: W.
+<div> [team-player] :: Greta W.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Greta
+<h4> [team-player__name] :: W.
+<div> [team-player] :: Luna P.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Luna
+<h4> [team-player__name] :: P.
+<div> [team-player] :: Nele B.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Nele
+<h4> [team-player__name] :: B.
+<div> [team-player] :: Janne K.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Janne
+<h4> [team-player__name] :: K.
+<div> [team-player] :: Philippa G.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Philippa
+<h4> [team-player__name] :: G.
+<div> [team-player] :: Merle K.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Merle
+<h4> [team-player__name] :: K.
+<div> [team-player] :: Lena Lotta H.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Lena Lotta
+<h4> [team-player__name] :: H.
+<div> [team-player] :: Carlotta K.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Carlotta
+<h4> [team-player__name] :: K.
+<div> [team-player] :: Clara K.
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Clara
+<h4> [team-player__name] :: K.
+<h2> [team__info-title team__info-title--staff] :: Staff
+<div> [team-players] :: Markku Slawyk Jaroslaw Stefanik Axel Kirchhausen Anna Eidenschink
+<div> [team-player] :: Markku Slawyk
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Markku
+<h4> [team-player__name] :: Slawyk
+<div> [team-player] :: Jaroslaw Stefanik
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Jaroslaw
+<h4> [team-player__name] :: Stefanik
+<div> [team-player] :: Axel Kirchhausen
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Axel
+<h4> [team-player__name] :: Kirchhausen
+<div> [team-player] :: Anna Eidenschink
+<div> [team-player__content team-player__image--empty] :: 
+<div> [team-player__image] :: 
+<h4> [team-player__name] :: Anna
+<h4> [team-player__name] :: Eidenschink
+<div> [team__button] :: Zurück zur Startseite
+<a> [button-primary] :: Zurück zur Startseite
+<div> [team main-grid mc-lite-container league-team-games] :: Spielplan Sonntag, 26. April 2026 Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regi
+<div> [league-team-games__header] :: Spielplan
+<div> [league-team-games__header-option-links match-header__report-links] :: 
+<button> [social-button js-social-button_copy] :: 
+<div> [schedule-lite] :: Sonntag, 26. April 2026 Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regionalliga w
+<div> [table-schedule-condensed__table] :: Sonntag, 26. April 2026 Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regionalliga w
+<div> [schedule-lite__title] :: Sonntag, 26. April 2026
+<div> [table-schedule-condensed__table-row] :: Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regionalliga wU12 2026 Gerd-Wellen-Hoc
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link] :: Crefelder HTC CHTC
+<span> [mc-lite__team--desktop] :: Crefelder HTC
+<span> [mc-lite__team--mobile] :: CHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--left] :: 
+<div> [table-schedule-condensed__table-cell u-text-center has--link] :: 3 : 1 2 : 0
+<div> [table-schedule-condensed__time-wrapper table-schedule-condensed__time-wrapper--final] :: 3 : 1 2 : 0
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link] :: HTC Schwarz-Weiß Neuss SWN
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--right] :: 
+<span> [mc-lite__team--desktop] :: HTC Schwarz-Weiß Neuss
+<span> [mc-lite__team--mobile] :: SWN
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--report u-text-center] :: 
+<a> [report-link] :: 
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--group] :: WHV Regionalliga wU12 2026
+<span> [mc-lite__team--desktop] :: WHV Regionalliga wU12 2026
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<span> [mc-lite__team--desktop] :: 
+<span> [mc-lite__team--desktop] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<div> [schedule-lite__title] :: Sonntag, 03. Mai 2026
+<div> [table-schedule-condensed__table-row] :: HTC Uhlenhorst Mülheim HTCU 1 : 4 1 : 0 Crefelder HTC CHTC WHV Regionalliga wU12 2026 Uhlenhorst Mül
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link] :: HTC Uhlenhorst Mülheim HTCU
+<span> [mc-lite__team--desktop] :: HTC Uhlenhorst Mülheim
+<span> [mc-lite__team--mobile] :: HTCU
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--left] :: 
+<div> [table-schedule-condensed__table-cell u-text-center has--link] :: 1 : 4 1 : 0
+<div> [table-schedule-condensed__time-wrapper table-schedule-condensed__time-wrapper--final] :: 1 : 4 1 : 0
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link] :: Crefelder HTC CHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--right] :: 
+<span> [mc-lite__team--desktop] :: Crefelder HTC
+<span> [mc-lite__team--mobile] :: CHTC
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--report u-text-center] :: 
+<a> [report-link] :: 
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--group] :: WHV Regionalliga wU12 2026
+<span> [mc-lite__team--desktop] :: WHV Regionalliga wU12 2026
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue] :: Uhlenhorst Mülheim Sportanlage
+<span> [mc-lite__team--desktop] :: 
+<span> [mc-lite__team--desktop] :: Uhlenhorst Mülheim Sportanlage
+<div> [schedule-lite__title] :: Sonntag, 10. Mai 2026
+<div> [table-schedule-condensed__table-row] :: Crefelder HTC CHTC 3 : 2 2 : 0 Blau-Weiß Köln BWK WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlag
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link] :: Crefelder HTC CHTC
+<span> [mc-lite__team--desktop] :: Crefelder HTC
+<span> [mc-lite__team--mobile] :: CHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--left] :: 
+<div> [table-schedule-condensed__table-cell u-text-center has--link] :: 3 : 2 2 : 0
+<div> [table-schedule-condensed__time-wrapper table-schedule-condensed__time-wrapper--final] :: 3 : 2 2 : 0
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link] :: Blau-Weiß Köln BWK
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--right] :: 
+<span> [mc-lite__team--desktop] :: Blau-Weiß Köln
+<span> [mc-lite__team--mobile] :: BWK
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--report u-text-center] :: 
+<a> [report-link] :: 
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--group] :: WHV Regionalliga wU12 2026
+<span> [mc-lite__team--desktop] :: WHV Regionalliga wU12 2026
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<span> [mc-lite__team--desktop] :: 
+<span> [mc-lite__team--desktop] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<div> [schedule-lite__title] :: Sonntag, 07. Juni 2026
+<div> [table-schedule-condensed__table-row] :: Crefelder HTC CHTC 5 : 0 2 : 0 ETB Essen ETB WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlage (Cr
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link] :: Crefelder HTC CHTC
+<span> [mc-lite__team--desktop] :: Crefelder HTC
+<span> [mc-lite__team--mobile] :: CHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--left] :: 
+<div> [table-schedule-condensed__table-cell u-text-center has--link] :: 5 : 0 2 : 0
+<div> [table-schedule-condensed__time-wrapper table-schedule-condensed__time-wrapper--final] :: 5 : 0 2 : 0
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link] :: ETB Essen ETB
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--right] :: 
+<span> [mc-lite__team--desktop] :: ETB Essen
+<span> [mc-lite__team--mobile] :: ETB
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--report u-text-center] :: 
+<a> [report-link] :: 
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--group] :: WHV Regionalliga wU12 2026
+<span> [mc-lite__team--desktop] :: WHV Regionalliga wU12 2026
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<span> [mc-lite__team--desktop] :: 
+<span> [mc-lite__team--desktop] :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+<div> [schedule-lite__title] :: Sonntag, 14. Juni 2026
+<div> [table-schedule-condensed__table-row] :: Gladbacher HTC GHTC 0 : 3 0 : 1 Crefelder HTC CHTC WHV Regionalliga wU12 2026 Gladbacher HTC Sportan
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link] :: Gladbacher HTC GHTC
+<span> [mc-lite__team--desktop] :: Gladbacher HTC
+<span> [mc-lite__team--mobile] :: GHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--left] :: 
+<div> [table-schedule-condensed__table-cell u-text-center has--link] :: 0 : 3 0 : 1
+<div> [table-schedule-condensed__time-wrapper table-schedule-condensed__time-wrapper--final] :: 0 : 3 0 : 1
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link] :: Crefelder HTC CHTC
+<img> [table-schedule-condensed__flag table-schedule-condensed__flag--right] :: 
+<span> [mc-lite__team--desktop] :: Crefelder HTC
+<span> [mc-lite__team--mobile] :: CHTC
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--report u-text-center] :: 
+<a> [report-link] :: 
+<div> [table-schedule-condensed__table-cell table-schedule-condensed__table-cell--group] :: WHV Regionalliga wU12 2026
+<span> [mc-lite__team--desktop] :: WHV Regionalliga wU12 2026
+... (gekürzt)
