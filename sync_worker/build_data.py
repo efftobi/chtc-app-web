@@ -104,7 +104,7 @@ def main() -> None:
     fehler = []
 
     for t in teams_cfg:
-        eintrag = {k: t[k] for k in ("id", "badge", "name", "liga") if k in t}
+        eintrag = {k: t[k] for k in ("id", "badge", "name", "liga", "gruppe") if k in t}
         if t.get("jugend"):
             eintrag["jugend"] = True
 
