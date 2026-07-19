@@ -1,0 +1,119 @@
+STATUS 200 | FINAL-URL https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875 | LAENGE 285868
+TITLE: Crefelder HTC
+ANZAHL TABLES: 1
+TABLE 0: th=['', '', 'Sp.', 'S', 'SnP', 'U', 'N', 'Tore', 'Diff', 'Pkt.']
+TABLE 0: erste td=['01.', 'Crefelder HTC CHTC', '9', '8', '0', '0', '1', '32 : 9', '23', '24', '02.', 'DSD Düsseldorf DSD', '8', '7']
+EL <head class=''> :: Crefelder HTC
+EL <title class=''> :: Crefelder HTC
+EL <div class='team__header'> :: Crefelder HTC Kader Spielplan Tabelle
+EL <div class='national-team__hero hero-module__img'> :: Crefelder HTC
+EL <div class='team__header__banner team__header__banner--hero-img'> :: Crefelder HTC
+EL <div class='team__header__heading'> :: Crefelder HTC
+EL <h1 class='team__header__name'> :: Crefelder HTC
+EL <div class='table-schedule-condensed__table-row'> :: Crefelder HTC CHTC 3 : 1 2 : 0 HTC Schwarz-Weiß Neuss SWN WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link'> :: Crefelder HTC CHTC
+EL <a class=''> :: Crefelder HTC CHTC
+EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
+EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <span class='mc-lite__team--desktop'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <a class=''> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <div class='table-schedule-condensed__table-row'> :: HTC Uhlenhorst Mülheim HTCU 1 : 4 1 : 0 Crefelder HTC CHTC WHV Regionalliga wU12 2026 Uhlenhorst Mülheim Sportanlage
+EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--right has--link'> :: Crefelder HTC CHTC
+EL <a class=''> :: Crefelder HTC CHTC
+EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
+EL <div class='table-schedule-condensed__table-row'> :: Crefelder HTC CHTC 3 : 2 2 : 0 Blau-Weiß Köln BWK WHV Regionalliga wU12 2026 Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__country table-schedule-condensed__country--left has--link'> :: Crefelder HTC CHTC
+EL <a class=''> :: Crefelder HTC CHTC
+EL <span class='mc-lite__team--desktop'> :: Crefelder HTC
+EL <div class='table-schedule-condensed__table-cell table-schedule-condensed__table-cell--venue'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <span class='mc-lite__team--desktop'> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+EL <a class=''> :: Gerd-Wellen-Hockeyanlage (Crefelder HTC)
+=== ROH-HTML-AUSSCHNITT ===
+
+<!DOCTYPE html>
+<html lang="de">
+<head><script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="80514e1d-0263-4ed7-99a0-7ef212360b7e" data-blockingmode="auto" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/temp/images/hockey-favicon-96x.png" rel="shortcut icon">
+    <link href="/temp/manifest.json" rel="manifest">
+
+     
+            
+
+
+
+
+        <title>Crefelder HTC</title>        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:url" content="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875"/>
+        <meta name="twitter:title" content="Crefelder HTC"/>
+        <meta name="twitter:description" content=""/>
+        <meta name="twitter:image" content="https://www.hockeybundesliga.de/website/images/logo.svg"/>
+    
+        <meta property="og:site_name" content="Sulu"/>
+        <meta property="og:url" content="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875"/>
+        <meta property="og:title" content="Crefelder HTC"/>
+        <meta property="og:image" content="https://www.hockeybundesliga.de/website/images/logo.svg"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:locale" content="de"/>
+    <meta name="keywords" content="crefelder-htc-chtc-47875, CHTC" /><meta name="robots" content="index,follow" /><link rel="canonical" href="https://www.hockeybundesliga.de/club/crefelder-hockey-und-tennisclub-1890-chtc/feld-2026-jugend/whv-regionalliga-wu12-2026-whvrlwu12-1642/crefelder-htc-chtc-47875" />    
+            <link rel="stylesheet" href="/build/website/main.cc3524df03ad832e1f48.css">
+    </head>
+<body class="hockey">
+<header class="header" id="navigation-scroller-1">
+                            <nav class="navbar">
+
+            
+    
+            <div class="main-grid navbar__grid">
+        <a href="https://www.hockeybundesliga.de/"
+           class="navbar__logo navbar__logo-hockey"
+           id=""
+        >
+            
+        <img id = "logo-position-1" src="/media/7355/download/Logo_HL_neg.svg?v=2&amp;inline=1"
+         alt="DHB.rocks"
+         class="navbar__logo-image navbar__logo-hockey-image"
+         onerror="this.src='/temp/images/dhb__logo.png'"/>
+        </a>
+         <div class="navbar__desktop navbar__links" id="navigation">
+    
+            
+                        
+        
+                    <div
+                class="navbar__item"
+            >
+                <div class="navbar__item-option navbar__item-option--reverse">
+                    <div
+                        class="navbar__item-icon navbar__subitem-icon"
+                        id="navigation-submenu-1"
+                    >
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 7L23 17L13 27" stroke="currentColor"/>
+</svg>
+                    </div>
+                    <div
+                        class="navbar__item-head"
+                    >
+                        <div
+                            class="navbar__item-label"
+                        >
+                            <a
+                                href="https://www.hockeybundesliga.de/news"
+                                title="News"
+                                class="navbar__desktop-link"
+                            >
+                                News
+                            </a>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+                    
+                        
+        
+                    <div
+                class="navbar__item
