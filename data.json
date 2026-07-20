@@ -1,5 +1,5 @@
 {
- "stand": "20.07.2026 14:37",
+ "stand": "20.07.2026 16:16",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -6650,207 +6650,279 @@
    "name": "Gerd-Wellen-Hockeyanlage",
    "adresse": "Hüttenallee 256",
    "ort": "47800 Krefeld",
-   "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld",
+   "maps": "Hüttenallee 256, 47800 Krefeld",
    "verifiziert": true
   },
   "muelheim": {
-   "name": "Sportanlage Uhlenhorst",
-   "ort": "Mülheim an der Ruhr",
-   "maps": "HTC Uhlenhorst Mülheim"
+   "name": "HTC Uhlenhorst Mülheim",
+   "adresse": "Uhlenhorstweg 19",
+   "ort": "45479 Mülheim an der Ruhr",
+   "maps": "Uhlenhorstweg 19, 45479 Mülheim an der Ruhr",
+   "verifiziert": true
   },
   "gladbach": {
-   "name": "Anlage Gladbacher HTC",
-   "ort": "Mönchengladbach",
-   "maps": "Gladbacher HTC"
+   "name": "Gladbacher HTC",
+   "adresse": "An den Holter Sportstätten 11",
+   "ort": "41069 Mönchengladbach",
+   "maps": "An den Holter Sportstätten 11, 41069 Mönchengladbach",
+   "verifiziert": true
   },
   "dsd": {
    "name": "Sportanlage DSD",
-   "ort": "Düsseldorf",
-   "maps": "DSD Düsseldorf Hockey"
+   "adresse": "Walter-Eucken-Str. 22",
+   "ort": "40235 Düsseldorf",
+   "maps": "Walter-Eucken-Straße 22, 40235 Düsseldorf",
+   "verifiziert": true
   },
   "msc": {
-   "name": "Anlage Marienburger SC",
-   "ort": "Köln",
-   "maps": "Marienburger SC Köln"
+   "name": "Marienburger SC",
+   "adresse": "Schillingsrotter Str. 99",
+   "ort": "50996 Köln",
+   "maps": "Schillingsrotter Straße 99, 50996 Köln",
+   "verifiziert": true
   },
   "dsc99": {
-   "name": "Anlage DSC 99",
-   "ort": "Düsseldorf",
-   "maps": "Düsseldorfer SC 99 Hockey"
+   "name": "DSC 99",
+   "adresse": "Diepenstr. 99",
+   "ort": "40625 Düsseldorf",
+   "maps": "Diepenstraße 99, 40625 Düsseldorf",
+   "verifiziert": true
   },
   "raffelberg": {
-   "name": "Anlage Club Raffelberg",
-   "ort": "Duisburg",
-   "maps": "Club Raffelberg Duisburg"
+   "name": "Club Raffelberg",
+   "adresse": "Kalkweg 123–125",
+   "ort": "47055 Duisburg",
+   "maps": "Kalkweg 123, 47055 Duisburg",
+   "verifiziert": true
   },
   "neuss": {
-   "name": "Anlage HTC SW Neuss",
-   "ort": "Neuss",
-   "maps": "HTC Schwarz-Weiß Neuss"
+   "name": "HTC SW Neuss (Jahnstadion)",
+   "adresse": "Jahnstraße 63",
+   "ort": "41464 Neuss",
+   "maps": "Jahnstraße 63, 41464 Neuss",
+   "verifiziert": true
   },
   "rwk": {
    "name": "REWE Sportpark (Rot-Weiss Köln)",
-   "ort": "Köln",
-   "maps": "KTHC Stadion Rot-Weiss Köln"
+   "adresse": "Olympiaweg 9",
+   "ort": "50933 Köln",
+   "maps": "Olympiaweg 9, 50933 Köln",
+   "verifiziert": true
   },
   "bwk": {
    "name": "Blau-Weiss-Hockeypark",
-   "ort": "Köln",
-   "maps": "Blau-Weiss Hockeypark Köln"
+   "adresse": "Neuenhöfer Allee 69",
+   "ort": "50935 Köln",
+   "maps": "Neuenhöfer Allee 69, 50935 Köln",
+   "verifiziert": true
   },
   "etb": {
-   "name": "Anlage ETB Essen",
-   "ort": "Essen",
-   "maps": "ETB Schwarz-Weiß Essen Hockey"
+   "name": "ETB Essen (Uhlenkrug)",
+   "adresse": "Am Uhlenkrug 30",
+   "ort": "45131 Essen",
+   "maps": "Am Uhlenkrug 30, 45131 Essen",
+   "verifiziert": true
   },
   "dhc": {
-   "name": "Anlage Düsseldorfer HC",
-   "ort": "Düsseldorf",
-   "maps": "Düsseldorfer HC"
+   "name": "Düsseldorfer HC",
+   "adresse": "Am Seestern 10",
+   "ort": "40547 Düsseldorf",
+   "maps": "Am Seestern 10, 40547 Düsseldorf",
+   "verifiziert": true
   },
   "swk": {
-   "name": "Anlage Schwarz-Weiß Köln",
-   "ort": "Köln",
-   "maps": "HTC Schwarz-Weiß Köln"
+   "name": "Schwarz-Weiß Köln (KKHT)",
+   "adresse": "Kuhweg 20",
+   "ort": "50735 Köln",
+   "maps": "Kuhweg 20, 50735 Köln",
+   "verifiziert": true
   },
   "aachen": {
-   "name": "Aachener HC Sportanlage",
-   "ort": "Aachen",
-   "maps": "Aachener Hockey Club"
+   "name": "Aachener HC",
+   "adresse": "Hubert-Wienen-Straße 21",
+   "ort": "52070 Aachen",
+   "maps": "Hubert-Wienen-Straße 21, 52070 Aachen",
+   "verifiziert": true
   },
   "ratingen": {
    "name": "Bezirkssportanlage Mitte",
-   "ort": "Ratingen",
-   "maps": "TV Ratingen Hockey Bezirkssportanlage Mitte"
+   "ort": "40878 Ratingen",
+   "maps": "Bezirkssportanlage Mitte Ratingen"
   },
   "alster": {
-   "name": "Der Club an der Alster (Am Pfeilshof)",
-   "ort": "Hamburg",
-   "maps": "Der Club an der Alster Hockey Am Pfeilshof Hamburg"
+   "name": "Der Club an der Alster",
+   "adresse": "Am Pfeilshof 16",
+   "ort": "22391 Hamburg",
+   "maps": "Am Pfeilshof 16, 22391 Hamburg",
+   "verifiziert": true
   },
   "etg": {
-   "name": "Anlage Dorner Weg (Elberfelder TG)",
-   "ort": "Wuppertal",
-   "maps": "Elberfelder Turngemeinde Hockey Dorner Weg Wuppertal"
+   "name": "Elberfelder TG (Dorner Weg)",
+   "adresse": "Dorner Weg 2",
+   "ort": "42119 Wuppertal",
+   "maps": "Dorner Weg 2, 42119 Wuppertal",
+   "verifiziert": true
   },
   "dortmund": {
-   "name": "Eintrachtstadion (TSC Eintracht Dortmund)",
-   "ort": "Dortmund",
-   "maps": "TSC Eintracht Dortmund Eintrachtstadion"
+   "name": "Eintrachtstadion (TSC Eintracht)",
+   "adresse": "Victor-Toyka-Str. 6",
+   "ort": "44139 Dortmund",
+   "maps": "Victor-Toyka-Straße 6, 44139 Dortmund",
+   "verifiziert": true
   },
   "moers": {
    "name": "Großsportanlage Filder Benden",
-   "ort": "Moers",
-   "maps": "Filder Benden Moers Hockey"
+   "adresse": "Filder Benden",
+   "ort": "47447 Moers",
+   "maps": "Filder Benden, 47447 Moers"
   },
   "hcessen": {
-   "name": "HC Essen Sportanlage",
-   "ort": "Essen",
-   "maps": "HC Essen 99 Hockey"
+   "name": "HC Essen 99 (Hubertusburg)",
+   "adresse": "Dinnendahlstraße 27",
+   "ort": "45136 Essen",
+   "maps": "Dinnendahlstraße 27, 45136 Essen",
+   "verifiziert": true
   },
   "bonn": {
-   "name": "Anlage HTC SW Bonn",
-   "ort": "Bonn",
-   "maps": "HTC Schwarz-Weiß Bonn Hockey"
+   "name": "HTC SW Bonn",
+   "adresse": "Saalestraße 30",
+   "ort": "53127 Bonn",
+   "maps": "Saalestraße 30, 53127 Bonn",
+   "verifiziert": true
   },
   "hthc": {
-   "name": "HTHC-Anlage Vossberg",
-   "ort": "Hamburg",
-   "maps": "Harvestehuder THC Vossberg Hamburg"
+   "name": "HTHC (Anlage Voßberg/Winterhude)",
+   "adresse": "Barmbeker Str. 106",
+   "ort": "22303 Hamburg",
+   "maps": "Barmbeker Straße 106, 22303 Hamburg",
+   "verifiziert": true
   },
   "hellerhof": {
-   "name": "Anlage Hellerhofer SV",
-   "ort": "Düsseldorf-Hellerhof",
-   "maps": "Hellerhofer SV Düsseldorf Hockey"
+   "name": "Hellerhofer SV",
+   "adresse": "Eichsfelder Str. 33",
+   "ort": "40595 Düsseldorf",
+   "maps": "Eichsfelder Straße 33, 40595 Düsseldorf",
+   "verifiziert": true
   },
   "goldweiss": {
-   "name": "Hockeyanlage Gold-Weiss",
-   "ort": "Wuppertal",
-   "maps": "THC Gold-Weiß Wuppertal Hockey"
+   "name": "HC Gold-Weiss Wuppertal",
+   "adresse": "Winchenbachstr. 43",
+   "ort": "42281 Wuppertal",
+   "maps": "Winchenbachstraße 43, 42281 Wuppertal"
   },
   "kahlenberg": {
-   "name": "Kahlenberger HTC Sportanlage",
-   "ort": "Mülheim an der Ruhr",
-   "maps": "Kahlenberger HTC"
+   "name": "Kahlenberger HTC",
+   "adresse": "Mintarder Str. 39",
+   "ort": "45481 Mülheim an der Ruhr",
+   "maps": "Mintarder Straße 39, 45481 Mülheim an der Ruhr",
+   "verifiziert": true
   },
   "loens": {
    "name": "Kunstrasenplatz Hermann-Löns-Viertel",
-   "maps": "Kunstrasenplatz Hermann-Löns-Viertel Hockey"
+   "maps": "Kunstrasenplatz Hermann-Löns-Viertel"
   },
   "mannheimhc": {
-   "name": "Mannheimer HC Sportanlage",
-   "ort": "Mannheim",
-   "maps": "Mannheimer HC"
+   "name": "Mannheimer HC",
+   "adresse": "Am Neckarkanal 4–8",
+   "ort": "68259 Mannheim",
+   "maps": "Am Neckarkanal 4, 68259 Mannheim",
+   "verifiziert": true
   },
   "mettmann": {
-   "name": "Anlage Auf dem Pfennig (Mettmanner THC)",
-   "ort": "Mettmann",
-   "maps": "Mettmanner THC Auf dem Pfennig"
+   "name": "Sportanlage Auf dem Pfennig",
+   "adresse": "Hasseler Straße",
+   "ort": "40822 Mettmann",
+   "maps": "Sportanlage Auf dem Pfennig, Hasseler Straße, Mettmann"
   },
   "muenchen": {
-   "name": "Münchner SC Sportanlage",
-   "ort": "München",
-   "maps": "Münchner Sport-Club Hockey"
+   "name": "Münchner SC",
+   "adresse": "Eberwurzstraße 28",
+   "ort": "München (Lerchenau)",
+   "maps": "Eberwurzstraße 28, München",
+   "verifiziert": true
   },
   "polo": {
-   "name": "Polo-Anlage Jenischstraße",
-   "ort": "Hamburg",
-   "maps": "Hamburger Polo Club Jenischstraße Hockey"
+   "name": "Hamburger Polo Club (Hockey-Kunstrasen)",
+   "adresse": "Hemmingstedter Weg",
+   "ort": "22609 Hamburg",
+   "maps": "Hemmingstedter Weg, 22609 Hamburg",
+   "verifiziert": true
   },
   "rheydt": {
-   "name": "Anlage Rheydter SV",
-   "ort": "Mönchengladbach-Rheydt",
-   "maps": "Rheydter Spielverein Hockey"
+   "name": "Rheydter SV",
+   "adresse": "Am Gerstacker 155",
+   "ort": "41238 Mönchengladbach",
+   "maps": "Am Gerstacker 155, 41238 Mönchengladbach",
+   "verifiziert": true
   },
   "frankfurt": {
-   "name": "SC Frankfurt 1880 Sportanlage",
-   "ort": "Frankfurt am Main",
-   "maps": "SC Frankfurt 1880 Hockey"
+   "name": "SC Frankfurt 1880",
+   "adresse": "Feldgerichtstr. 29",
+   "ort": "60320 Frankfurt am Main",
+   "maps": "Feldgerichtstraße 29, 60320 Frankfurt am Main",
+   "verifiziert": true
   },
   "oberhausen": {
-   "name": "Sportanlage Oberhausener THC",
-   "ort": "Oberhausen",
-   "maps": "Oberhausener THC Hockey"
+   "name": "Oberhausener THC",
+   "adresse": "Arenastraße 3",
+   "ort": "46047 Oberhausen",
+   "maps": "Arenastraße 3, 46047 Oberhausen",
+   "verifiziert": true
   },
   "leverkusen": {
-   "name": "Sportanlagen am Kurtekotten",
-   "ort": "Leverkusen",
-   "maps": "RTHC Bayer Leverkusen Kurtekotten"
+   "name": "RTHC Bayer Leverkusen (Kurtekotten)",
+   "adresse": "Knochenbergsweg",
+   "ort": "51373 Leverkusen",
+   "maps": "Knochenbergsweg, 51373 Leverkusen",
+   "verifiziert": true
   },
   "kupferdreh": {
-   "name": "Sportplatz Eisenhammer (HTC Kupferdreh)",
-   "ort": "Essen-Kupferdreh",
-   "maps": "HTC Kupferdreh Sportplatz Eisenhammer"
+   "name": "Sportanlage am Eisenhammer (HTC Kupferdreh)",
+   "adresse": "Nierenhofer Straße 18",
+   "ort": "45257 Essen",
+   "maps": "Nierenhofer Straße 18, 45257 Essen",
+   "verifiziert": true
   },
   "buederich": {
    "name": "Stadionanlage Am Eisenbrand",
-   "ort": "Meerbusch-Büderich",
-   "maps": "Am Eisenbrand Meerbusch Büderich Hockey"
+   "adresse": "Am Eisenbrand",
+   "ort": "40667 Meerbusch-Büderich",
+   "maps": "Am Eisenbrand, 40667 Meerbusch"
   },
   "muenster": {
-   "name": "THC Münster Clubgelände",
-   "ort": "Münster",
-   "maps": "THC Münster Hockey"
+   "name": "THC Münster",
+   "adresse": "Dingbängerweg 349",
+   "ort": "48161 Münster",
+   "maps": "Dingbängerweg 349, 48161 Münster",
+   "verifiziert": true
   },
   "tsvmannheim": {
-   "name": "TSV Mannheim Clubgelände",
-   "ort": "Mannheim",
-   "maps": "TSV Mannheim Hockey"
+   "name": "TSV Mannheim Hockey",
+   "adresse": "Hans-Reschke-Ufer 5",
+   "ort": "68165 Mannheim",
+   "maps": "Hans-Reschke-Ufer 5, 68165 Mannheim",
+   "verifiziert": true
   },
   "hiesfeld": {
-   "name": "Anlage TV Jahn Hiesfeld",
-   "ort": "Dinslaken-Hiesfeld",
-   "maps": "TV Jahn Hiesfeld Hockey"
+   "name": "TV Jahn Hiesfeld",
+   "adresse": "Kirchstraße 55",
+   "ort": "46539 Dinslaken",
+   "maps": "Kirchstraße 55, 46539 Dinslaken",
+   "verifiziert": true
   },
   "uhc": {
-   "name": "UHC-Anlage Wesselblek",
-   "ort": "Hamburg",
-   "maps": "Uhlenhorster HC Wesselblek Hamburg"
+   "name": "UHC Hamburg (Wesselblek)",
+   "adresse": "Wesselblek 8",
+   "ort": "22339 Hamburg",
+   "maps": "Wesselblek 8, 22339 Hamburg",
+   "verifiziert": true
   },
   "viersen": {
-   "name": "Viersener THC Kunstrasen",
-   "ort": "Viersen",
-   "maps": "Viersener THC Hockey"
+   "name": "Viersener THC",
+   "adresse": "Beberischer Str. 70",
+   "ort": "41748 Viersen",
+   "maps": "Beberischer Straße 70, 41748 Viersen",
+   "verifiziert": true
   }
  },
  "infos": {
@@ -6858,7 +6930,7 @@
    "name": "Gerd-Wellen-Hockeyanlage",
    "strasse": "Hüttenallee 256",
    "ort": "47800 Krefeld",
-   "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld"
+   "maps": "Hüttenallee 256, 47800 Krefeld"
   },
   "bar": {
    "titel": "Hockeybar",
@@ -6878,33 +6950,50 @@
    ],
    "kontakt": "hockeybar@chtc.de"
   },
-  "shop": {
-   "titel": "CHTC Hockeyshop (Der Hockeykrauss)",
-   "adresse": "Friedrich-Ebert-Str. 174, Krefeld-Bockum",
-   "zeiten": [
-    [
-     "Montag",
-     "16:00 – 18:00 Uhr"
+  "shops": [
+   {
+    "titel": "CHTC Hockeyshop (Der Hockeykrauss)",
+    "adresse": "Friedrich-Ebert-Str. 174, Krefeld-Bockum",
+    "zeiten": [
+     [
+      "Montag",
+      "16:00 – 18:00 Uhr"
+     ],
+     [
+      "Dienstag",
+      "15:30 – 17:30 Uhr"
+     ],
+     [
+      "Mittwoch",
+      "15:00 – 18:00 Uhr"
+     ],
+     [
+      "Donnerstag",
+      "16:00 – 18:00 Uhr"
+     ],
+     [
+      "Samstag",
+      "10:00 – 13:00 Uhr"
+     ]
     ],
-    [
-     "Dienstag",
-     "15:30 – 17:30 Uhr"
+    "kontakt": "achim.krauss@gmx.de",
+    "hinweis": "Zeiten Winter 2025/26 — Änderungen vorbehalten"
+   },
+   {
+    "titel": "Backhandshot",
+    "adresse": "Stephanstraße 15, 47799 Krefeld",
+    "zeiten": [
+     [
+      "Montag – Freitag",
+      "10:00 – 18:00 Uhr"
+     ],
+     [
+      "Samstag",
+      "10:00 – 15:00 Uhr"
+     ]
     ],
-    [
-     "Mittwoch",
-     "15:00 – 18:00 Uhr"
-    ],
-    [
-     "Donnerstag",
-     "16:00 – 18:00 Uhr"
-    ],
-    [
-     "Samstag",
-     "10:00 – 13:00 Uhr"
-    ]
-   ],
-   "kontakt": "achim.krauss@gmx.de",
-   "hinweis": "Zeiten Winter 2025/26 — Änderungen vorbehalten"
-  }
+    "kontakt": "daily@backhandshot.com"
+   }
+  ]
  }
 }
