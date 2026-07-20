@@ -1,37 +1,7 @@
 {
- "stand": "20.07.2026 12:45",
+ "stand": "20.07.2026 12:52",
  "venues_offen": [
-  "Aachener HC Sportanlage",
-  "Bezirkssportanlage Mitte (TV Ratingen Hockey)",
-  "Blau-Weiss-Hockeypark (Köln)",
-  "Der Club an der Alster (Am Pfeilshof)",
-  "Dorner Weg (Elberfelder Turngemeinde)",
-  "Eintrachtstadion (TSC Eintracht Dortmund)",
-  "Großsportanlage Filder Benden (Moers)",
-  "HC Essen Sportanlage",
-  "HTC SW Bonn",
-  "HTHC - Vossberg",
-  "Hellerhofer SV",
-  "Hockeyanlage Gold-Weiss",
-  "Kahlenberger HTC Sportanlage",
-  "Kunstrasenplatz Hermann-Löns-Viertel",
-  "Mannheimer HC Sportanlage",
-  "Mettmanner THC \"Auf dem Pfennig\" Sportanlage",
-  "Münchner SC Sportanlage",
-  "Polo - Jenischstraße - Kunstrasen",
-  "REWE Sportpark (RWK)",
-  "Rheydter SV",
-  "SC Frankfurt 1880 Sportanlage",
-  "Spielort noch unbekannt",
-  "Sportanlage - Oberhausener THC",
-  "Sportanlagen am Kurtekotten (RTHC Leverkusen)",
-  "Sportplatz Eisenhammer (HTC Kupferdreh)",
-  "Stadionanlage Am Eisenbrand (Büderich)",
-  "THC Münster Clubgelände",
-  "TSV Mannheim Clubgelände",
-  "TV Jahn Hiesfeld (Sportstätte)",
-  "UHC - Wesselblek",
-  "Viersener THC - Kunstrasen"
+  "Spielort noch unbekannt"
  ],
  "teams": [
   {
@@ -363,7 +333,7 @@
     "h": false,
     "th": 8,
     "tg": 7,
-    "ortName": "Münchner SC Sportanlage"
+    "ort": "muenchen"
    },
    {
     "d": "2025-09-13",
@@ -399,7 +369,7 @@
     "h": false,
     "th": 2,
     "tg": 4,
-    "ortName": "SC Frankfurt 1880 Sportanlage"
+    "ort": "frankfurt"
    },
    {
     "d": "2025-09-28",
@@ -408,7 +378,7 @@
     "h": false,
     "th": 3,
     "tg": 1,
-    "ortName": "TSV Mannheim Clubgelände"
+    "ort": "tsvmannheim"
    },
    {
     "d": "2025-10-04",
@@ -417,7 +387,7 @@
     "h": false,
     "th": 5,
     "tg": 2,
-    "ortName": "HTHC - Vossberg"
+    "ort": "hthc"
    },
    {
     "d": "2025-10-11",
@@ -444,7 +414,7 @@
     "h": false,
     "th": 6,
     "tg": 4,
-    "ortName": "Polo - Jenischstraße - Kunstrasen"
+    "ort": "polo"
    },
    {
     "d": "2025-11-01",
@@ -471,7 +441,7 @@
     "h": false,
     "th": 2,
     "tg": 3,
-    "ortName": "UHC - Wesselblek"
+    "ort": "uhc"
    },
    {
     "d": "2026-03-22",
@@ -480,7 +450,7 @@
     "h": false,
     "th": 3,
     "tg": 4,
-    "ortName": "Der Club an der Alster (Am Pfeilshof)"
+    "ort": "alster"
    },
    {
     "d": "2026-03-28",
@@ -534,7 +504,7 @@
     "h": false,
     "th": 2,
     "tg": 1,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-05-03",
@@ -552,7 +522,7 @@
     "h": false,
     "th": 3,
     "tg": 5,
-    "ortName": "Mannheimer HC Sportanlage"
+    "ort": "mannheimhc"
    },
    {
     "d": "2026-05-16",
@@ -570,7 +540,7 @@
     "h": false,
     "th": 4,
     "tg": 3,
-    "ortName": "Polo - Jenischstraße - Kunstrasen"
+    "ort": "polo"
    },
    {
     "d": "2026-05-24",
@@ -579,7 +549,7 @@
     "h": false,
     "th": 4,
     "tg": 3,
-    "ortName": "Polo - Jenischstraße - Kunstrasen"
+    "ort": "polo"
    }
   ],
   "d1": [
@@ -599,7 +569,7 @@
     "h": false,
     "th": 0,
     "tg": 2,
-    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
+    "ort": "loens"
    },
    {
     "d": "2025-09-11",
@@ -608,7 +578,7 @@
     "h": false,
     "th": 1,
     "tg": 1,
-    "ortName": "HC Essen Sportanlage"
+    "ort": "hcessen"
    },
    {
     "d": "2025-09-14",
@@ -653,7 +623,7 @@
     "h": false,
     "th": 1,
     "tg": 0,
-    "ortName": "Eintrachtstadion (TSC Eintracht Dortmund)"
+    "ort": "dortmund"
    },
    {
     "d": "2026-05-03",
@@ -680,7 +650,7 @@
     "h": false,
     "th": 4,
     "tg": 0,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-06-21",
@@ -698,7 +668,7 @@
     "h": false,
     "th": 3,
     "tg": 4,
-    "ortName": "THC Münster Clubgelände"
+    "ort": "muenster"
    },
    {
     "d": "2026-07-05",
@@ -727,7 +697,7 @@
     "h": false,
     "th": 0,
     "tg": 3,
-    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
+    "ort": "loens"
    },
    {
     "d": "2025-09-14",
@@ -736,7 +706,7 @@
     "h": false,
     "th": 3,
     "tg": 1,
-    "ortName": "Sportanlage - Oberhausener THC"
+    "ort": "oberhausen"
    },
    {
     "d": "2025-09-16",
@@ -745,7 +715,7 @@
     "h": false,
     "th": 5,
     "tg": 3,
-    "ortName": "Blau-Weiss-Hockeypark (Köln)"
+    "ort": "bwk"
    },
    {
     "d": "2025-09-21",
@@ -763,7 +733,7 @@
     "h": false,
     "th": 3,
     "tg": 0,
-    "ortName": "HC Essen Sportanlage"
+    "ort": "hcessen"
    },
    {
     "d": "2025-10-03",
@@ -808,7 +778,7 @@
     "h": false,
     "th": 3,
     "tg": 1,
-    "ortName": "Kahlenberger HTC Sportanlage"
+    "ort": "kahlenberg"
    },
    {
     "d": "2026-06-21",
@@ -826,7 +796,7 @@
     "h": false,
     "th": 4,
     "tg": 2,
-    "ortName": "Aachener HC Sportanlage"
+    "ort": "aachen"
    },
    {
     "d": "2026-07-05",
@@ -854,7 +824,7 @@
     "h": false,
     "th": 1,
     "tg": 2,
-    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
+    "ort": "loens"
    },
    {
     "d": "2025-09-14",
@@ -863,7 +833,7 @@
     "h": false,
     "th": 0,
     "tg": 0,
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2025-09-21",
@@ -899,7 +869,7 @@
     "h": false,
     "th": 6,
     "tg": 0,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-04-26",
@@ -934,7 +904,7 @@
     "h": false,
     "th": 1,
     "tg": 0,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-21",
@@ -1087,7 +1057,7 @@
     "h": false,
     "th": 2,
     "tg": 1,
-    "ortName": "Eintrachtstadion (TSC Eintracht Dortmund)"
+    "ort": "dortmund"
    },
    {
     "d": "2026-06-14",
@@ -1114,7 +1084,7 @@
     "h": false,
     "th": 2,
     "tg": 0,
-    "ortName": "TV Jahn Hiesfeld (Sportstätte)"
+    "ort": "hiesfeld"
    },
    {
     "d": "2026-07-05",
@@ -1123,7 +1093,7 @@
     "h": false,
     "th": 1,
     "tg": 1,
-    "ortName": "Großsportanlage Filder Benden (Moers)"
+    "ort": "moers"
    },
    {
     "d": "2026-07-12",
@@ -1148,7 +1118,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "14:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    }
   ],
   "wu12-3": [
@@ -1177,7 +1147,7 @@
     "h": false,
     "th": 1,
     "tg": 0,
-    "ortName": "Sportplatz Eisenhammer (HTC Kupferdreh)"
+    "ort": "kupferdreh"
    },
    {
     "d": "2026-06-28",
@@ -1200,7 +1170,7 @@
     "heim": "Kahlenberger HTC 2 wU12 VL",
     "gast": "Crefelder HTC 3",
     "h": false,
-    "ortName": "Kahlenberger HTC Sportanlage"
+    "ort": "kahlenberg"
    },
    {
     "d": "2026-09-13",
@@ -1228,7 +1198,7 @@
     "h": false,
     "th": 0,
     "tg": 2,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-05-31",
@@ -1282,7 +1252,7 @@
     "h": false,
     "th": 2,
     "tg": 1,
-    "ortName": "Rheydter SV"
+    "ort": "rheydt"
    },
    {
     "d": "2026-06-06",
@@ -1324,7 +1294,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "10:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-09-05",
@@ -1332,7 +1302,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "11:00",
-    "ortName": "Bezirkssportanlage Mitte (TV Ratingen Hockey)"
+    "ort": "ratingen"
    }
   ],
   "wu16": [
@@ -1388,7 +1358,7 @@
     "h": false,
     "th": 3,
     "tg": 2,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-06-05",
@@ -1430,7 +1400,7 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "zeit": "17:30",
-    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
+    "ort": "buederich"
    },
    {
     "d": "2026-05-10",
@@ -1512,7 +1482,7 @@
     "h": false,
     "th": 1,
     "tg": 7,
-    "ortName": "Kahlenberger HTC Sportanlage"
+    "ort": "kahlenberg"
    },
    {
     "d": "2026-09-05",
@@ -1590,7 +1560,7 @@
     "h": false,
     "th": 7,
     "tg": 1,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-07-05",
@@ -1608,7 +1578,7 @@
     "h": false,
     "th": 1,
     "tg": 3,
-    "ortName": "Blau-Weiss-Hockeypark (Köln)"
+    "ort": "bwk"
    },
    {
     "d": "2026-09-06",
@@ -1739,7 +1709,7 @@
     "h": false,
     "th": 0,
     "tg": 4,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-07-04",
@@ -1802,7 +1772,7 @@
     "h": false,
     "th": 0,
     "tg": 4,
-    "ortName": "REWE Sportpark (RWK)"
+    "ort": "rwk"
    },
    {
     "d": "2026-06-13",
@@ -1829,7 +1799,7 @@
     "h": false,
     "th": 1,
     "tg": 2,
-    "ortName": "HTC SW Bonn"
+    "ort": "bonn"
    },
    {
     "d": "2026-07-11",
@@ -1917,7 +1887,7 @@
     "h": false,
     "th": 5,
     "tg": 2,
-    "ortName": "TV Jahn Hiesfeld (Sportstätte)"
+    "ort": "hiesfeld"
    },
    {
     "d": "2026-05-10",
@@ -1935,7 +1905,7 @@
     "h": false,
     "th": 6,
     "tg": 3,
-    "ortName": "Sportanlagen am Kurtekotten (RTHC Leverkusen)"
+    "ort": "leverkusen"
    },
    {
     "d": "2026-06-21",
@@ -1953,7 +1923,7 @@
     "h": false,
     "th": 2,
     "tg": 2,
-    "ortName": "HC Essen Sportanlage"
+    "ort": "hcessen"
    },
    {
     "d": "2026-07-12",
@@ -1996,7 +1966,7 @@
     "h": false,
     "th": 1,
     "tg": 4,
-    "ortName": "HC Essen Sportanlage"
+    "ort": "hcessen"
    },
    {
     "d": "2026-06-08",
@@ -2141,7 +2111,7 @@
     "h": true,
     "th": 6,
     "tg": 0,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-05-09",
@@ -2150,7 +2120,7 @@
     "h": true,
     "th": 6,
     "tg": 0,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-05-09",
@@ -2159,7 +2129,7 @@
     "h": true,
     "th": 2,
     "tg": 1,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-06-13",
@@ -2210,7 +2180,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "10:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-12",
@@ -2218,7 +2188,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "11:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-12",
@@ -2226,7 +2196,7 @@
     "gast": "HTC Schwarz-Weiß Neuss  2",
     "h": true,
     "zeit": "12:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-26",
@@ -2258,7 +2228,7 @@
     "h": true,
     "th": 0,
     "tg": 1,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-05-09",
@@ -2267,7 +2237,7 @@
     "h": false,
     "th": 1,
     "tg": 1,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-13",
@@ -2294,14 +2264,14 @@
     "h": false,
     "th": 3,
     "tg": 0,
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-07-11",
     "heim": "Crefelder HTC  3",
     "gast": "ETG Wuppertal",
     "h": true,
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-07-11",
@@ -2310,7 +2280,7 @@
     "h": false,
     "th": 3,
     "tg": 0,
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-09-12",
@@ -2318,7 +2288,7 @@
     "gast": "Viersener THC 2",
     "h": true,
     "zeit": "10:30",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-09-12",
@@ -2326,7 +2296,7 @@
     "gast": "Crefelder HTC  3",
     "h": false,
     "zeit": "11:30",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-09-12",
@@ -2334,7 +2304,7 @@
     "gast": "Hellerhofer SV",
     "h": true,
     "zeit": "12:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-09-26",
@@ -2357,21 +2327,21 @@
     "heim": "Crefelder HTC  4",
     "gast": "Düsseldorfer HC  6",
     "h": true,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-05-09",
     "heim": "DSD Düsseldorf  3",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-13",
     "heim": "Crefelder HTC  4",
     "gast": "Düsseldorfer SC 6",
     "h": true,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-06-13",
@@ -2380,7 +2350,7 @@
     "h": false,
     "th": 0,
     "tg": 0,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-07-11",
@@ -2389,7 +2359,7 @@
     "h": false,
     "th": 2,
     "tg": 0,
-    "ortName": "Hockeyanlage Gold-Weiss"
+    "ort": "goldweiss"
    },
    {
     "d": "2026-07-11",
@@ -2398,14 +2368,14 @@
     "h": true,
     "th": 1,
     "tg": 1,
-    "ortName": "Hockeyanlage Gold-Weiss"
+    "ort": "goldweiss"
    },
    {
     "d": "2026-07-11",
     "heim": "Düsseldorfer SC 6",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "ortName": "Hockeyanlage Gold-Weiss"
+    "ort": "goldweiss"
    },
    {
     "d": "2026-09-12",
@@ -2413,7 +2383,7 @@
     "gast": "Gold-Weiß Wuppertal",
     "h": true,
     "zeit": "14:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-12",
@@ -2421,7 +2391,7 @@
     "gast": "Crefelder HTC  4",
     "h": false,
     "zeit": "15:30",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-12",
@@ -2429,7 +2399,7 @@
     "gast": "DSD Düsseldorf  3",
     "h": true,
     "zeit": "16:00",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-26",
@@ -2453,7 +2423,7 @@
     "gast": "ETG Wuppertal",
     "h": true,
     "zeit": "14:00",
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-05-10",
@@ -2461,7 +2431,7 @@
     "gast": "DSD Düsseldorf",
     "h": true,
     "zeit": "14:00",
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-28",
@@ -2469,7 +2439,7 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "zeit": "12:00",
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-28",
@@ -2477,7 +2447,7 @@
     "gast": "DSD Düsseldorf",
     "h": true,
     "zeit": "12:00",
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-28",
@@ -2539,7 +2509,7 @@
     "gast": "Crefelder HTC 3",
     "h": false,
     "zeit": "13:00",
-    "ortName": "Hellerhofer SV"
+    "ort": "hellerhof"
    },
    {
     "d": "2026-06-14",
@@ -2563,7 +2533,7 @@
     "gast": "Hellerhofer SV",
     "h": true,
     "zeit": "11:30",
-    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
+    "ort": "buederich"
    }
   ],
   "wu6-1": [
@@ -2589,7 +2559,7 @@
     "gast": "Mettmanner THC Mini-U6",
     "h": true,
     "zeit": "10:00",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-07-12",
@@ -2623,7 +2593,7 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "zeit": "10:00",
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-06-20",
@@ -2777,7 +2747,7 @@
     "h": false,
     "th": 5,
     "tg": 0,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-06-13",
@@ -2786,7 +2756,7 @@
     "h": false,
     "th": 3,
     "tg": 3,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-06-13",
@@ -2795,7 +2765,7 @@
     "h": false,
     "th": 3,
     "tg": 3,
-    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
+    "ort": "mettmann"
    },
    {
     "d": "2026-07-11",
@@ -2951,7 +2921,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "08:30",
-    "ortName": "Rheydter SV"
+    "ort": "rheydt"
    },
    {
     "d": "2026-06-28",
@@ -2959,7 +2929,7 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "zeit": "08:30",
-    "ortName": "Rheydter SV"
+    "ort": "rheydt"
    },
    {
     "d": "2026-07-12",
@@ -2998,7 +2968,7 @@
     "gast": "DSD Düsseldorf  4",
     "h": true,
     "zeit": "16:00",
-    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
+    "ort": "etg"
    },
    {
     "d": "2026-06-14",
@@ -3006,7 +2976,7 @@
     "gast": "Düsseldorfer HC  7",
     "h": true,
     "zeit": "09:30",
-    "ortName": "Hockeyanlage Gold-Weiss"
+    "ort": "goldweiss"
    },
    {
     "d": "2026-07-12",
@@ -3022,7 +2992,7 @@
     "gast": "Düsseldorfer HC  9",
     "h": true,
     "zeit": "09:30",
-    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
+    "ort": "buederich"
    },
    {
     "d": "2026-09-20",
@@ -3054,7 +3024,7 @@
     "gast": "Crefelder HTC 3",
     "h": true,
     "zeit": "10:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-07-11",
@@ -3070,7 +3040,7 @@
     "gast": "Düsseldorfer HC 2",
     "h": true,
     "zeit": "12:30",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    }
   ],
   "mu6-2": [
@@ -3096,7 +3066,7 @@
     "gast": "Crefelder HTC 3",
     "h": true,
     "zeit": "10:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-07-11",
@@ -3112,7 +3082,7 @@
     "gast": "Düsseldorfer HC",
     "h": true,
     "zeit": "12:30",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    }
   ],
   "mu6-3": [
@@ -3130,7 +3100,7 @@
     "gast": "Crefelder HTC 3",
     "h": true,
     "zeit": "10:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-06-20",
@@ -3138,7 +3108,7 @@
     "gast": "Crefelder HTC 3",
     "h": true,
     "zeit": "10:00",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    },
    {
     "d": "2026-07-11",
@@ -3154,7 +3124,7 @@
     "gast": "DSD Düsseldorf 2",
     "h": true,
     "zeit": "12:30",
-    "ortName": "Viersener THC - Kunstrasen"
+    "ort": "viersen"
    }
   ]
  },
@@ -6719,14 +6689,14 @@
    "maps": "HTC Schwarz-Weiß Neuss"
   },
   "rwk": {
-   "name": "Anlage Rot-Weiss Köln",
+   "name": "REWE Sportpark (Rot-Weiss Köln)",
    "ort": "Köln",
    "maps": "KTHC Stadion Rot-Weiss Köln"
   },
   "bwk": {
-   "name": "Anlage Blau-Weiß Köln",
+   "name": "Blau-Weiss-Hockeypark",
    "ort": "Köln",
-   "maps": "HTC Blau-Weiß Köln"
+   "maps": "Blau-Weiss Hockeypark Köln"
   },
   "etb": {
    "name": "Anlage ETB Essen",
@@ -6742,6 +6712,145 @@
    "name": "Anlage Schwarz-Weiß Köln",
    "ort": "Köln",
    "maps": "HTC Schwarz-Weiß Köln"
+  },
+  "aachen": {
+   "name": "Aachener HC Sportanlage",
+   "ort": "Aachen",
+   "maps": "Aachener Hockey Club"
+  },
+  "ratingen": {
+   "name": "Bezirkssportanlage Mitte",
+   "ort": "Ratingen",
+   "maps": "TV Ratingen Hockey Bezirkssportanlage Mitte"
+  },
+  "alster": {
+   "name": "Der Club an der Alster (Am Pfeilshof)",
+   "ort": "Hamburg",
+   "maps": "Der Club an der Alster Hockey Am Pfeilshof Hamburg"
+  },
+  "etg": {
+   "name": "Anlage Dorner Weg (Elberfelder TG)",
+   "ort": "Wuppertal",
+   "maps": "Elberfelder Turngemeinde Hockey Dorner Weg Wuppertal"
+  },
+  "dortmund": {
+   "name": "Eintrachtstadion (TSC Eintracht Dortmund)",
+   "ort": "Dortmund",
+   "maps": "TSC Eintracht Dortmund Eintrachtstadion"
+  },
+  "moers": {
+   "name": "Großsportanlage Filder Benden",
+   "ort": "Moers",
+   "maps": "Filder Benden Moers Hockey"
+  },
+  "hcessen": {
+   "name": "HC Essen Sportanlage",
+   "ort": "Essen",
+   "maps": "HC Essen 99 Hockey"
+  },
+  "bonn": {
+   "name": "Anlage HTC SW Bonn",
+   "ort": "Bonn",
+   "maps": "HTC Schwarz-Weiß Bonn Hockey"
+  },
+  "hthc": {
+   "name": "HTHC-Anlage Vossberg",
+   "ort": "Hamburg",
+   "maps": "Harvestehuder THC Vossberg Hamburg"
+  },
+  "hellerhof": {
+   "name": "Anlage Hellerhofer SV",
+   "ort": "Düsseldorf-Hellerhof",
+   "maps": "Hellerhofer SV Düsseldorf Hockey"
+  },
+  "goldweiss": {
+   "name": "Hockeyanlage Gold-Weiss",
+   "ort": "Wuppertal",
+   "maps": "THC Gold-Weiß Wuppertal Hockey"
+  },
+  "kahlenberg": {
+   "name": "Kahlenberger HTC Sportanlage",
+   "ort": "Mülheim an der Ruhr",
+   "maps": "Kahlenberger HTC"
+  },
+  "loens": {
+   "name": "Kunstrasenplatz Hermann-Löns-Viertel",
+   "maps": "Kunstrasenplatz Hermann-Löns-Viertel Hockey"
+  },
+  "mannheimhc": {
+   "name": "Mannheimer HC Sportanlage",
+   "ort": "Mannheim",
+   "maps": "Mannheimer HC"
+  },
+  "mettmann": {
+   "name": "Anlage Auf dem Pfennig (Mettmanner THC)",
+   "ort": "Mettmann",
+   "maps": "Mettmanner THC Auf dem Pfennig"
+  },
+  "muenchen": {
+   "name": "Münchner SC Sportanlage",
+   "ort": "München",
+   "maps": "Münchner Sport-Club Hockey"
+  },
+  "polo": {
+   "name": "Polo-Anlage Jenischstraße",
+   "ort": "Hamburg",
+   "maps": "Hamburger Polo Club Jenischstraße Hockey"
+  },
+  "rheydt": {
+   "name": "Anlage Rheydter SV",
+   "ort": "Mönchengladbach-Rheydt",
+   "maps": "Rheydter Spielverein Hockey"
+  },
+  "frankfurt": {
+   "name": "SC Frankfurt 1880 Sportanlage",
+   "ort": "Frankfurt am Main",
+   "maps": "SC Frankfurt 1880 Hockey"
+  },
+  "oberhausen": {
+   "name": "Sportanlage Oberhausener THC",
+   "ort": "Oberhausen",
+   "maps": "Oberhausener THC Hockey"
+  },
+  "leverkusen": {
+   "name": "Sportanlagen am Kurtekotten",
+   "ort": "Leverkusen",
+   "maps": "RTHC Bayer Leverkusen Kurtekotten"
+  },
+  "kupferdreh": {
+   "name": "Sportplatz Eisenhammer (HTC Kupferdreh)",
+   "ort": "Essen-Kupferdreh",
+   "maps": "HTC Kupferdreh Sportplatz Eisenhammer"
+  },
+  "buederich": {
+   "name": "Stadionanlage Am Eisenbrand",
+   "ort": "Meerbusch-Büderich",
+   "maps": "Am Eisenbrand Meerbusch Büderich Hockey"
+  },
+  "muenster": {
+   "name": "THC Münster Clubgelände",
+   "ort": "Münster",
+   "maps": "THC Münster Hockey"
+  },
+  "tsvmannheim": {
+   "name": "TSV Mannheim Clubgelände",
+   "ort": "Mannheim",
+   "maps": "TSV Mannheim Hockey"
+  },
+  "hiesfeld": {
+   "name": "Anlage TV Jahn Hiesfeld",
+   "ort": "Dinslaken-Hiesfeld",
+   "maps": "TV Jahn Hiesfeld Hockey"
+  },
+  "uhc": {
+   "name": "UHC-Anlage Wesselblek",
+   "ort": "Hamburg",
+   "maps": "Uhlenhorster HC Wesselblek Hamburg"
+  },
+  "viersen": {
+   "name": "Viersener THC Kunstrasen",
+   "ort": "Viersen",
+   "maps": "Viersener THC Hockey"
   }
  },
  "infos": {
