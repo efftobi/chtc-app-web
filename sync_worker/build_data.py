@@ -143,6 +143,43 @@ def main() -> None:
     }
     (ROOT / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    # Kalender-Dateien (.ics) für alle kommenden Spiele — iOS öffnet echte
+    # .ics-URLs mit der nativen "Termin hinzufügen"-Vorschau zuverlässig.
+    import re as _re
+    import shutil as _shutil
+    ics_dir = ROOT / "ics"
+    if ics_dir.exists():
+        _shutil.rmtree(ics_dir)
+    ics_dir.mkdir()
+
+    def _slug(s):
+        return _re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+    def _esc(s):
+        return s.replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;")
+
+    ics_anzahl = 0
+    for tid, ms in out_matches.items():
+        for m in ms:
+            if "th" in m:  # gespielt -> kein Kalendereintrag nötig
+                continue
+            dt = m["d"].replace("-", "")
+            zeilen = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CHTC//App//DE",
+                      "BEGIN:VEVENT", f"UID:chtc-{tid}-{dt}-{_slug(m['gast'])}@chtc"]
+            if m.get("zeit"):
+                hh, mm = m["zeit"].split(":")
+                zeilen.append(f"DTSTART:{dt}T{hh}{mm}00")
+                zeilen.append(f"DTEND:{dt}T{int(hh) + 2:02d}{mm}00")
+            else:
+                zeilen.append(f"DTSTART;VALUE=DATE:{dt}")
+            v = venues.get(m.get("ort", ""), {})
+            ort_text = ", ".join(x for x in [v.get("name"), v.get("adresse"), v.get("ort")] if x) or m.get("ortName", "")
+            zeilen += [f"SUMMARY:{_esc('🏑 ' + m['heim'] + ' – ' + m['gast'])}",
+                       f"LOCATION:{_esc(ort_text)}", "END:VEVENT", "END:VCALENDAR"]
+            (ics_dir / f"{tid}-{m['d']}-{_slug(m['gast'])}.ics").write_text("\r\n".join(zeilen), encoding="utf-8")
+            ics_anzahl += 1
+    print(f"{ics_anzahl} Kalender-Dateien in ics/ geschrieben")
+
     print(f"data.json geschrieben: {len(out_matches)} Teams mit Daten, "
           f"{sum(len(m) for m in out_matches.values())} Spiele, "
           f"{len(OFFENE_ORTE)} Spielorte ohne Adresse")
