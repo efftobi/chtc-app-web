@@ -1,4 +1,38 @@
 {
+ "stand": "20.07.2026 12:45",
+ "venues_offen": [
+  "Aachener HC Sportanlage",
+  "Bezirkssportanlage Mitte (TV Ratingen Hockey)",
+  "Blau-Weiss-Hockeypark (Köln)",
+  "Der Club an der Alster (Am Pfeilshof)",
+  "Dorner Weg (Elberfelder Turngemeinde)",
+  "Eintrachtstadion (TSC Eintracht Dortmund)",
+  "Großsportanlage Filder Benden (Moers)",
+  "HC Essen Sportanlage",
+  "HTC SW Bonn",
+  "HTHC - Vossberg",
+  "Hellerhofer SV",
+  "Hockeyanlage Gold-Weiss",
+  "Kahlenberger HTC Sportanlage",
+  "Kunstrasenplatz Hermann-Löns-Viertel",
+  "Mannheimer HC Sportanlage",
+  "Mettmanner THC \"Auf dem Pfennig\" Sportanlage",
+  "Münchner SC Sportanlage",
+  "Polo - Jenischstraße - Kunstrasen",
+  "REWE Sportpark (RWK)",
+  "Rheydter SV",
+  "SC Frankfurt 1880 Sportanlage",
+  "Spielort noch unbekannt",
+  "Sportanlage - Oberhausener THC",
+  "Sportanlagen am Kurtekotten (RTHC Leverkusen)",
+  "Sportplatz Eisenhammer (HTC Kupferdreh)",
+  "Stadionanlage Am Eisenbrand (Büderich)",
+  "THC Münster Clubgelände",
+  "TSV Mannheim Clubgelände",
+  "TV Jahn Hiesfeld (Sportstätte)",
+  "UHC - Wesselblek",
+  "Viersener THC - Kunstrasen"
+ ],
  "teams": [
   {
    "id": "h1",
@@ -328,7 +362,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 8,
-    "tg": 7
+    "tg": 7,
+    "ortName": "Münchner SC Sportanlage"
    },
    {
     "d": "2025-09-13",
@@ -363,7 +398,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 2,
-    "tg": 4
+    "tg": 4,
+    "ortName": "SC Frankfurt 1880 Sportanlage"
    },
    {
     "d": "2025-09-28",
@@ -371,7 +407,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 3,
-    "tg": 1
+    "tg": 1,
+    "ortName": "TSV Mannheim Clubgelände"
    },
    {
     "d": "2025-10-04",
@@ -379,7 +416,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 5,
-    "tg": 2
+    "tg": 2,
+    "ortName": "HTHC - Vossberg"
    },
    {
     "d": "2025-10-11",
@@ -405,7 +443,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 6,
-    "tg": 4
+    "tg": 4,
+    "ortName": "Polo - Jenischstraße - Kunstrasen"
    },
    {
     "d": "2025-11-01",
@@ -431,7 +470,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 2,
-    "tg": 3
+    "tg": 3,
+    "ortName": "UHC - Wesselblek"
    },
    {
     "d": "2026-03-22",
@@ -439,7 +479,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 3,
-    "tg": 4
+    "tg": 4,
+    "ortName": "Der Club an der Alster (Am Pfeilshof)"
    },
    {
     "d": "2026-03-28",
@@ -492,7 +533,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 2,
-    "tg": 1
+    "tg": 1,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-05-03",
@@ -509,7 +551,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 3,
-    "tg": 5
+    "tg": 5,
+    "ortName": "Mannheimer HC Sportanlage"
    },
    {
     "d": "2026-05-16",
@@ -526,7 +569,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 4,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Polo - Jenischstraße - Kunstrasen"
    },
    {
     "d": "2026-05-24",
@@ -534,7 +578,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 4,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Polo - Jenischstraße - Kunstrasen"
    }
   ],
   "d1": [
@@ -553,7 +598,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 0,
-    "tg": 2
+    "tg": 2,
+    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
    },
    {
     "d": "2025-09-11",
@@ -561,7 +607,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 1,
-    "tg": 1
+    "tg": 1,
+    "ortName": "HC Essen Sportanlage"
    },
    {
     "d": "2025-09-14",
@@ -605,7 +652,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 1,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Eintrachtstadion (TSC Eintracht Dortmund)"
    },
    {
     "d": "2026-05-03",
@@ -631,7 +679,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 4,
-    "tg": 0
+    "tg": 0,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-06-21",
@@ -648,7 +697,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 3,
-    "tg": 4
+    "tg": 4,
+    "ortName": "THC Münster Clubgelände"
    },
    {
     "d": "2026-07-05",
@@ -676,7 +726,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 0,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
    },
    {
     "d": "2025-09-14",
@@ -684,7 +735,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 3,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Sportanlage - Oberhausener THC"
    },
    {
     "d": "2025-09-16",
@@ -692,7 +744,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 5,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Blau-Weiss-Hockeypark (Köln)"
    },
    {
     "d": "2025-09-21",
@@ -709,7 +762,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 3,
-    "tg": 0
+    "tg": 0,
+    "ortName": "HC Essen Sportanlage"
    },
    {
     "d": "2025-10-03",
@@ -753,7 +807,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 3,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Kahlenberger HTC Sportanlage"
    },
    {
     "d": "2026-06-21",
@@ -770,7 +825,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 4,
-    "tg": 2
+    "tg": 2,
+    "ortName": "Aachener HC Sportanlage"
    },
    {
     "d": "2026-07-05",
@@ -797,7 +853,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 1,
-    "tg": 2
+    "tg": 2,
+    "ortName": "Kunstrasenplatz Hermann-Löns-Viertel"
    },
    {
     "d": "2025-09-14",
@@ -805,7 +862,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 0,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2025-09-21",
@@ -840,7 +898,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 6,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-04-26",
@@ -874,7 +933,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 1,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-21",
@@ -1006,7 +1066,8 @@
     "d": "2026-09-27",
     "heim": "Club Raffelberg",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu12-2": [
@@ -1025,7 +1086,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 2,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Eintrachtstadion (TSC Eintracht Dortmund)"
    },
    {
     "d": "2026-06-14",
@@ -1051,7 +1113,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 2,
-    "tg": 0
+    "tg": 0,
+    "ortName": "TV Jahn Hiesfeld (Sportstätte)"
    },
    {
     "d": "2026-07-05",
@@ -1059,7 +1122,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 1,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Großsportanlage Filder Benden (Moers)"
    },
    {
     "d": "2026-07-12",
@@ -1083,7 +1147,8 @@
     "heim": "Mettmanner THC wU12",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "14:30"
+    "zeit": "14:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    }
   ],
   "wu12-3": [
@@ -1111,7 +1176,8 @@
     "gast": "Crefelder HTC 3",
     "h": false,
     "th": 1,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Sportplatz Eisenhammer (HTC Kupferdreh)"
    },
    {
     "d": "2026-06-28",
@@ -1126,13 +1192,15 @@
     "d": "2026-07-05",
     "heim": "SG Preußen Duisburg / MSV Duisburg 2",
     "gast": "Crefelder HTC 3",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-07-12",
     "heim": "Kahlenberger HTC 2 wU12 VL",
     "gast": "Crefelder HTC 3",
-    "h": false
+    "h": false,
+    "ortName": "Kahlenberger HTC Sportanlage"
    },
    {
     "d": "2026-09-13",
@@ -1159,7 +1227,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 0,
-    "tg": 2
+    "tg": 2,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-05-31",
@@ -1201,7 +1270,8 @@
     "d": "2026-09-05",
     "heim": "Crefelder HTC",
     "gast": "ETUF Essen",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu14-2": [
@@ -1211,7 +1281,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 2,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Rheydter SV"
    },
    {
     "d": "2026-06-06",
@@ -1252,14 +1323,16 @@
     "heim": "Viersener THC",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-09-05",
     "heim": "TV Ratingen",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "11:00"
+    "zeit": "11:00",
+    "ortName": "Bezirkssportanlage Mitte (TV Ratingen Hockey)"
    }
   ],
   "wu16": [
@@ -1314,7 +1387,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 3,
-    "tg": 2
+    "tg": 2,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-06-05",
@@ -1345,7 +1419,8 @@
     "d": "2026-09-13",
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu16-2": [
@@ -1354,7 +1429,8 @@
     "heim": "SV Büderich",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "zeit": "17:30"
+    "zeit": "17:30",
+    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
    },
    {
     "d": "2026-05-10",
@@ -1389,7 +1465,8 @@
     "gast": "Crefelder HTC 2",
     "h": false,
     "th": 1,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-07-12",
@@ -1434,19 +1511,22 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 1,
-    "tg": 7
+    "tg": 7,
+    "ortName": "Kahlenberger HTC Sportanlage"
    },
    {
     "d": "2026-09-05",
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-19",
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu12": [
@@ -1509,7 +1589,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 7,
-    "tg": 1
+    "tg": 1,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-07-05",
@@ -1526,7 +1607,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 1,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Blau-Weiss-Hockeypark (Köln)"
    },
    {
     "d": "2026-09-06",
@@ -1547,7 +1629,8 @@
     "d": "2026-09-27",
     "heim": "TV Jahn Hiesfeld",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu12-2": [
@@ -1617,7 +1700,8 @@
     "d": "2026-09-20",
     "heim": "Moerser TV 2",
     "gast": "Crefelder HTC 2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu14": [
@@ -1654,7 +1738,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 0,
-    "tg": 4
+    "tg": 4,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-07-04",
@@ -1716,7 +1801,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 0,
-    "tg": 4
+    "tg": 4,
+    "ortName": "REWE Sportpark (RWK)"
    },
    {
     "d": "2026-06-13",
@@ -1742,7 +1828,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 1,
-    "tg": 2
+    "tg": 2,
+    "ortName": "HTC SW Bonn"
    },
    {
     "d": "2026-07-11",
@@ -1757,7 +1844,8 @@
     "d": "2026-09-12",
     "heim": "Crefelder HTC  2",
     "gast": "HTC Uhlenhorst Mülheim  2",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu16": [
@@ -1810,13 +1898,15 @@
     "d": "2026-09-06",
     "heim": "Bonner THV",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-13",
     "heim": "Blau-Weiß Köln",
     "gast": "Crefelder HTC",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu16-2": [
@@ -1826,7 +1916,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 5,
-    "tg": 2
+    "tg": 2,
+    "ortName": "TV Jahn Hiesfeld (Sportstätte)"
    },
    {
     "d": "2026-05-10",
@@ -1843,7 +1934,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 6,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Sportanlagen am Kurtekotten (RTHC Leverkusen)"
    },
    {
     "d": "2026-06-21",
@@ -1860,7 +1952,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 2,
-    "tg": 2
+    "tg": 2,
+    "ortName": "HC Essen Sportanlage"
    },
    {
     "d": "2026-07-12",
@@ -1875,13 +1968,15 @@
     "d": "2026-09-06",
     "heim": "Crefelder HTC  2",
     "gast": "HTC SW Bonn",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-27",
     "heim": "Schwarz-Weiß Köln",
     "gast": "Crefelder HTC  2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu18": [
@@ -1900,7 +1995,8 @@
     "gast": "Crefelder HTC",
     "h": false,
     "th": 1,
-    "tg": 4
+    "tg": 4,
+    "ortName": "HC Essen Sportanlage"
    },
    {
     "d": "2026-06-08",
@@ -1935,12 +2031,6 @@
     "h": false,
     "zeit": "10:00",
     "ort": "swk"
-   },
-   {
-    "d": "2026-09-26",
-    "heim": "Rot-Weiss Köln",
-    "gast": "Crefelder HTC",
-    "h": false
    }
   ],
   "wu10-1": [
@@ -2011,31 +2101,36 @@
     "d": "2026-09-12",
     "heim": "Düsseldorfer HC  2",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-12",
     "heim": "DSD Düsseldorf 1",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC 1",
     "gast": "Gladbacher HTC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC 1",
     "gast": "HTC Schwarz-Weiß Neuss",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu10-2": [
@@ -2045,7 +2140,8 @@
     "gast": "DSD Düsseldorf  2",
     "h": true,
     "th": 6,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-05-09",
@@ -2053,7 +2149,8 @@
     "gast": "Düsseldorfer HC  3",
     "h": true,
     "th": 6,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-05-09",
@@ -2061,7 +2158,8 @@
     "gast": "Mettmanner THC wU10 1",
     "h": true,
     "th": 2,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-06-13",
@@ -2111,39 +2209,45 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "10:30"
+    "zeit": "10:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-12",
     "heim": "DSD Düsseldorf  2",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "11:30"
+    "zeit": "11:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC  2",
     "gast": "HTC Schwarz-Weiß Neuss  2",
     "h": true,
-    "zeit": "12:30"
+    "zeit": "12:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer SC 3",
     "gast": "Crefelder HTC  2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer HC  3",
     "gast": "Crefelder HTC  2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC  2",
     "gast": "Gladbacher HTC  2",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu10-3": [
@@ -2153,7 +2257,8 @@
     "gast": "Düsseldorfer HC  4",
     "h": true,
     "th": 0,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-05-09",
@@ -2161,7 +2266,8 @@
     "gast": "Crefelder HTC  3",
     "h": false,
     "th": 1,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-13",
@@ -2187,13 +2293,15 @@
     "gast": "Crefelder HTC  3",
     "h": false,
     "th": 3,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-07-11",
     "heim": "Crefelder HTC  3",
     "gast": "ETG Wuppertal",
-    "h": true
+    "h": true,
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-07-11",
@@ -2201,40 +2309,46 @@
     "gast": "Crefelder HTC  3",
     "h": false,
     "th": 3,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC  3",
     "gast": "Viersener THC 2",
     "h": true,
-    "zeit": "10:30"
+    "zeit": "10:30",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-09-12",
     "heim": "ETG Wuppertal",
     "gast": "Crefelder HTC  3",
     "h": false,
-    "zeit": "11:30"
+    "zeit": "11:30",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC  3",
     "gast": "Hellerhofer SV",
     "h": true,
-    "zeit": "12:00"
+    "zeit": "12:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer HC  4",
     "gast": "Crefelder HTC  3",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "HTC Schwarz-Weiß Neuss  3",
     "gast": "Crefelder HTC  3",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu10-4": [
@@ -2242,19 +2356,22 @@
     "d": "2026-05-09",
     "heim": "Crefelder HTC  4",
     "gast": "Düsseldorfer HC  6",
-    "h": true
+    "h": true,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-05-09",
     "heim": "DSD Düsseldorf  3",
     "gast": "Crefelder HTC  4",
-    "h": false
+    "h": false,
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-13",
     "heim": "Crefelder HTC  4",
     "gast": "Düsseldorfer SC 6",
-    "h": true
+    "h": true,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-06-13",
@@ -2262,7 +2379,8 @@
     "gast": "Crefelder HTC  4",
     "h": false,
     "th": 0,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-07-11",
@@ -2270,7 +2388,8 @@
     "gast": "Crefelder HTC  4",
     "h": false,
     "th": 2,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Hockeyanlage Gold-Weiss"
    },
    {
     "d": "2026-07-11",
@@ -2278,46 +2397,53 @@
     "gast": "ETG Wuppertal 2",
     "h": true,
     "th": 1,
-    "tg": 1
+    "tg": 1,
+    "ortName": "Hockeyanlage Gold-Weiss"
    },
    {
     "d": "2026-07-11",
     "heim": "Düsseldorfer SC 6",
     "gast": "Crefelder HTC  4",
-    "h": false
+    "h": false,
+    "ortName": "Hockeyanlage Gold-Weiss"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC  4",
     "gast": "Gold-Weiß Wuppertal",
     "h": true,
-    "zeit": "14:30"
+    "zeit": "14:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-12",
     "heim": "ETG Wuppertal 2",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "zeit": "15:30"
+    "zeit": "15:30",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC  4",
     "gast": "DSD Düsseldorf  3",
     "h": true,
-    "zeit": "16:00"
+    "zeit": "16:00",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer HC  6",
     "gast": "Crefelder HTC  4",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Mettmanner THC wU10 2",
     "gast": "Crefelder HTC  4",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu8-2": [
@@ -2326,35 +2452,40 @@
     "heim": "Crefelder HTC 2",
     "gast": "ETG Wuppertal",
     "h": true,
-    "zeit": "14:00"
+    "zeit": "14:00",
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-05-10",
     "heim": "Crefelder HTC 2",
     "gast": "DSD Düsseldorf",
     "h": true,
-    "zeit": "14:00"
+    "zeit": "14:00",
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-28",
     "heim": "ETG Wuppertal",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "zeit": "12:00"
+    "zeit": "12:00",
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-28",
     "heim": "Crefelder HTC 2",
     "gast": "DSD Düsseldorf",
     "h": true,
-    "zeit": "12:00"
+    "zeit": "12:00",
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-28",
     "heim": "Crefelder HTC 2",
     "gast": "Gladbacher HTC",
     "h": true,
-    "zeit": "17:00"
+    "zeit": "17:00",
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-07-12",
@@ -2373,70 +2504,32 @@
     "ort": "dhc"
    },
    {
-    "d": "2026-07-12",
-    "heim": "Gladbacher HTC",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC  2",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Düsseldorfer HC  2",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC  3",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Düsseldorfer HC  3",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "HTC Schwarz-Weiß Neuss",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "HTC Schwarz-Weiß Neuss",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
     "d": "2026-09-06",
     "heim": "ETG Wuppertal",
     "gast": "Crefelder HTC 2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-06",
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC 2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 2",
     "gast": "Gladbacher HTC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "Gladbacher HTC",
     "gast": "Crefelder HTC 2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu8-3": [
@@ -2445,7 +2538,8 @@
     "heim": "Gold-Weiß Wuppertal",
     "gast": "Crefelder HTC 3",
     "h": false,
-    "zeit": "13:00"
+    "zeit": "13:00",
+    "ortName": "Hellerhofer SV"
    },
    {
     "d": "2026-06-14",
@@ -2468,79 +2562,8 @@
     "heim": "Crefelder HTC 3",
     "gast": "Hellerhofer SV",
     "h": true,
-    "zeit": "11:30"
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Düsseldorfer SC 3",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Düsseldorfer SC 4",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "HTC Schwarz-Weiß Neuss  2",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Gladbacher HTC  2",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "SV Büderich",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "DSD Düsseldorf  3",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "DSD Düsseldorf  4",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC  7",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC  8",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 9",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 5",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer SC  2",
-    "h": true
+    "zeit": "11:30",
+    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
    }
   ],
   "wu6-1": [
@@ -2557,14 +2580,16 @@
     "heim": "Crefelder HTC 1",
     "gast": "Crefelder HTC 2",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-06-20",
     "heim": "Crefelder HTC 1",
     "gast": "Mettmanner THC Mini-U6",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-07-12",
@@ -2573,60 +2598,6 @@
     "h": false,
     "zeit": "09:30",
     "ort": "dsc99"
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Düsseldorfer SC",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Düsseldorfer SC 2",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "DSD Düsseldorf 1",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "DSD Düsseldorf  2",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 2",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 3",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 4",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 5",
-    "h": true
    }
   ],
   "wu6-2": [
@@ -2635,7 +2606,8 @@
     "heim": "Düsseldorfer SC",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "zeit": "16:00"
+    "zeit": "16:00",
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-05-10",
@@ -2650,14 +2622,16 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-06-20",
     "heim": "Crefelder HTC 1",
     "gast": "Crefelder HTC 2",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-07-12",
@@ -2666,54 +2640,6 @@
     "h": true,
     "zeit": "09:30",
     "ort": "dsc99"
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "HTC Schwarz-Weiß Neuss",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Gladbacher HTC",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "DSD Düsseldorf 1",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "DSD Düsseldorf  2",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 2",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 3",
-    "h": true
-   },
-   {
-    "d": "2026-07-12",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 4",
-    "h": true
    }
   ],
   "mu10-1": [
@@ -2784,31 +2710,36 @@
     "d": "2026-09-05",
     "heim": "Crefelder HTC 1",
     "gast": "Gladbacher HTC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-05",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC  2",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Gladbacher HTC  2",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer SC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu10-2": [
@@ -2845,7 +2776,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 5,
-    "tg": 0
+    "tg": 0,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-06-13",
@@ -2853,7 +2785,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 3,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-06-13",
@@ -2861,7 +2794,8 @@
     "gast": "Crefelder HTC  2",
     "h": false,
     "th": 3,
-    "tg": 3
+    "tg": 3,
+    "ortName": "Mettmanner THC \"Auf dem Pfennig\" Sportanlage"
    },
    {
     "d": "2026-07-11",
@@ -2892,19 +2826,22 @@
     "d": "2026-09-05",
     "heim": "Düsseldorfer HC  3",
     "gast": "Crefelder HTC  2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-05",
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer SC 2",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-05",
     "heim": "Mettmanner THC mU10-1",
     "gast": "Crefelder HTC  2",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu8-1": [
@@ -2960,37 +2897,43 @@
     "d": "2026-09-20",
     "heim": "Düsseldorfer SC",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 1",
     "gast": "DSD Düsseldorf",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer SC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC 1",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu8-2": [
@@ -3007,14 +2950,16 @@
     "heim": "Viersener THC",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "08:30"
+    "zeit": "08:30",
+    "ortName": "Rheydter SV"
    },
    {
     "d": "2026-06-28",
     "heim": "DSD Düsseldorf  2",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "08:30"
+    "zeit": "08:30",
+    "ortName": "Rheydter SV"
    },
    {
     "d": "2026-07-12",
@@ -3025,28 +2970,25 @@
     "ort": "dsc99"
    },
    {
-    "d": "2026-07-12",
-    "heim": "Rheydter SV",
-    "gast": "Crefelder HTC  2",
-    "h": false
-   },
-   {
     "d": "2026-09-06",
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer HC  3",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC  2",
     "gast": "Gladbacher HTC",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer SC 3",
-    "h": true
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu8-3": [
@@ -3055,14 +2997,16 @@
     "heim": "Crefelder HTC  3",
     "gast": "DSD Düsseldorf  4",
     "h": true,
-    "zeit": "16:00"
+    "zeit": "16:00",
+    "ortName": "Dorner Weg (Elberfelder Turngemeinde)"
    },
    {
     "d": "2026-06-14",
     "heim": "Crefelder HTC  3",
     "gast": "Düsseldorfer HC  7",
     "h": true,
-    "zeit": "09:30"
+    "zeit": "09:30",
+    "ortName": "Hockeyanlage Gold-Weiss"
    },
    {
     "d": "2026-07-12",
@@ -3077,97 +3021,22 @@
     "heim": "Crefelder HTC  3",
     "gast": "Düsseldorfer HC  9",
     "h": true,
-    "zeit": "09:30"
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "ETG Wuppertal  2",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Düsseldorfer SC 6",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Düsseldorfer SC 7",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Düsseldorfer SC 8",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Gladbacher HTC  2",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Reinshagener TB",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Gold-Weiß Wuppertal  2",
-    "gast": "Crefelder HTC  3",
-    "h": false
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "Hellerhofer SV",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "SV Büderich",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "Gold-Weiß Wuppertal  3",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "Viersener THC 2",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "HTC Schwarz-Weiß Neuss  2",
-    "h": true
-   },
-   {
-    "d": "2026-09-06",
-    "heim": "Crefelder HTC  3",
-    "gast": "HTC Schwarz-Weiß Neuss  3",
-    "h": true
+    "zeit": "09:30",
+    "ortName": "Stadionanlage Am Eisenbrand (Büderich)"
    },
    {
     "d": "2026-09-20",
     "heim": "Düsseldorfer SC 4",
     "gast": "Crefelder HTC  3",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    },
    {
     "d": "2026-10-04",
     "heim": "Düsseldorfer SC 5",
     "gast": "Crefelder HTC  3",
-    "h": false
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu6-1": [
@@ -3184,7 +3053,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "Crefelder HTC 3",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-07-11",
@@ -3199,91 +3069,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC 2",
     "h": true,
-    "zeit": "12:30"
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 2",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 3",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 4",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "HTC Schwarz-Weiß Neuss",
-    "gast": "Crefelder HTC 1",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Gladbacher HTC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Hellerhofer SV",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "DSD Düsseldorf",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 3",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 4",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Düsseldorfer HC 5",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Viersener THC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 1",
-    "gast": "Gladbacher HTC 2",
-    "h": true
+    "zeit": "12:30",
+    "ortName": "Viersener THC - Kunstrasen"
    }
   ],
   "mu6-2": [
@@ -3308,7 +3095,8 @@
     "heim": "Crefelder HTC 2",
     "gast": "Crefelder HTC 3",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-07-11",
@@ -3323,85 +3111,8 @@
     "heim": "Crefelder HTC 2",
     "gast": "Düsseldorfer HC",
     "h": true,
-    "zeit": "12:30"
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 2",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 3",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 4",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "HTC Schwarz-Weiß Neuss",
-    "gast": "Crefelder HTC 2",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Gladbacher HTC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Hellerhofer SV",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "DSD Düsseldorf 2",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 2",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 3",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 4",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Düsseldorfer HC 5",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 2",
-    "gast": "Gladbacher HTC 2",
-    "h": true
+    "zeit": "12:30",
+    "ortName": "Viersener THC - Kunstrasen"
    }
   ],
   "mu6-3": [
@@ -3418,14 +3129,16 @@
     "heim": "Crefelder HTC 1",
     "gast": "Crefelder HTC 3",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-06-20",
     "heim": "Crefelder HTC 2",
     "gast": "Crefelder HTC 3",
     "h": true,
-    "zeit": "10:00"
+    "zeit": "10:00",
+    "ortName": "Viersener THC - Kunstrasen"
    },
    {
     "d": "2026-07-11",
@@ -3440,85 +3153,8 @@
     "heim": "Crefelder HTC 3",
     "gast": "DSD Düsseldorf 2",
     "h": true,
-    "zeit": "12:30"
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 2",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 3",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Düsseldorfer SC 4",
-    "gast": "Crefelder HTC 3",
-    "h": false
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Gladbacher HTC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Hellerhofer SV",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 2",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 3",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 4",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Düsseldorfer HC 5",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Viersener THC",
-    "h": true
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Crefelder HTC 3",
-    "gast": "Gladbacher HTC 2",
-    "h": true
+    "zeit": "12:30",
+    "ortName": "Viersener THC - Kunstrasen"
    }
   ]
  },
@@ -7042,9 +6678,10 @@
  "venues": {
   "gwa": {
    "name": "Gerd-Wellen-Hockeyanlage",
-   "adresse": "In der Vreed (ggü. Stadtwald)",
-   "ort": "47800 Krefeld-Bockum",
-   "maps": "Gerd-Wellen-Hockeyanlage, Krefeld"
+   "adresse": "Hüttenallee 256",
+   "ort": "47800 Krefeld",
+   "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld",
+   "verifiziert": true
   },
   "muelheim": {
    "name": "Sportanlage Uhlenhorst",
@@ -7107,5 +6744,58 @@
    "maps": "HTC Schwarz-Weiß Köln"
   }
  },
- "stand": "19.07.2026 23:38"
+ "infos": {
+  "platz": {
+   "name": "Gerd-Wellen-Hockeyanlage",
+   "strasse": "Hüttenallee 256",
+   "ort": "47800 Krefeld",
+   "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld"
+  },
+  "bar": {
+   "titel": "Hockeybar",
+   "zeiten": [
+    [
+     "Montag",
+     "15:00 – 18:30 Uhr"
+    ],
+    [
+     "Mittwoch",
+     "15:00 – 19:00 Uhr"
+    ],
+    [
+     "Freitag",
+     "15:00 – 19:00 Uhr"
+    ]
+   ],
+   "kontakt": "hockeybar@chtc.de"
+  },
+  "shop": {
+   "titel": "CHTC Hockeyshop (Der Hockeykrauss)",
+   "adresse": "Friedrich-Ebert-Str. 174, Krefeld-Bockum",
+   "zeiten": [
+    [
+     "Montag",
+     "16:00 – 18:00 Uhr"
+    ],
+    [
+     "Dienstag",
+     "15:30 – 17:30 Uhr"
+    ],
+    [
+     "Mittwoch",
+     "15:00 – 18:00 Uhr"
+    ],
+    [
+     "Donnerstag",
+     "16:00 – 18:00 Uhr"
+    ],
+    [
+     "Samstag",
+     "10:00 – 13:00 Uhr"
+    ]
+   ],
+   "kontakt": "achim.krauss@gmx.de",
+   "hinweis": "Zeiten Winter 2025/26 — Änderungen vorbehalten"
+  }
+ }
 }
