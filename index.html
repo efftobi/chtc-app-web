@@ -21,15 +21,16 @@
   }
   *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,'Segoe UI',Roboto,sans-serif;-webkit-tap-highlight-color:transparent}
   html,body{height:100%}
-  body{background:var(--bg);color:var(--text)}
-  #app{min-height:100%;display:flex;flex-direction:column}
-  header{background:var(--primary);color:#fff;padding:calc(var(--sat) + 14px) 16px 12px;position:sticky;top:0;z-index:5;border-bottom:3px solid var(--accent)}
+  body{background:var(--bg);color:var(--text);overflow:hidden}
+  /* Fester Rahmen: Kopf + Reiter bleiben stehen, nur der Inhalt scrollt */
+  #app{height:100dvh;display:flex;flex-direction:column;overflow:hidden}
+  header{background:var(--primary);color:#fff;padding:calc(var(--sat) + 14px) 16px 12px;flex-shrink:0;z-index:5;border-bottom:3px solid var(--accent)}
   header h1{font-size:19px;font-weight:700}
   .brand{display:flex;align-items:center;gap:10px}
   .brand img{width:36px;height:36px;border-radius:50%;background:#fff}
   header .sub{font-size:12px;opacity:.75;margin-top:2px}
   .back{background:none;border:none;color:#fff;font-size:15px;padding:0 0 6px;cursor:pointer;opacity:.9}
-  .content{padding:14px 14px calc(var(--sab) + 20px);flex:1;max-width:560px;width:100%;margin:0 auto}
+  .content{padding:14px 14px calc(var(--sab) + 20px);flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;max-width:560px;width:100%;margin:0 auto}
   .section-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:14px 4px 6px}
   .card{background:var(--card);border-radius:14px;padding:13px 14px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
   .tappable{cursor:pointer;transition:transform .08s}
@@ -45,7 +46,7 @@
   .fav-card{border-left:4px solid var(--accent)}
   .nextline{font-size:12.5px;color:var(--muted);margin-top:5px}
   .pill{display:inline-block;font-size:10.5px;font-weight:700;color:var(--primary-dark);background:#e4f2ea;border-radius:8px;padding:2px 8px;margin-top:6px}
-  .tabs{display:flex;background:var(--primary);position:sticky;top:calc(var(--sat) + 64px);z-index:4}
+  .tabs{display:flex;background:var(--primary);flex-shrink:0;z-index:4}
   .tabs button{flex:1;padding:11px 4px;background:none;border:none;color:rgba(255,255,255,.65);font-size:12.5px;font-weight:600;cursor:pointer;border-bottom:3px solid transparent}
   .tabs button.on{color:#fff;border-bottom-color:var(--accent)}
   .match{display:flex;align-items:center;gap:10px}
@@ -148,8 +149,18 @@ const DATA = {
       { tag:"Donnerstag", von:"15:30", bis:"17:00", ort:"Platz Tokio, Gerd-Wellen-Anlage" }
     ]
   },
+  infos: {
+    platz: { name:"Gerd-Wellen-Hockeyanlage", strasse:"Hüttenallee 256", ort:"47800 Krefeld",
+             maps:"Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld" },
+    bar:  { titel:"Hockeybar",
+            zeiten:[["Montag","15:00 – 18:30 Uhr"],["Mittwoch","15:00 – 19:00 Uhr"],["Freitag","15:00 – 19:00 Uhr"]],
+            kontakt:"hockeybar@chtc.de" },
+    shop: { titel:"CHTC Hockeyshop (Der Hockeykrauss)", adresse:"Friedrich-Ebert-Str. 174, Krefeld-Bockum",
+            zeiten:[["Montag","16:00 – 18:00 Uhr"],["Dienstag","15:30 – 17:30 Uhr"],["Mittwoch","15:00 – 18:00 Uhr"],["Donnerstag","16:00 – 18:00 Uhr"],["Samstag","10:00 – 13:00 Uhr"]],
+            kontakt:"achim.krauss@gmx.de", hinweis:"Zeiten Winter 2025/26 — Änderungen vorbehalten" }
+  },
   venues: {
-    gwa:        { name:"Gerd-Wellen-Hockeyanlage", adresse:"In der Vreed (ggü. Stadtwald)", ort:"47800 Krefeld-Bockum", maps:"Gerd-Wellen-Hockeyanlage, Krefeld" },
+    gwa:        { name:"Gerd-Wellen-Hockeyanlage", adresse:"Hüttenallee 256", ort:"47800 Krefeld", maps:"Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld" },
     muelheim:   { name:"Sportanlage Uhlenhorst", ort:"Mülheim an der Ruhr", maps:"HTC Uhlenhorst Mülheim" },
     gladbach:   { name:"Anlage Gladbacher HTC", ort:"Mönchengladbach", maps:"Gladbacher HTC" },
     dsd:        { name:"Sportanlage DSD", ort:"Düsseldorf", maps:"DSD Düsseldorf Hockey" },
@@ -180,7 +191,11 @@ function nextMatch(teamId) {
 }
 
 /* ================= Views ================= */
-function render(html) { $("#app").innerHTML = html; window.scrollTo(0, 0); }
+function render(html) {
+  $("#app").innerHTML = html;
+  const c = $(".content");
+  if (c) c.scrollTop = 0;
+}
 
 function homeView() {
   const teamCard = (t, fav) => {
@@ -198,15 +213,26 @@ function homeView() {
   };
   const favTeams = DATA.teams.filter(t => favs.includes(t.id));
   const rest = DATA.teams.filter(t => !favs.includes(t.id));
+  const gruppeVon = (t) => t.gruppe || (t.jugend ? "Jugend" : "Erwachsene");
+  const gruppen = [];
+  for (const t of rest) {
+    const g = gruppeVon(t);
+    if (!gruppen.includes(g)) gruppen.push(g);
+  }
+  const sektionen = gruppen.map(g =>
+    `<div class="section-label">${esc(g)}</div>` +
+    rest.filter(t => gruppeVon(t) === g).map(t => teamCard(t)).join("")
+  ).join("");
   render(`
     <header><div class="brand"><img src="logo-header.png" alt=""><div><h1>CHTC Hockey</h1><div class="sub">Crefelder Hockey- und Tennis-Club 1890</div></div></div></header>
     <div class="content">
       ${favTeams.length ? `<div class="section-label">★ Meine Teams</div>` + favTeams.map(t => teamCard(t, true)).join("") : ""}
-      <div class="section-label">Jugend</div>
-      ${rest.filter(t => t.jugend).map(t => teamCard(t)).join("")}
-      <div class="section-label">Erwachsene</div>
-      ${rest.filter(t => !t.jugend).map(t => teamCard(t)).join("")}
-      <div class="hint">Beta · wU12 mit echten Daten von hockey.de (Stand ${DATA.stand})</div>
+      <div class="card tappable" onclick="infoView()">
+        <div class="team-row"><div class="badge" style="background:var(--accent)">Info</div>
+        <div class="info"><div class="name">Vereins-Infos</div><div class="liga">Heimspiele der Woche · Öffnungszeiten · Anfahrt</div></div><span style="color:var(--muted)">›</span></div>
+      </div>
+      ${sektionen}
+      <div class="hint">Daten: hockey.de · Stand ${DATA.stand}</div>
     </div>`);
 }
 
@@ -225,7 +251,7 @@ function teamView(teamId, tab) {
 
   let body = "";
   if (!t.live && curTab !== "training") {
-    body = `<div class="empty">Für dieses Team werden die Spieldaten mit der Backend-Anbindung freigeschaltet.<br><br>Die wU12 (Regionalliga) zeigt schon, wie es aussieht!</div>`;
+    body = `<div class="empty">Für dieses Team liegen noch keine Spieldaten vor.<br><br>Sie erscheinen automatisch, sobald das nächste Daten-Update sie auf hockey.de findet.</div>`;
   } else if (curTab === "spiele") {
     body = matches.map((m, i) => matchCard(teamId, m, i)).join("") +
            `<div class="hint">Echte Daten: hockey.de · Stand ${DATA.stand}</div>`;
@@ -259,7 +285,8 @@ function matchCard(teamId, m, i) {
     : `<div class="time">${m.zeit || "–"}</div>`;
   const v = DATA.venues[m.ort];
   const sub = played(m) ? (m.h ? "Heim" : "Auswärts")
-                        : `${v ? esc(v.name) + ", " + esc((v.ort || "").replace(/^\d+\s*/, "")) : (m.h ? "Heim" : "Auswärts")}`;
+                        : `${v ? esc(v.name) + ", " + esc((v.ort || "").replace(/^\d+\s*/, ""))
+                              : (m.ortName ? esc(m.ortName) : (m.h ? "Heim" : "Auswärts"))}`;
   return `<div class="card tappable" onclick="detailView('${teamId}',${i})">
     <div class="match">
       <div class="date"><div class="d">${String(d.getDate()).padStart(2,"0")}</div><div class="m">${MON[d.getMonth()]}</div></div>
@@ -271,7 +298,7 @@ const short = (n) => n.replace("Crefelder HTC", "CHTC").replace("HTC Uhlenhorst 
 function detailView(teamId, i) {
   const t = DATA.teams.find(x => x.id === teamId);
   const m = DATA.matches[teamId][i];
-  const v = DATA.venues[m.ort] || {};
+  const v = DATA.venues[m.ort] || (m.ortName ? { name: m.ortName, maps: m.ortName } : {});
   const d = new Date(m.d + "T12:00");
   const when = `${WTAGE[d.getDay()]}, ${d.getDate()}. ${["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"][d.getMonth()]} ${d.getFullYear()}` + (m.zeit ? ` · ${m.zeit} Uhr` : " · Uhrzeit folgt");
   const mapsQ = encodeURIComponent(v.maps || v.name || "");
@@ -304,6 +331,54 @@ function icsUrl(m, v) {
     "END:VEVENT","END:VCALENDAR"].join("\r\n");
   return "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
 }
+
+/* ================= Vereins-Infos ================= */
+const fmtKurz = (d) => `${String(d.getDate()).padStart(2, "0")}.${String(d.getMonth() + 1).padStart(2, "0")}.`;
+
+function infoView() {
+  const inf = DATA.infos || {};
+  // Heimspiele dieser Woche (Montag–Sonntag)
+  const heute = new Date(); heute.setHours(0, 0, 0, 0);
+  const mo = new Date(heute); mo.setDate(heute.getDate() - ((heute.getDay() + 6) % 7));
+  const so = new Date(mo); so.setDate(mo.getDate() + 6); so.setHours(23, 59, 59, 0);
+  const zeilen = [];
+  for (const t of DATA.teams) {
+    for (const m of (DATA.matches[t.id] || [])) {
+      if (!m.h) continue;
+      const d = new Date(m.d + "T12:00");
+      if (d >= mo && d <= so) zeilen.push({ t, m, d });
+    }
+  }
+  zeilen.sort((a, b) => ((a.m.d + (a.m.zeit || "99")) < (b.m.d + (b.m.zeit || "99")) ? -1 : 1));
+  const rows = zeilen.map(z => `<tr>
+      <td style="text-align:left;font-weight:600">${esc(z.t.badge)}</td>
+      <td style="white-space:nowrap">${played(z.m) ? `${z.m.th} : ${z.m.tg}` : `${WTAGE[z.d.getDay()].slice(0, 2)} ${z.m.zeit || "–"}`}</td>
+      <td style="text-align:left">${esc(short(z.m.gast))}</td></tr>`).join("");
+  const heimTabelle = zeilen.length
+    ? `<table><tr><th style="text-align:left">Team</th><th>Anstoß</th><th style="text-align:left">Gegner</th></tr>${rows}</table>`
+    : `<div class="card"><div class="a" style="color:var(--muted)">Diese Woche keine Heimspiele.</div></div>`;
+  const zeitenListe = (z) => (z || []).map(x =>
+    `<div class="a" style="display:flex;justify-content:space-between;margin-top:2px"><span>${esc(x[0])}</span><strong>${esc(x[1])}</strong></div>`).join("");
+  render(`
+    <header><button class="back" onclick="homeView()">‹ Zurück</button>
+      <h1>Vereins-Infos</h1><div class="sub">Crefelder HTC · Gerd-Wellen-Anlage</div></header>
+    <div class="content">
+      <div class="section-label">Diese Woche zuhause (${fmtKurz(mo)} – ${fmtKurz(so)})</div>
+      ${heimTabelle}
+      <div class="section-label">Anfahrt</div>
+      <div class="card"><div class="label">Hockeyplatz</div>
+        <div class="a"><strong>${esc((inf.platz || {}).name || "")}</strong><br>${esc((inf.platz || {}).strasse || "")}<br>${esc((inf.platz || {}).ort || "")}</div>
+        <div class="btnrow"><a class="btn p" target="_blank" rel="noopener" href="https://maps.apple.com/?q=${encodeURIComponent((inf.platz || {}).maps || "")}">🧭 Route öffnen</a></div></div>
+      <div class="section-label">Öffnungszeiten</div>
+      <div class="card"><div class="label">${esc((inf.bar || {}).titel || "Hockeybar")}</div>${zeitenListe((inf.bar || {}).zeiten)}
+        ${(inf.bar || {}).kontakt ? `<div class="a" style="margin-top:8px;color:var(--muted)">${esc(inf.bar.kontakt)}</div>` : ""}</div>
+      <div class="card"><div class="label">${esc((inf.shop || {}).titel || "Hockeyshop")}</div>
+        ${(inf.shop || {}).adresse ? `<div class="a" style="margin-bottom:4px">${esc(inf.shop.adresse)}</div>` : ""}${zeitenListe((inf.shop || {}).zeiten)}
+        ${(inf.shop || {}).hinweis ? `<div class="a" style="margin-top:8px;color:var(--muted);font-size:12px">${esc(inf.shop.hinweis)}</div>` : ""}
+        ${(inf.shop || {}).kontakt ? `<div class="a" style="color:var(--muted)">${esc(inf.shop.kontakt)}</div>` : ""}</div>
+    </div>`);
+}
+window.infoView = infoView;
 
 /* ================= Aktionen ================= */
 window.openTeam = (id, tab) => teamView(id, tab);
