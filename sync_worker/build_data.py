@@ -24,6 +24,7 @@ from parser import parse_teamseite  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
 UA = "CHTC-Vereins-App Daten-Update (github.com, Kontakt: tobias@fusten.de)"
+OFFENE_ORTE: set[str] = set()   # Spielorte ohne Adresseintrag in data/venues.json
 
 
 def lade_json(pfad: Path, default):
@@ -74,6 +75,9 @@ def hole_team(team: dict, venues: dict, offline: bool):
         vk = venue_key(s.venue_rohtext, venues)
         if vk:
             m["ort"] = vk
+        elif s.venue_rohtext:
+            m["ortName"] = s.venue_rohtext          # unbekannter Ort: Name trotzdem anzeigen
+            OFFENE_ORTE.add(s.venue_rohtext)
         matches.append(m)
 
     standings = []
@@ -91,6 +95,7 @@ def main() -> None:
     offline = "--offline" in sys.argv
 
     teams_cfg = lade_json(ROOT / "data" / "teams.json", {"teams": []})["teams"]
+    infos = {k: v for k, v in lade_json(ROOT / "data" / "infos.json", {}).items() if not k.startswith("_")}
     trainings = {k: v for k, v in lade_json(ROOT / "data" / "trainings.json", {}).items() if not k.startswith("_")}
     venues_cfg = lade_json(ROOT / "data" / "venues.json", {})
     venues = {k: {kk: vv for kk, vv in v.items() if kk != "erkennung"}
@@ -126,17 +131,21 @@ def main() -> None:
 
     berlin = timezone(timedelta(hours=2))  # Feldsaison = Sommerzeit
     data = {
+        # Meta-Felder bewusst am Dateianfang (gut auffindbar):
+        "stand": datetime.now(berlin).strftime("%d.%m.%Y %H:%M"),
+        "venues_offen": sorted(OFFENE_ORTE),   # Spielorte, denen noch eine Adresse fehlt
         "teams": out_teams,
         "matches": out_matches,
         "standings": out_standings,
         "trainings": trainings,
         "venues": venues,
-        "stand": datetime.now(berlin).strftime("%d.%m.%Y %H:%M"),
+        "infos": infos,
     }
     (ROOT / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print(f"data.json geschrieben: {len(out_matches)} Teams mit Daten, "
-          f"{sum(len(m) for m in out_matches.values())} Spiele")
+          f"{sum(len(m) for m in out_matches.values())} Spiele, "
+          f"{len(OFFENE_ORTE)} Spielorte ohne Adresse")
     for f in fehler:
         print(f"  ⚠ {f}", file=sys.stderr)
     # Fehler führen NICHT zu Exit 1 — alte Daten bleiben ja erhalten.

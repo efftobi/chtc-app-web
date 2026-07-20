@@ -130,9 +130,9 @@ def parse_spiele_portal(soup: BeautifulSoup) -> list[Spiel]:
     for el in soup.find_all(class_=klasse_passt):
         klassen = el.get("class", [])
         if "schedule-lite__title" in klassen:
-            d = parse_datum(el.get_text(" ", strip=True))
-            if d:
-                aktuelles_datum = d
+            # Kein Datum in der Überschrift (z. B. "Termin folgt"): Datum zurücksetzen,
+            # sonst würden folgende Spiele fälschlich das vorherige Datum erben.
+            aktuelles_datum = parse_datum(el.get_text(" ", strip=True))
             continue
 
         if aktuelles_datum is None:
