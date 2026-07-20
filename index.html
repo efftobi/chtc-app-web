@@ -314,25 +314,43 @@ function detailView(teamId, i) {
         <div class="a"><strong>${esc(v.name || "Wird noch bekannt gegeben")}</strong>${v.adresse ? "<br>" + esc(v.adresse) : ""}${v.ort ? "<br>" + esc(v.ort) : ""}</div>
         ${v.name ? `<div class="btnrow">
           <a class="btn p" target="_blank" rel="noopener" href="https://maps.apple.com/?q=${mapsQ}">🧭 Route öffnen</a>
-          ${!played(m) ? `<a class="btn s" href="${icsUrl(m, v)}" download="chtc-spiel.ics">📅 In Kalender</a>` : ""}
+          ${!played(m) ? `<button class="btn s" onclick="icsTeilen('${teamId}',${i})">📅 In Kalender</button>` : ""}
         </div>` : ""}</div>
       ${m.hinweis ? `<div class="card"><div class="label">Info</div><div class="a">${esc(m.hinweis)}</div></div>` : ""}
     </div>`);
 }
 
-function icsUrl(m, v) {
+function icsText(m, v) {
   const dt = m.d.replace(/-/g, "");
   const start = m.zeit ? dt + "T" + m.zeit.replace(":", "") + "00" : dt;
   const end = m.zeit ? dt + "T" + String(parseInt(m.zeit) + 2).padStart(2, "0") + m.zeit.slice(3).replace(":", "") + "00" : dt;
-  const ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//CHTC//App//DE","BEGIN:VEVENT",
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//CHTC//App//DE","BEGIN:VEVENT",
     `UID:chtc-${dt}-${(m.gast || "").replace(/\W/g, "")}@chtc`,
     m.zeit ? `DTSTART:${start}` : `DTSTART;VALUE=DATE:${start}`,
     m.zeit ? `DTEND:${end}` : `DTEND;VALUE=DATE:${start}`,
     `SUMMARY:🏑 ${m.heim} – ${m.gast}`,
-    `LOCATION:${(v.name || "") + (v.ort ? ", " + v.ort : "")}`,
+    `LOCATION:${((v.adresse ? v.adresse + ", " : "") + (v.ort || v.name || "")) || (v.name || "")}`,
     "END:VEVENT","END:VCALENDAR"].join("\r\n");
-  return "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
 }
+
+async function icsTeilen(teamId, i) {
+  const m = DATA.matches[teamId][i];
+  const v = DATA.venues[m.ort] || (m.ortName ? { name: m.ortName } : {});
+  const ics = icsText(m, v);
+  const file = new File([ics], "chtc-spiel.ics", { type: "text/calendar" });
+  // iOS/Android: Teilen-Menü mit Termin-Datei (dort "Kalender" wählen)
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try { await navigator.share({ files: [file], title: "CHTC-Spiel" }); return; }
+    catch (e) { if (e && e.name === "AbortError") return; }
+  }
+  // Fallback Desktop: Datei herunterladen
+  const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = "chtc-spiel.ics";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+}
+window.icsTeilen = icsTeilen;
 
 /* ================= Vereins-Infos ================= */
 const fmtKurz = (d) => `${String(d.getDate()).padStart(2, "0")}.${String(d.getMonth() + 1).padStart(2, "0")}.`;

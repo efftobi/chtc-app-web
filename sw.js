@@ -1,5 +1,5 @@
 // CHTC Hockey PWA — Service Worker (Offline-Cache)
-const CACHE = 'chtc-v9';
+const CACHE = 'chtc-v10';
 const ASSETS = [
   './index.html',
   './manifest.webmanifest',
