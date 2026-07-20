@@ -1,6 +1,6 @@
 {
   "_hinweis": "Spielorte mit Adressen. 'erkennung' = Textbausteine, an denen der Daten-Lauf den Spielort aus hockey.de erkennt. Direkt auf GitHub bearbeitbar.",
-  "gwa":        { "name": "Gerd-Wellen-Hockeyanlage", "adresse": "In der Vreed (ggü. Stadtwald)", "ort": "47800 Krefeld-Bockum", "maps": "Gerd-Wellen-Hockeyanlage, Krefeld", "erkennung": ["Gerd-Wellen", "Crefelder"] },
+  "gwa":        { "name": "Gerd-Wellen-Hockeyanlage", "adresse": "Hüttenallee 256", "ort": "47800 Krefeld", "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld", "verifiziert": true, "erkennung": ["Gerd-Wellen", "Crefelder"] },
   "muelheim":   { "name": "Sportanlage Uhlenhorst", "ort": "Mülheim an der Ruhr", "maps": "HTC Uhlenhorst Mülheim", "erkennung": ["Uhlenhorst"] },
   "gladbach":   { "name": "Anlage Gladbacher HTC", "ort": "Mönchengladbach", "maps": "Gladbacher HTC", "erkennung": ["Gladbach"] },
   "dsd":        { "name": "Sportanlage DSD", "ort": "Düsseldorf", "maps": "DSD Düsseldorf Hockey", "erkennung": ["DSD"] },
