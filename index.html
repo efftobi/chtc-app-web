@@ -314,11 +314,13 @@ function detailView(teamId, i) {
         <div class="a"><strong>${esc(v.name || "Wird noch bekannt gegeben")}</strong>${v.adresse ? "<br>" + esc(v.adresse) : ""}${v.ort ? "<br>" + esc(v.ort) : ""}</div>
         ${v.name ? `<div class="btnrow">
           <a class="btn p" target="_blank" rel="noopener" href="https://maps.apple.com/?q=${mapsQ}">🧭 Route öffnen</a>
-          ${!played(m) ? `<button class="btn s" onclick="icsTeilen('${teamId}',${i})">📅 In Kalender</button>` : ""}
+          ${!played(m) ? `<a class="btn s" target="_blank" rel="noopener" href="ics/${teamId}-${m.d}-${slugIcs(m.gast)}.ics">📅 In Kalender</a>` : ""}
         </div>` : ""}</div>
       ${m.hinweis ? `<div class="card"><div class="label">Info</div><div class="a">${esc(m.hinweis)}</div></div>` : ""}
     </div>`);
 }
+
+const slugIcs = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 function icsText(m, v) {
   const dt = m.d.replace(/-/g, "");
