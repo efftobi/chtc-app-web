@@ -28,6 +28,7 @@
   header h1{font-size:19px;font-weight:700}
   .brand{display:flex;align-items:center;gap:10px}
   .brand img{width:36px;height:36px;border-radius:50%;background:#fff}
+  .info-btn{margin-left:auto;width:30px;height:30px;border-radius:50%;border:2px solid #fff;background:none;color:#fff;font-weight:700;font-size:16px;font-family:Georgia,'Times New Roman',serif;font-style:italic;cursor:pointer;flex-shrink:0;line-height:1}
   header .sub{font-size:12px;opacity:.75;margin-top:2px}
   .back{background:none;border:none;color:#fff;font-size:15px;padding:0 0 6px;cursor:pointer;opacity:.9}
   .content{padding:14px 14px calc(var(--sab) + 20px);flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;max-width:560px;width:100%;margin:0 auto}
@@ -155,9 +156,14 @@ const DATA = {
     bar:  { titel:"Hockeybar",
             zeiten:[["Montag","15:00 – 18:30 Uhr"],["Mittwoch","15:00 – 19:00 Uhr"],["Freitag","15:00 – 19:00 Uhr"]],
             kontakt:"hockeybar@chtc.de" },
-    shop: { titel:"CHTC Hockeyshop (Der Hockeykrauss)", adresse:"Friedrich-Ebert-Str. 174, Krefeld-Bockum",
-            zeiten:[["Montag","16:00 – 18:00 Uhr"],["Dienstag","15:30 – 17:30 Uhr"],["Mittwoch","15:00 – 18:00 Uhr"],["Donnerstag","16:00 – 18:00 Uhr"],["Samstag","10:00 – 13:00 Uhr"]],
-            kontakt:"achim.krauss@gmx.de", hinweis:"Zeiten Winter 2025/26 — Änderungen vorbehalten" }
+    shops: [
+      { titel:"CHTC Hockeyshop (Der Hockeykrauss)", adresse:"Friedrich-Ebert-Str. 174, Krefeld-Bockum",
+        zeiten:[["Montag","16:00 – 18:00 Uhr"],["Dienstag","15:30 – 17:30 Uhr"],["Mittwoch","15:00 – 18:00 Uhr"],["Donnerstag","16:00 – 18:00 Uhr"],["Samstag","10:00 – 13:00 Uhr"]],
+        kontakt:"achim.krauss@gmx.de", hinweis:"Zeiten Winter 2025/26 — Änderungen vorbehalten" },
+      { titel:"Backhandshot", adresse:"Stephanstraße 15, 47799 Krefeld",
+        zeiten:[["Montag – Freitag","10:00 – 18:00 Uhr"],["Samstag","10:00 – 15:00 Uhr"]],
+        kontakt:"daily@backhandshot.com" }
+    ]
   },
   venues: {
     gwa:        { name:"Gerd-Wellen-Hockeyanlage", adresse:"Hüttenallee 256", ort:"47800 Krefeld", maps:"Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld" },
@@ -224,13 +230,9 @@ function homeView() {
     rest.filter(t => gruppeVon(t) === g).map(t => teamCard(t)).join("")
   ).join("");
   render(`
-    <header><div class="brand"><img src="logo-header.png" alt=""><div><h1>CHTC Hockey</h1><div class="sub">Crefelder Hockey- und Tennis-Club 1890</div></div></div></header>
+    <header><div class="brand"><img src="logo-header.png" alt=""><div><h1>CHTC Hockey</h1><div class="sub">Crefelder Hockey- und Tennis-Club 1890</div></div><button class="info-btn" onclick="infoView()" aria-label="Vereins-Infos">i</button></div></header>
     <div class="content">
       ${favTeams.length ? `<div class="section-label">★ Meine Teams</div>` + favTeams.map(t => teamCard(t, true)).join("") : ""}
-      <div class="card tappable" onclick="infoView()">
-        <div class="team-row"><div class="badge" style="background:var(--accent)">Info</div>
-        <div class="info"><div class="name">Vereins-Infos</div><div class="liga">Heimspiele der Woche · Öffnungszeiten · Anfahrt</div></div><span style="color:var(--muted)">›</span></div>
-      </div>
       ${sektionen}
       <div class="hint">Daten: hockey.de · Stand ${DATA.stand}</div>
     </div>`);
@@ -372,10 +374,11 @@ function infoView() {
       <div class="section-label">Öffnungszeiten</div>
       <div class="card"><div class="label">${esc((inf.bar || {}).titel || "Hockeybar")}</div>${zeitenListe((inf.bar || {}).zeiten)}
         ${(inf.bar || {}).kontakt ? `<div class="a" style="margin-top:8px;color:var(--muted)">${esc(inf.bar.kontakt)}</div>` : ""}</div>
-      <div class="card"><div class="label">${esc((inf.shop || {}).titel || "Hockeyshop")}</div>
-        ${(inf.shop || {}).adresse ? `<div class="a" style="margin-bottom:4px">${esc(inf.shop.adresse)}</div>` : ""}${zeitenListe((inf.shop || {}).zeiten)}
-        ${(inf.shop || {}).hinweis ? `<div class="a" style="margin-top:8px;color:var(--muted);font-size:12px">${esc(inf.shop.hinweis)}</div>` : ""}
-        ${(inf.shop || {}).kontakt ? `<div class="a" style="color:var(--muted)">${esc(inf.shop.kontakt)}</div>` : ""}</div>
+      ${(inf.shops || (inf.shop ? [inf.shop] : [])).map(s => `
+      <div class="card"><div class="label">${esc(s.titel || "Hockeyshop")}</div>
+        ${s.adresse ? `<div class="a" style="margin-bottom:4px">${esc(s.adresse)}</div>` : ""}${zeitenListe(s.zeiten)}
+        ${s.hinweis ? `<div class="a" style="margin-top:8px;color:var(--muted);font-size:12px">${esc(s.hinweis)}</div>` : ""}
+        ${s.kontakt ? `<div class="a" style="color:var(--muted)">${esc(s.kontakt)}</div>` : ""}</div>`).join("")}
     </div>`);
 }
 window.infoView = infoView;
