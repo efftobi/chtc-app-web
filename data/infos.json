@@ -1,10 +1,10 @@
 {
-  "_hinweis": "Inhalte der Info-Seite (Anfahrt, Öffnungszeiten). Direkt auf GitHub bearbeitbar — Änderungen übernimmt der nächste Daten-Lauf. Quellen: crefelder-htc.de (Stand 19.07.2026).",
+  "_hinweis": "Inhalte der Info-Seite (Anfahrt, Öffnungszeiten). Direkt auf GitHub bearbeitbar — Änderungen übernimmt der nächste Daten-Lauf. Quellen: crefelder-htc.de, backhandshot.com (Stand 20.07.2026).",
   "platz": {
     "name": "Gerd-Wellen-Hockeyanlage",
     "strasse": "Hüttenallee 256",
     "ort": "47800 Krefeld",
-    "maps": "Gerd-Wellen-Hockeyanlage, Hüttenallee 256, Krefeld"
+    "maps": "Hüttenallee 256, 47800 Krefeld"
   },
   "bar": {
     "titel": "Hockeybar",
@@ -15,17 +15,28 @@
     ],
     "kontakt": "hockeybar@chtc.de"
   },
-  "shop": {
-    "titel": "CHTC Hockeyshop (Der Hockeykrauss)",
-    "adresse": "Friedrich-Ebert-Str. 174, Krefeld-Bockum",
-    "zeiten": [
-      ["Montag", "16:00 – 18:00 Uhr"],
-      ["Dienstag", "15:30 – 17:30 Uhr"],
-      ["Mittwoch", "15:00 – 18:00 Uhr"],
-      ["Donnerstag", "16:00 – 18:00 Uhr"],
-      ["Samstag", "10:00 – 13:00 Uhr"]
-    ],
-    "kontakt": "achim.krauss@gmx.de",
-    "hinweis": "Zeiten Winter 2025/26 — Änderungen vorbehalten"
-  }
+  "shops": [
+    {
+      "titel": "CHTC Hockeyshop (Der Hockeykrauss)",
+      "adresse": "Friedrich-Ebert-Str. 174, Krefeld-Bockum",
+      "zeiten": [
+        ["Montag", "16:00 – 18:00 Uhr"],
+        ["Dienstag", "15:30 – 17:30 Uhr"],
+        ["Mittwoch", "15:00 – 18:00 Uhr"],
+        ["Donnerstag", "16:00 – 18:00 Uhr"],
+        ["Samstag", "10:00 – 13:00 Uhr"]
+      ],
+      "kontakt": "achim.krauss@gmx.de",
+      "hinweis": "Zeiten Winter 2025/26 — Änderungen vorbehalten"
+    },
+    {
+      "titel": "Backhandshot",
+      "adresse": "Stephanstraße 15, 47799 Krefeld",
+      "zeiten": [
+        ["Montag – Freitag", "10:00 – 18:00 Uhr"],
+        ["Samstag", "10:00 – 15:00 Uhr"]
+      ],
+      "kontakt": "daily@backhandshot.com"
+    }
+  ]
 }
