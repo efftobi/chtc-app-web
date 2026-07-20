@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CHTC//App//DE
+BEGIN:VEVENT
+UID:chtc-mu12-20260920-crefelder-htc@chtc
+DTSTART;VALUE=DATE:20260920
+SUMMARY:🏑 Marienburger SC – Crefelder HTC
+LOCATION:Marienburger SC\, Schillingsrotter Str. 99\, 50996 Köln
+END:VEVENT
+END:VCALENDAR

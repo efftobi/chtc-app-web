@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CHTC//App//DE
+BEGIN:VEVENT
+UID:chtc-wu16-2-20260503-crefelder-htc-2@chtc
+DTSTART:20260503T173000
+DTEND:20260503T193000
+SUMMARY:🏑 SV Büderich – Crefelder HTC 2
+LOCATION:Stadionanlage Am Eisenbrand\, Am Eisenbrand\, 40667 Meerbusch-Büderich
+END:VEVENT
+END:VCALENDAR

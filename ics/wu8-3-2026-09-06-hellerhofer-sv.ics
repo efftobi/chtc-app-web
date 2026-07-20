@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CHTC//App//DE
+BEGIN:VEVENT
+UID:chtc-wu8-3-20260906-hellerhofer-sv@chtc
+DTSTART:20260906T113000
+DTEND:20260906T133000
+SUMMARY:🏑 Crefelder HTC 3 – Hellerhofer SV
+LOCATION:Stadionanlage Am Eisenbrand\, Am Eisenbrand\, 40667 Meerbusch-Büderich
+END:VEVENT
+END:VCALENDAR
