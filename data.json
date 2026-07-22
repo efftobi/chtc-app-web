@@ -1,5 +1,5 @@
 {
- "stand": "22.07.2026 00:15",
+ "stand": "22.07.2026 13:32",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1600,7 +1600,8 @@
     "heim": "TV Jahn Hiesfeld",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "18:00",
+    "ort": "hiesfeld"
    }
   ],
   "mu12-2": [
