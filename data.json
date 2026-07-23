@@ -1,5 +1,5 @@
 {
- "stand": "23.07.2026 19:59",
+ "stand": "24.07.2026 00:34",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1877,7 +1877,8 @@
     "heim": "Blau-Weiß Köln",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "12:00",
+    "ort": "bwk"
    }
   ],
   "mu16-2": [
