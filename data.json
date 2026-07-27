@@ -1,5 +1,5 @@
 {
- "stand": "27.07.2026 15:56",
+ "stand": "27.07.2026 22:10",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1241,7 +1241,8 @@
     "heim": "Crefelder HTC",
     "gast": "ETUF Essen",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "14:00",
+    "ort": "gwa"
    }
   ],
   "wu14-2": [
@@ -1816,7 +1817,8 @@
     "heim": "Crefelder HTC  2",
     "gast": "HTC Uhlenhorst Mülheim  2",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "14:30",
+    "ort": "gwa"
    }
   ],
   "mu16": [
@@ -1941,7 +1943,8 @@
     "heim": "Crefelder HTC  2",
     "gast": "HTC SW Bonn",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:00",
+    "ort": "gwa"
    },
    {
     "d": "2026-09-27",
