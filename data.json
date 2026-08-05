@@ -1,5 +1,5 @@
 {
- "stand": "05.08.2026 08:14",
+ "stand": "05.08.2026 15:20",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1037,7 +1037,8 @@
     "heim": "Club Raffelberg",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "17:00",
+    "ort": "raffelberg"
    }
   ],
   "wu12-2": [
