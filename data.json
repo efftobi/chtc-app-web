@@ -1,5 +1,5 @@
 {
- "stand": "06.08.2026 02:14",
+ "stand": "06.08.2026 14:26",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1491,7 +1491,8 @@
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "18:00",
+    "ort": "dsd"
    },
    {
     "d": "2026-09-19",
@@ -1873,7 +1874,8 @@
     "heim": "Bonner THV",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:00",
+    "ort": "bonn"
    },
    {
     "d": "2026-09-13",
