@@ -1,5 +1,5 @@
 {
- "stand": "09.08.2026 12:58",
+ "stand": "09.08.2026 13:51",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1954,7 +1954,8 @@
     "heim": "Schwarz-Weiß Köln",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:00",
+    "ort": "swk"
    }
   ],
   "mu18": [
