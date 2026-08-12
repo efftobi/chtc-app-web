@@ -1,5 +1,5 @@
 {
- "stand": "12.08.2026 22:04",
+ "stand": "13.08.2026 01:22",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1596,6 +1596,7 @@
     "heim": "Marienburger SC",
     "gast": "Crefelder HTC",
     "h": false,
+    "zeit": "10:00",
     "ort": "msc"
    },
    {
