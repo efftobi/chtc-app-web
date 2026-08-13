@@ -1,5 +1,5 @@
 {
- "stand": "13.08.2026 13:35",
+ "stand": "13.08.2026 18:13",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1392,7 +1392,8 @@
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "14:00",
+    "ort": "dhc"
    }
   ],
   "wu16-2": [
