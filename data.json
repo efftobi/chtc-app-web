@@ -1,5 +1,5 @@
 {
- "stand": "16.08.2026 21:41",
+ "stand": "16.08.2026 23:43",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1500,7 +1500,8 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "15:00",
+    "ort": "dsc99"
    }
   ],
   "mu12": [
