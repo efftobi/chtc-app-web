@@ -1,5 +1,5 @@
 {
- "stand": "16.08.2026 13:50",
+ "stand": "16.08.2026 15:44",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1677,7 +1677,8 @@
     "heim": "Moerser TV 2",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "moers"
    }
   ],
   "mu14": [
