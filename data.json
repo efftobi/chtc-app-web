@@ -1,5 +1,5 @@
 {
- "stand": "17.08.2026 08:05",
+ "stand": "17.08.2026 11:23",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2545,7 +2545,7 @@
     "heim": "Crefelder HTC 3",
     "gast": "Hellerhofer SV",
     "h": true,
-    "zeit": "11:30",
+    "zeit": "12:00",
     "ort": "buederich"
    }
   ],
@@ -3004,7 +3004,7 @@
     "heim": "Crefelder HTC  3",
     "gast": "Düsseldorfer HC  9",
     "h": true,
-    "zeit": "09:30",
+    "zeit": "10:00",
     "ort": "buederich"
    },
    {
