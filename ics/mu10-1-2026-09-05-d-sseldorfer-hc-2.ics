@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-mu10-1-20260905-d-sseldorfer-hc-2@chtc
-DTSTART;VALUE=DATE:20260905
+DTSTART:20260905T170000
+DTEND:20260905T190000
 SUMMARY:🏑 Crefelder HTC 1 – Düsseldorfer HC  2
-LOCATION:Spielort noch unbekannt
+LOCATION:Gladbacher HTC\, An den Holter Sportstätten 11\, 41069 Mönchengladbach
 END:VEVENT
 END:VCALENDAR

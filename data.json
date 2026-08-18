@@ -1,5 +1,5 @@
 {
- "stand": "17.08.2026 23:55",
+ "stand": "18.08.2026 07:59",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2694,14 +2694,16 @@
     "heim": "Crefelder HTC 1",
     "gast": "Gladbacher HTC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:00",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-05",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC  2",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "17:00",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-26",
