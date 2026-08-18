@@ -1,5 +1,5 @@
 {
- "stand": "18.08.2026 07:59",
+ "stand": "18.08.2026 09:45",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2710,21 +2710,24 @@
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "15:30",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-26",
     "heim": "Gladbacher HTC  2",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:30",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer SC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "17:00",
+    "ort": "gladbach"
    }
   ],
   "mu10-2": [
