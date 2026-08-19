@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-wu8-2-20260920-gladbacher-htc@chtc
-DTSTART;VALUE=DATE:20260920
+DTSTART:20260920T130000
+DTEND:20260920T150000
 SUMMARY:🏑 Crefelder HTC 2 – Gladbacher HTC
-LOCATION:Spielort noch unbekannt
+LOCATION:Gladbacher HTC\, An den Holter Sportstätten 11\, 41069 Mönchengladbach
 END:VEVENT
 END:VCALENDAR

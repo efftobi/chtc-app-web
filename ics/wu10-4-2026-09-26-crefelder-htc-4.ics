@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-wu10-4-20260926-crefelder-htc-4@chtc
-DTSTART;VALUE=DATE:20260926
+DTSTART:20260926T170000
+DTEND:20260926T190000
 SUMMARY:🏑 Mettmanner THC wU10 2 – Crefelder HTC  4
-LOCATION:Spielort noch unbekannt
+LOCATION:Sportanlage Auf dem Pfennig\, Hasseler Straße\, 40822 Mettmann
 END:VEVENT
 END:VCALENDAR

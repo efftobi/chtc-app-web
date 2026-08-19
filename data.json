@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 07:37",
+ "stand": "19.08.2026 09:46",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2106,14 +2106,16 @@
     "heim": "Crefelder HTC 1",
     "gast": "Gladbacher HTC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:00",
+    "ort": "dsc99"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC 1",
     "gast": "HTC Schwarz-Weiß Neuss",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:30",
+    "ort": "dsc99"
    }
   ],
   "wu10-2": [
@@ -2216,21 +2218,24 @@
     "heim": "Düsseldorfer SC 3",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "12:30",
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-26",
     "heim": "Düsseldorfer HC  3",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "14:00",
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-26",
     "heim": "Crefelder HTC  2",
     "gast": "Gladbacher HTC  2",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "15:00",
+    "ort": "mettmann"
    }
   ],
   "wu10-3": [
@@ -2324,14 +2329,16 @@
     "heim": "Düsseldorfer HC  4",
     "gast": "Crefelder HTC  3",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:30",
+    "ort": "hellerhof"
    },
    {
     "d": "2026-09-26",
     "heim": "HTC Schwarz-Weiß Neuss  3",
     "gast": "Crefelder HTC  3",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "11:00",
+    "ort": "hellerhof"
    }
   ],
   "wu10-4": [
@@ -2419,14 +2426,16 @@
     "heim": "Düsseldorfer HC  6",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:30",
+    "ort": "mettmann"
    },
    {
     "d": "2026-09-26",
     "heim": "Mettmanner THC wU10 2",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "17:00",
+    "ort": "mettmann"
    }
   ],
   "wu8-2": [
@@ -2491,28 +2500,32 @@
     "heim": "ETG Wuppertal",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "gwa"
    },
    {
     "d": "2026-09-06",
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "gwa"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 2",
     "gast": "Gladbacher HTC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "13:00",
+    "ort": "gladbach"
    },
    {
     "d": "2026-10-04",
     "heim": "Gladbacher HTC",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "etg"
    }
   ],
   "wu8-3": [
