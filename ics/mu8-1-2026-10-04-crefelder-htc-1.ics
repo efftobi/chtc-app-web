@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-mu8-1-20261004-crefelder-htc-1@chtc
-DTSTART;VALUE=DATE:20261004
-SUMMARY:🏑 Düsseldorfer HC – Crefelder HTC 1
-LOCATION:Spielort noch unbekannt
+DTSTART:20261004T113000
+DTEND:20261004T133000
+SUMMARY:🏑 DSD Düsseldorf – Crefelder HTC 1
+LOCATION:Gerd-Wellen-Hockeyanlage\, Hüttenallee 256\, 47800 Krefeld
 END:VEVENT
 END:VCALENDAR

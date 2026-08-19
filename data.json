@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 09:46",
+ "stand": "19.08.2026 11:41",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2902,42 +2902,48 @@
     "heim": "Düsseldorfer SC",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
-   },
-   {
-    "d": "2026-09-20",
-    "heim": "Crefelder HTC 1",
-    "gast": "DSD Düsseldorf",
-    "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "dhc"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:30",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Crefelder HTC 1",
+    "gast": "DSD Düsseldorf",
+    "h": true,
+    "zeit": "11:00",
+    "ort": "dhc"
    },
    {
     "d": "2026-10-04",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer SC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
-   },
-   {
-    "d": "2026-10-04",
-    "heim": "DSD Düsseldorf",
-    "gast": "Crefelder HTC 1",
-    "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:30",
+    "ort": "gwa"
    },
    {
     "d": "2026-10-04",
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "11:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "DSD Düsseldorf",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "11:30",
+    "ort": "gwa"
    }
   ],
   "mu8-2": [
@@ -2978,7 +2984,8 @@
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer HC  3",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ort": "gwa"
    },
    {
     "d": "2026-09-20",
