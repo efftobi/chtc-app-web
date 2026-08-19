@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 11:41",
+ "stand": "19.08.2026 13:32",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2992,14 +2992,16 @@
     "heim": "Crefelder HTC  2",
     "gast": "Gladbacher HTC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "13:30",
+    "ort": "dhc"
    },
    {
     "d": "2026-10-04",
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer SC 3",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "12:00",
+    "ort": "gwa"
    }
   ],
   "mu8-3": [
