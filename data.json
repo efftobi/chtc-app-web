@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 21:32",
+ "stand": "19.08.2026 23:32",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2519,7 +2519,7 @@
     "heim": "Crefelder HTC 2",
     "gast": "Gladbacher HTC",
     "h": true,
-    "zeit": "13:00",
+    "zeit": "14:00",
     "ort": "gladbach"
    },
    {
@@ -2892,6 +2892,14 @@
    },
    {
     "d": "2026-09-05",
+    "heim": "Mettmanner THC mU10-1",
+    "gast": "Crefelder HTC  2",
+    "h": false,
+    "zeit": "13:30",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-05",
     "heim": "Düsseldorfer HC  3",
     "gast": "Crefelder HTC  2",
     "h": false,
@@ -2903,14 +2911,6 @@
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer SC 2",
     "h": true,
-    "zeit": "14:30",
-    "ort": "gwa"
-   },
-   {
-    "d": "2026-09-05",
-    "heim": "Mettmanner THC mU10-1",
-    "gast": "Crefelder HTC  2",
-    "h": false,
     "zeit": "14:30",
     "ort": "gwa"
    }
