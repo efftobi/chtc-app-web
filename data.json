@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 17:38",
+ "stand": "19.08.2026 19:32",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2569,14 +2569,16 @@
     "heim": "Düsseldorfer SC 4",
     "gast": "Crefelder HTC 3",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "12:00",
+    "ort": "hellerhof"
    },
    {
     "d": "2026-10-04",
     "heim": "Düsseldorfer SC 3",
     "gast": "Crefelder HTC 3",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "12:00",
+    "ort": "etg"
    }
   ],
   "wu6-1": [
