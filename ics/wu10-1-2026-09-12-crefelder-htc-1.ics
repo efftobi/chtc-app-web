@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-wu10-1-20260912-crefelder-htc-1@chtc
-DTSTART;VALUE=DATE:20260912
+DTSTART:20260912T170000
+DTEND:20260912T190000
 SUMMARY:🏑 DSD Düsseldorf 1 – Crefelder HTC 1
-LOCATION:Spielort noch unbekannt
+LOCATION:Gladbacher HTC\, An den Holter Sportstätten 11\, 41069 Mönchengladbach
 END:VEVENT
 END:VCALENDAR

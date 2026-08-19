@@ -1,5 +1,5 @@
 {
- "stand": "19.08.2026 13:32",
+ "stand": "19.08.2026 15:50",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2085,21 +2085,24 @@
     "heim": "Düsseldorfer HC  2",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "15:30",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-12",
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:30",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-12",
     "heim": "DSD Düsseldorf 1",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "17:00",
+    "ort": "gladbach"
    },
    {
     "d": "2026-09-26",
@@ -2560,6 +2563,20 @@
     "h": true,
     "zeit": "12:00",
     "ort": "buederich"
+   },
+   {
+    "d": "2026-09-20",
+    "heim": "Düsseldorfer SC 4",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
+   },
+   {
+    "d": "2026-10-04",
+    "heim": "Düsseldorfer SC 3",
+    "gast": "Crefelder HTC 3",
+    "h": false,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "wu6-1": [
@@ -2594,6 +2611,30 @@
     "h": false,
     "zeit": "09:30",
     "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Düsseldorfer SC 2",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "15:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "16:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-10-03",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 5",
+    "h": true,
+    "zeit": "13:00",
+    "ort": "dsd"
    }
   ],
   "wu6-2": [
@@ -2636,6 +2677,30 @@
     "h": true,
     "zeit": "09:30",
     "ort": "dsc99"
+   },
+   {
+    "d": "2026-09-05",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 3",
+    "h": true,
+    "zeit": "15:00",
+    "ort": "gwa"
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC",
+    "h": true,
+    "zeit": "16:00",
+    "ort": "dhc"
+   },
+   {
+    "d": "2026-10-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "DSD Düsseldorf 1",
+    "h": true,
+    "zeit": "13:00",
+    "ort": "dsd"
    }
   ],
   "mu10-1": [
@@ -3084,6 +3149,22 @@
     "h": true,
     "zeit": "12:30",
     "ort": "viersen"
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Crefelder HTC 1",
+    "gast": "Düsseldorfer HC 4",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "hellerhof"
+   },
+   {
+    "d": "2026-10-03",
+    "heim": "Düsseldorfer SC",
+    "gast": "Crefelder HTC 1",
+    "h": false,
+    "zeit": "13:00",
+    "ort": "gwa"
    }
   ],
   "mu6-2": [
@@ -3126,6 +3207,22 @@
     "h": true,
     "zeit": "12:30",
     "ort": "viersen"
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 3",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "hellerhof"
+   },
+   {
+    "d": "2026-10-03",
+    "heim": "Crefelder HTC 2",
+    "gast": "Düsseldorfer HC 5",
+    "h": true,
+    "zeit": "13:00",
+    "ort": "gwa"
    }
   ],
   "mu6-3": [
@@ -3168,6 +3265,22 @@
     "h": true,
     "zeit": "12:30",
     "ort": "viersen"
+   },
+   {
+    "d": "2026-09-19",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 2",
+    "h": true,
+    "zeit": "10:00",
+    "ort": "hellerhof"
+   },
+   {
+    "d": "2026-10-03",
+    "heim": "Crefelder HTC 3",
+    "gast": "Düsseldorfer HC 4",
+    "h": true,
+    "zeit": "13:00",
+    "ort": "gwa"
    }
   ]
  },
