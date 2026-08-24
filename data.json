@@ -1,5 +1,5 @@
 {
- "stand": "24.08.2026 10:01",
+ "stand": "24.08.2026 11:56",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1284,13 +1284,6 @@
     "ort": "gwa"
    },
    {
-    "d": "2026-07-04",
-    "heim": "Crefelder HTC  2",
-    "gast": "SV Büderich",
-    "h": true,
-    "ort": "gwa"
-   },
-   {
     "d": "2026-07-11",
     "heim": "Viersener THC",
     "gast": "Crefelder HTC  2",
@@ -1305,6 +1298,14 @@
     "h": false,
     "zeit": "11:00",
     "ort": "ratingen"
+   },
+   {
+    "d": "2026-09-08",
+    "heim": "Crefelder HTC  2",
+    "gast": "SV Büderich",
+    "h": true,
+    "zeit": "18:30",
+    "ort": "gwa"
    }
   ],
   "wu16": [
