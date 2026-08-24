@@ -1,5 +1,5 @@
 {
- "stand": "24.08.2026 21:35",
+ "stand": "24.08.2026 23:36",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2620,7 +2620,7 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "zeit": "15:00",
+    "zeit": "15:30",
     "ort": "gwa"
    },
    {
@@ -2686,7 +2686,7 @@
     "heim": "Crefelder HTC 2",
     "gast": "Düsseldorfer HC 3",
     "h": true,
-    "zeit": "15:00",
+    "zeit": "15:30",
     "ort": "gwa"
    },
    {
