@@ -1,5 +1,5 @@
 {
- "stand": "01.09.2026 11:54",
+ "stand": "01.09.2026 17:27",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1167,10 +1167,11 @@
     "ortName": "Spielort noch unbekannt"
    },
    {
-    "d": "2026-07-12",
+    "d": "2026-09-04",
     "heim": "Kahlenberger HTC 2 wU12 VL",
     "gast": "Crefelder HTC 3",
     "h": false,
+    "zeit": "17:30",
     "ort": "kahlenberg"
    },
    {
@@ -1377,6 +1378,8 @@
     "heim": "Crefelder HTC",
     "gast": "DSD Düsseldorf",
     "h": true,
+    "th": 1,
+    "tg": 0,
     "ort": "gwa"
    },
    {
@@ -1439,7 +1442,7 @@
     "h": false,
     "th": 1,
     "tg": 1,
-    "ortName": "Spielort noch unbekannt"
+    "ort": "gladbach"
    },
    {
     "d": "2026-07-12",
@@ -4349,6 +4352,16 @@
    ],
    [
     5,
+    "Marienburger SC",
+    9,
+    4,
+    2,
+    3,
+    "25:23",
+    14
+   ],
+   [
+    6,
     "Club Raffelberg",
     7,
     4,
@@ -4356,16 +4369,6 @@
     2,
     "23:12",
     13
-   ],
-   [
-    6,
-    "Marienburger SC",
-    8,
-    3,
-    2,
-    3,
-    "16:21",
-    11
    ],
    [
     7,
@@ -4420,11 +4423,11 @@
    [
     12,
     "Schwarz-Weiß Köln 1",
-    7,
+    8,
     0,
     0,
-    7,
-    "7:50",
+    8,
+    "9:59",
     0
    ]
   ],
