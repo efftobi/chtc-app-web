@@ -1,5 +1,5 @@
 {
- "stand": "03.09.2026 11:36",
+ "stand": "03.09.2026 16:56",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1253,8 +1253,7 @@
     "heim": "Rheydter SV",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "th": 2,
-    "tg": 1,
+    "zeit": "11:00",
     "ort": "rheydt"
    },
    {
@@ -1262,8 +1261,7 @@
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer HC 3",
     "h": true,
-    "th": 3,
-    "tg": 2,
+    "zeit": "12:00",
     "ort": "gwa"
    },
    {
@@ -1271,8 +1269,7 @@
     "heim": "DSD Düsseldorf  2",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "th": 11,
-    "tg": 0,
+    "zeit": "16:00",
     "ort": "dsd"
    },
    {
@@ -1280,8 +1277,7 @@
     "heim": "Crefelder HTC  2",
     "gast": "HTC Schwarz-Weiß Neuss 2",
     "h": true,
-    "th": 0,
-    "tg": 1,
+    "zeit": "10:00",
     "ort": "gwa"
    },
    {
@@ -4039,74 +4035,73 @@
   "wu14-2": [
    [
     1,
-    "SV Büderich",
+    "SG Pallotti Rheinbach",
+    5,
+    4,
+    0,
+    1,
+    "13:7",
+    12
+   ],
+   [
+    2,
+    "Aachener HC wU14",
+    5,
     3,
+    1,
+    1,
+    "15:6",
+    10
+   ],
+   [
+    3,
+    "HTC SW Bonn 2 SWB 2",
+    5,
     3,
     0,
-    0,
-    "7:3",
+    2,
+    "12:10",
     9
    ],
    [
-    2,
-    "TV Ratingen",
+    4,
+    "Blau-Weiß Köln 3 BWK 3",
     4,
     2,
     1,
     1,
-    "12:7",
+    "8:4",
     7
    ],
    [
-    3,
-    "DSD Düsseldorf 2",
-    4,
-    2,
-    1,
-    1,
-    "18:7",
-    4
-   ],
-   [
-    4,
-    "HTC Schwarz-Weiß Neuss 2 SWN 2",
-    4,
-    2,
-    1,
-    1,
-    "5:4",
-    4
-   ],
-   [
     5,
-    "Rheydter SV",
-    6,
-    1,
-    1,
+    "THC Hürth",
     4,
-    "2:10",
-    4
+    1,
+    2,
+    1,
+    "4:5",
+    5
    ],
    [
     6,
-    "Düsseldorfer HC 3",
+    "Bonner THV 2",
     5,
-    1,
-    2,
-    2,
-    "5:6",
-    2
+    0,
+    0,
+    5,
+    "5:12",
+    0
    ],
    [
     7,
-    "Crefelder HTC 2",
+    "SG HTC Troisdorf / SSG Sankt Augustin SG HTC/SS...",
     4,
     1,
     0,
     3,
-    "4:16",
-    0,
-    true
+    "3:16",
+    -3
    ]
   ],
   "wu16": [
