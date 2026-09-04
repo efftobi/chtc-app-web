@@ -1,5 +1,5 @@
 {
- "stand": "04.09.2026 16:53",
+ "stand": "04.09.2026 20:15",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1171,7 +1171,8 @@
     "heim": "Kahlenberger HTC 2 wU12 VL",
     "gast": "Crefelder HTC 3",
     "h": false,
-    "zeit": "17:30",
+    "th": 0,
+    "tg": 1,
     "ort": "kahlenberg"
    },
    {
@@ -3919,24 +3920,24 @@
    ],
    [
     4,
-    "Kahlenberger HTC 2 wU12 VL KHTC 2",
-    4,
+    "Crefelder HTC 3 CHTC 3",
+    5,
     2,
-    0,
+    1,
     2,
-    "2:2",
-    6
+    "3:3",
+    7,
+    true
    ],
    [
     5,
-    "Crefelder HTC 3 CHTC 3",
-    4,
-    1,
-    1,
+    "Kahlenberger HTC 2 wU12 VL KHTC 2",
+    5,
     2,
+    0,
+    3,
     "2:3",
-    4,
-    true
+    6
    ],
    [
     6,
