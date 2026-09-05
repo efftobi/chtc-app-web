@@ -1,5 +1,5 @@
 {
- "stand": "05.09.2026 21:06",
+ "stand": "05.09.2026 23:06",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -2898,7 +2898,8 @@
     "heim": "Mettmanner THC mU10-1",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "13:30",
+    "th": 1,
+    "tg": 4,
     "ort": "gwa"
    },
    {
@@ -2915,7 +2916,8 @@
     "heim": "Crefelder HTC  2",
     "gast": "Düsseldorfer SC 2",
     "h": true,
-    "zeit": "14:30",
+    "th": 0,
+    "tg": 4,
     "ort": "gwa"
    }
   ],
@@ -4253,7 +4255,7 @@
     3,
     0,
     1,
-    "8:11",
+    "10:13",
     9
    ],
    [
@@ -4284,7 +4286,7 @@
     1,
     0,
     2,
-    "6:7",
+    "8:9",
     3
    ],
    [
@@ -5791,23 +5793,23 @@
   "mu10-2": [
    [
     1,
-    "Düsseldorfer HC  3 DHC 3",
-    8,
-    6,
-    1,
-    1,
-    "28:9",
-    19
+    "Düsseldorfer SC 2 DSC 2",
+    9,
+    9,
+    0,
+    0,
+    "31:3",
+    27
    ],
    [
     2,
-    "Düsseldorfer SC 2 DSC 2",
+    "Düsseldorfer HC  3 DHC 3",
+    9,
     6,
-    6,
-    0,
-    0,
-    "19:3",
-    18
+    1,
+    2,
+    "28:10",
+    19
    ],
    [
     3,
@@ -5822,22 +5824,22 @@
    [
     4,
     "Crefelder HTC  2 CHTC 2",
-    10,
-    1,
+    12,
     2,
-    7,
-    "12:29",
-    5,
+    2,
+    8,
+    "16:34",
+    8,
     true
    ],
    [
     5,
     "Mettmanner THC mU10-1 MTHC mU10...",
-    7,
+    9,
     0,
     2,
-    5,
-    "8:24",
+    7,
+    "9:35",
     2
    ]
   ],
