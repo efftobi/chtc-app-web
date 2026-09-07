@@ -1,5 +1,5 @@
 {
- "stand": "07.09.2026 12:06",
+ "stand": "07.09.2026 18:22",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1254,7 +1254,8 @@
     "heim": "Marienburger SC",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "13:30",
+    "ort": "gwa"
    }
   ],
   "wu14-2": [
@@ -2020,6 +2021,14 @@
     "h": true,
     "zeit": "18:00",
     "ort": "gwa"
+   },
+   {
+    "d": "2026-09-23",
+    "heim": "Rot-Weiss Köln",
+    "gast": "Crefelder HTC",
+    "h": false,
+    "zeit": "20:00",
+    "ort": "rwk"
    },
    {
     "d": "2026-09-26",
@@ -4086,12 +4095,12 @@
    [
     4,
     "Blau-Weiß Köln 3 BWK 3",
-    4,
-    2,
+    5,
+    3,
     1,
     1,
-    "8:4",
-    7
+    "10:4",
+    10
    ],
    [
     5,
@@ -4116,11 +4125,11 @@
    [
     7,
     "SG HTC Troisdorf / SSG Sankt Augustin SG HTC/SS...",
-    4,
+    5,
     1,
     0,
-    3,
-    "3:16",
+    4,
+    "3:18",
     -3
    ]
   ],
