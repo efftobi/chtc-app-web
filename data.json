@@ -1,5 +1,5 @@
 {
- "stand": "09.09.2026 11:33",
+ "stand": "09.09.2026 17:04",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1483,9 +1483,9 @@
    {
     "d": "2026-06-22",
     "heim": "Crefelder HTC",
-    "gast": "ETUF Essen",
+    "gast": "ETUF Essen a.K.",
     "h": true,
-    "th": 14,
+    "th": 3,
     "tg": 0,
     "ort": "gwa"
    },
@@ -4277,7 +4277,7 @@
     3,
     0,
     1,
-    "10:13",
+    "10:11",
     9
    ],
    [
@@ -4287,7 +4287,7 @@
     2,
     0,
     1,
-    "23:4",
+    "12:4",
     6,
     true
    ],
@@ -4303,6 +4303,16 @@
    ],
    [
     4,
+    "Düsseldorfer SC 2 DSC 2",
+    4,
+    2,
+    0,
+    2,
+    "7:8",
+    6
+   ],
+   [
+    5,
     "SG HTC Kupferdreh / Hockey Club Essen 1899 SG HTCK/H...",
     3,
     1,
@@ -4312,23 +4322,13 @@
     3
    ],
    [
-    5,
-    "Düsseldorfer SC 2 DSC 2",
-    3,
-    1,
-    0,
-    2,
-    "4:8",
-    3
-   ],
-   [
     6,
-    "ETUF Essen",
-    3,
+    "ETUF Essen a.K. ETUF a.K.",
+    4,
     0,
     0,
-    3,
-    "2:20",
+    4,
+    "0:12",
     0
    ]
   ],
