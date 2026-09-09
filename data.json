@@ -1,5 +1,5 @@
 {
- "stand": "09.09.2026 17:04",
+ "stand": "09.09.2026 21:40",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -4843,6 +4843,16 @@
   "mu18": [
    [
     1,
+    "HTC Uhlenhorst Mülheim",
+    5,
+    5,
+    0,
+    0,
+    "25:7",
+    15
+   ],
+   [
+    2,
     "Rot-Weiss Köln",
     5,
     4,
@@ -4852,23 +4862,13 @@
     12
    ],
    [
-    2,
-    "HTC Uhlenhorst Mülheim",
-    4,
-    4,
-    0,
-    0,
-    "22:5",
-    12
-   ],
-   [
     3,
     "Düsseldorfer HC",
-    4,
+    5,
     4,
     0,
-    0,
-    "18:6",
+    1,
+    "20:9",
     12
    ],
    [
