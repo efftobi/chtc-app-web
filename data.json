@@ -1,5 +1,5 @@
 {
- "stand": "11.09.2026 11:29",
+ "stand": "11.09.2026 16:57",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1037,7 +1037,7 @@
     "heim": "Club Raffelberg",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "17:00",
+    "zeit": "18:00",
     "ort": "raffelberg"
    }
   ],
@@ -1836,8 +1836,14 @@
     "heim": "Crefelder HTC  2",
     "gast": "HTC Uhlenhorst Mülheim  2",
     "h": true,
-    "zeit": "14:30",
     "ort": "gwa"
+   },
+   {
+    "d": "2026-09-26",
+    "heim": "Crefelder HTC  2",
+    "gast": "-",
+    "h": true,
+    "ortName": "Spielort noch unbekannt"
    }
   ],
   "mu16": [
@@ -3742,6 +3748,16 @@
    ],
    [
     7,
+    "Gladbacher HTC",
+    9,
+    4,
+    1,
+    4,
+    "14:17",
+    13
+   ],
+   [
+    8,
     "Schwarz-Weiß Köln 1 SWK 1",
     10,
     3,
@@ -3749,16 +3765,6 @@
     5,
     "15:35",
     11
-   ],
-   [
-    8,
-    "Gladbacher HTC",
-    8,
-    3,
-    1,
-    4,
-    "12:17",
-    10
    ],
    [
     9,
@@ -3803,11 +3809,11 @@
    [
     13,
     "ETB Essen",
-    8,
+    9,
     0,
     2,
-    6,
-    "3:34",
+    7,
+    "3:36",
     2
    ]
   ],
