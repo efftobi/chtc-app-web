@@ -1,5 +1,5 @@
 {
- "stand": "12.09.2026 17:37",
+ "stand": "12.09.2026 19:44",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1263,6 +1263,8 @@
     "heim": "Crefelder HTC",
     "gast": "TV Jahn Hiesfeld",
     "h": true,
+    "th": 1,
+    "tg": 0,
     "ort": "gwa"
    }
   ],
@@ -2122,7 +2124,8 @@
     "heim": "Düsseldorfer HC  2",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "zeit": "15:30",
+    "th": 0,
+    "tg": 8,
     "ort": "gladbach"
    },
    {
@@ -2453,7 +2456,6 @@
     "heim": "ETG Wuppertal 2",
     "gast": "Crefelder HTC  4",
     "h": false,
-    "zeit": "15:30",
     "ort": "mettmann"
    },
    {
@@ -4934,26 +4936,36 @@
    [
     1,
     "Crefelder HTC 1 CHTC 1",
-    7,
-    5,
+    8,
+    6,
     1,
     1,
-    "21:6",
-    16,
+    "29:6",
+    19,
     true
    ],
    [
     2,
     "Düsseldorfer HC",
-    7,
-    5,
+    8,
+    6,
     1,
     1,
-    "12:4",
-    16
+    "17:4",
+    19
    ],
    [
     3,
+    "HTC Schwarz-Weiß Neuss",
+    9,
+    5,
+    3,
+    1,
+    "29:7",
+    18
+   ],
+   [
+    4,
     "DSD Düsseldorf 1 DSD 1",
     7,
     4,
@@ -4963,44 +4975,34 @@
     14
    ],
    [
-    4,
-    "HTC Schwarz-Weiß Neuss",
-    7,
-    3,
-    3,
-    1,
-    "19:7",
-    12
-   ],
-   [
     5,
     "Düsseldorfer SC",
-    8,
+    9,
     2,
     2,
-    4,
-    "12:17",
+    5,
+    "12:18",
     8
    ],
    [
     6,
     "Gladbacher HTC",
-    7,
+    9,
     1,
-    1,
-    5,
-    "8:20",
-    4
+    2,
+    6,
+    "8:29",
+    5
    ],
    [
     7,
     "Düsseldorfer HC  2 DHC 2",
-    7,
+    10,
     0,
-    0,
-    7,
-    "4:37",
-    0
+    1,
+    9,
+    "4:50",
+    1
    ]
   ],
   "wu10-2": [
@@ -5162,33 +5164,33 @@
   "wu10-4": [
    [
     1,
-    "Mettmanner THC wU10 2 MTHC wU10...",
+    "DSD Düsseldorf 3",
+    8,
     7,
-    5,
+    0,
     1,
-    1,
-    "15:7",
-    16
+    "24:5",
+    21
    ],
    [
     2,
-    "DSD Düsseldorf 3",
-    6,
+    "Mettmanner THC wU10 2 MTHC wU10...",
+    10,
     5,
-    0,
-    1,
-    "17:4",
-    15
+    2,
+    3,
+    "16:18",
+    17
    ],
    [
     3,
     "Düsseldorfer HC  6 DHC 6",
-    8,
+    10,
+    5,
+    1,
     4,
-    0,
-    4,
-    "18:12",
-    12
+    "24:12",
+    16
    ],
    [
     4,
@@ -5203,12 +5205,12 @@
    [
     5,
     "Gold-Weiß Wuppertal",
-    7,
+    9,
     3,
-    0,
-    4,
-    "7:11",
-    9
+    1,
+    5,
+    "7:13",
+    10
    ],
    [
     6,
