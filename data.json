@@ -1,5 +1,5 @@
 {
- "stand": "12.09.2026 11:10",
+ "stand": "12.09.2026 14:02",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1772,7 +1772,8 @@
     "heim": "Crefelder HTC",
     "gast": "Schwarz-Weiß Köln 1",
     "h": true,
-    "zeit": "12:00",
+    "th": 6,
+    "tg": 1,
     "ort": "gwa"
    }
   ],
@@ -2225,6 +2226,8 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC  2",
     "h": false,
+    "th": 0,
+    "tg": 4,
     "ort": "mettmann"
    },
    {
@@ -2232,7 +2235,8 @@
     "heim": "DSD Düsseldorf  2",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "11:30",
+    "th": 2,
+    "tg": 2,
     "ort": "mettmann"
    },
    {
@@ -4557,51 +4561,51 @@
     1,
     "Düsseldorfer HC",
     9,
-    8,
-    1,
+    9,
     0,
-    "46:8",
-    25
+    0,
+    "47:8",
+    27
    ],
    [
     2,
+    "Crefelder HTC",
+    9,
+    7,
+    1,
+    1,
+    "46:8",
+    22,
+    true
+   ],
+   [
+    3,
     "Rot-Weiss Köln",
     9,
     7,
     0,
     2,
-    "38:15",
+    "39:15",
     21
    ],
    [
-    3,
+    4,
     "DSD Düsseldorf",
     9,
     6,
-    1,
-    2,
-    "46:10",
-    19
-   ],
-   [
-    4,
-    "Crefelder HTC",
-    8,
-    6,
-    1,
-    1,
-    "40:7",
-    19,
-    true
+    0,
+    3,
+    "46:11",
+    18
    ],
    [
     5,
     "Schwarz-Weiß Köln 1",
-    8,
+    9,
     3,
     2,
-    3,
-    "18:22",
+    4,
+    "19:28",
     11
    ],
    [
@@ -4611,18 +4615,18 @@
     3,
     2,
     4,
-    "16:32",
+    "16:33",
     11
    ],
    [
     7,
     "HTC Schwarz-Weiß Neuss",
-    8,
-    1,
+    9,
+    2,
     2,
     5,
-    "13:30",
-    5
+    "15:31",
+    8
    ],
    [
     8,
@@ -4647,11 +4651,11 @@
    [
     10,
     "Marienburger SC",
-    7,
+    8,
     0,
     1,
-    6,
-    "4:36",
+    7,
+    "5:38",
     1
    ]
   ],
@@ -4994,73 +4998,73 @@
    [
     1,
     "Crefelder HTC  2 CHTC 2",
+    10,
     8,
-    7,
-    0,
     1,
-    "25:6",
-    21,
+    1,
+    "31:8",
+    25,
     true
    ],
    [
     2,
     "Mettmanner THC wU10 1 MTHC wU10...",
-    8,
-    6,
+    9,
+    7,
     1,
     1,
-    "25:5",
-    19
+    "27:5",
+    22
    ],
    [
     3,
     "HTC Schwarz-Weiß Neuss 2",
-    8,
+    9,
     5,
     1,
-    2,
-    "14:4",
+    3,
+    "15:6",
     16
    ],
    [
     4,
     "DSD Düsseldorf 2",
-    9,
+    10,
     4,
-    3,
+    4,
     2,
-    "14:18",
-    15
+    "16:20",
+    16
    ],
    [
     5,
-    "Düsseldorfer HC  3 DHC 3",
-    9,
+    "Düsseldorfer SC 3 DSC 3",
+    10,
     3,
     1,
-    5,
-    "12:23",
+    6,
+    "12:15",
     10
    ],
    [
     6,
-    "Düsseldorfer SC 2 DSC 2",
-    9,
-    2,
+    "Düsseldorfer HC  3 DHC 3",
+    10,
     3,
-    4,
-    "14:12",
-    9
+    1,
+    6,
+    "12:25",
+    10
    ],
    [
     7,
-    "Düsseldorfer SC 3 DSC 3",
-    9,
+    "Düsseldorfer SC 2 DSC 2",
+    10,
     2,
-    1,
-    6,
-    "10:14",
-    7
+    3,
+    5,
+    "14:16",
+    9
    ],
    [
     8,
