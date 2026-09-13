@@ -1,5 +1,5 @@
 {
- "stand": "13.09.2026 20:03",
+ "stand": "13.09.2026 21:20",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1478,7 +1478,8 @@
     "heim": "Crefelder HTC 2",
     "gast": "Mettmanner THC wU16",
     "h": true,
-    "zeit": "16:00",
+    "th": 7,
+    "tg": 0,
     "ort": "gwa"
    }
   ],
@@ -1694,7 +1695,8 @@
     "heim": "Crefelder HTC 2",
     "gast": "DSD Düsseldorf  4",
     "h": true,
-    "zeit": "12:00",
+    "th": 0,
+    "tg": 1,
     "ort": "gwa"
    },
    {
@@ -4251,12 +4253,12 @@
    [
     3,
     "Crefelder HTC 2 CHTC 2",
-    5,
-    2,
+    6,
+    3,
     3,
     0,
-    "12:3",
-    9,
+    "19:3",
+    12,
     true
    ],
    [
@@ -4282,11 +4284,11 @@
    [
     6,
     "Mettmanner THC wU16 MTHC wU16",
-    5,
+    6,
     1,
     0,
-    4,
-    "4:20",
+    5,
+    "4:27",
     3
    ],
    [
@@ -4539,6 +4541,16 @@
    ],
    [
     6,
+    "DSD Düsseldorf  4 DSD 4",
+    7,
+    3,
+    0,
+    4,
+    "15:19",
+    9
+   ],
+   [
+    7,
     "Kahlenberger HTC 2 KHTC 2",
     8,
     2,
@@ -4548,23 +4560,13 @@
     8
    ],
    [
-    7,
-    "DSD Düsseldorf  4 DSD 4",
-    6,
-    2,
-    0,
-    4,
-    "14:19",
-    6
-   ],
-   [
     8,
     "Crefelder HTC 2 CHTC 2",
-    6,
+    7,
     1,
     1,
-    4,
-    "5:13",
+    5,
+    "5:14",
     4,
     true
    ],
@@ -4831,6 +4833,16 @@
   "mu16-2": [
    [
     1,
+    "Schwarz-Weiß Köln",
+    1,
+    1,
+    0,
+    0,
+    "3:0",
+    3
+   ],
+   [
+    2,
     "Crefelder HTC  2 CHTC 2",
     1,
     1,
@@ -4841,23 +4853,13 @@
     true
    ],
    [
-    2,
-    "Schwarz-Weiß Köln",
-    0,
-    0,
-    0,
-    0,
-    "0:0",
-    0
-   ],
-   [
     3,
     "HTC SW Bonn",
-    1,
+    2,
     0,
     0,
-    1,
-    "0:2",
+    2,
+    "0:5",
     0
    ]
   ],
