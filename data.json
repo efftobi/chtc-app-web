@@ -1,5 +1,5 @@
 {
- "stand": "13.09.2026 18:59",
+ "stand": "13.09.2026 20:03",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1120,7 +1120,8 @@
     "heim": "Mettmanner THC wU12",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "14:30",
+    "th": 0,
+    "tg": 1,
     "ort": "mettmann"
    }
   ],
@@ -3915,24 +3916,24 @@
    ],
    [
     8,
-    "Mettmanner THC wU12 MTHC wU12",
-    7,
+    "Crefelder HTC 2",
+    9,
     2,
-    0,
-    5,
-    "8:12",
-    6
+    1,
+    6,
+    "7:16",
+    7,
+    true
    ],
    [
     9,
-    "Crefelder HTC 2",
+    "Mettmanner THC wU12 MTHC wU12",
     8,
-    1,
-    1,
+    2,
+    0,
     6,
-    "6:16",
-    4,
-    true
+    "8:13",
+    6
    ],
    [
     10,
