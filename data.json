@@ -1,5 +1,5 @@
 {
- "stand": "15.09.2026 17:31",
+ "stand": "15.09.2026 22:06",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1411,11 +1411,11 @@
     "ort": "gwa"
    },
    {
-    "d": "2026-09-13",
+    "d": "2026-09-22",
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "00:00",
+    "zeit": "18:15",
     "ort": "dhc"
    }
   ],
