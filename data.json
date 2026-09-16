@@ -1,5 +1,5 @@
 {
- "stand": "16.09.2026 01:29",
+ "stand": "16.09.2026 11:48",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1487,14 +1487,16 @@
     "heim": "Marienburger SC 2",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "11:00",
+    "ort": "muenster"
    },
    {
     "d": "2026-09-20",
     "heim": "Crefelder HTC 2",
     "gast": "THC Münster",
     "h": true,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "13:30",
+    "ort": "muenster"
    }
   ],
   "wu18": [
@@ -1943,7 +1945,8 @@
     "heim": "HTC Uhlenhorst Mülheim",
     "gast": "Crefelder HTC",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "16:30",
+    "ort": "muelheim"
    }
   ],
   "mu16-2": [
