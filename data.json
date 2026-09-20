@@ -1,5 +1,5 @@
 {
- "stand": "20.09.2026 11:42",
+ "stand": "20.09.2026 14:57",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1030,6 +1030,8 @@
     "heim": "Crefelder HTC",
     "gast": "Schwarz-Weiß Köln 1",
     "h": true,
+    "th": 3,
+    "tg": 1,
     "ort": "gwa"
    },
    {
@@ -1486,6 +1488,8 @@
     "heim": "Marienburger SC 2",
     "gast": "Crefelder HTC 2",
     "h": false,
+    "th": 1,
+    "tg": 3,
     "ort": "muenster"
    },
    {
@@ -1493,7 +1497,8 @@
     "heim": "Crefelder HTC 2",
     "gast": "THC Münster",
     "h": true,
-    "zeit": "13:30",
+    "th": 0,
+    "tg": 0,
     "ort": "muenster"
    }
   ],
@@ -3741,12 +3746,12 @@
    [
     1,
     "DSD Düsseldorf",
-    11,
-    9,
+    12,
+    10,
     0,
     2,
-    "46:10",
-    27
+    "48:11",
+    30
    ],
    [
     2,
@@ -3755,19 +3760,19 @@
     9,
     0,
     2,
-    "34:11",
+    "35:11",
     27,
     true
    ],
    [
     3,
     "HTC Uhlenhorst Mülheim",
-    10,
+    11,
     8,
+    2,
     1,
-    1,
-    "37:9",
-    25
+    "38:10",
+    26
    ],
    [
     4,
@@ -3782,21 +3787,21 @@
    [
     5,
     "Düsseldorfer HC",
-    10,
+    11,
     7,
-    0,
+    1,
     3,
-    "28:10",
-    21
+    "29:11",
+    22
    ],
    [
     6,
     "Blau-Weiß Köln",
-    10,
+    11,
     6,
     0,
-    4,
-    "27:15",
+    5,
+    "28:17",
     18
    ],
    [
@@ -3816,7 +3821,7 @@
     3,
     2,
     6,
-    "16:37",
+    "16:38",
     11
    ],
    [
@@ -4258,33 +4263,33 @@
    [
     1,
     "Crefelder HTC 2 CHTC 2",
+    2,
     1,
     1,
-    0,
     0,
     "3:1",
-    3,
+    4,
     true
    ],
    [
     2,
-    "THC Münster",
+    "Marienburger SC 2 MSC 2",
+    2,
+    1,
     0,
-    0,
-    0,
-    0,
-    "0:0",
-    0
+    1,
+    "4:3",
+    3
    ],
    [
     3,
-    "Marienburger SC 2 MSC 2",
-    1,
+    "THC Münster",
+    2,
     0,
-    0,
     1,
-    "1:3",
-    0
+    1,
+    "0:3",
+    1
    ]
   ],
   "wu18": [
