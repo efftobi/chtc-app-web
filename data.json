@@ -1,5 +1,5 @@
 {
- "stand": "22.09.2026 17:29",
+ "stand": "22.09.2026 22:05",
  "venues_offen": [
   "Spielort noch unbekannt"
  ],
@@ -1416,7 +1416,8 @@
     "heim": "Düsseldorfer HC",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "18:15",
+    "th": 3,
+    "tg": 0,
     "ort": "dhc"
    },
    {
@@ -4228,11 +4229,11 @@
     2,
     "Düsseldorfer HC",
     10,
-    6,
-    3,
+    7,
+    2,
     1,
-    "22:6",
-    21
+    "25:6",
+    23
    ],
    [
     3,
@@ -4246,17 +4247,6 @@
    ],
    [
     4,
-    "Crefelder HTC",
-    10,
-    2,
-    2,
-    6,
-    "6:15",
-    8,
-    true
-   ],
-   [
-    5,
     "Club Raffelberg",
     10,
     2,
@@ -4264,6 +4254,17 @@
     6,
     "9:25",
     8
+   ],
+   [
+    5,
+    "Crefelder HTC",
+    10,
+    2,
+    1,
+    7,
+    "6:18",
+    7,
+    true
    ],
    [
     6,
