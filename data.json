@@ -1,7 +1,8 @@
 {
- "stand": "23.09.2026 01:33",
+ "stand": "23.09.2026 11:51",
  "venues_offen": [
-  "Spielort noch unbekannt"
+  "Spielort noch unbekannt",
+  "Sportanlage Dünnwalder TV"
  ],
  "teams": [
   {
@@ -1419,14 +1420,6 @@
     "th": 3,
     "tg": 0,
     "ort": "dhc"
-   },
-   {
-    "d": "2026-09-26",
-    "heim": "HTC Uhlenhorst Mülheim",
-    "gast": "Crefelder HTC",
-    "h": false,
-    "zeit": "11:00",
-    "ort": "dhc"
    }
   ],
   "wu16-2": [
@@ -1515,7 +1508,8 @@
     "heim": "Dünnwalder TV",
     "gast": "Crefelder HTC 2",
     "h": false,
-    "ortName": "Spielort noch unbekannt"
+    "zeit": "10:00",
+    "ortName": "Sportanlage Dünnwalder TV"
    }
   ],
   "wu18": [
