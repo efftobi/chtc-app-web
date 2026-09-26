@@ -1,5 +1,5 @@
 {
- "stand": "26.09.2026 16:56",
+ "stand": "26.09.2026 18:57",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1827,7 +1827,8 @@
     "heim": "Crefelder HTC",
     "gast": "Rot-Weiss Köln",
     "h": true,
-    "zeit": "17:30",
+    "th": 5,
+    "tg": 0,
     "ort": "gwa"
    }
   ],
@@ -1970,6 +1971,16 @@
     "heim": "HTC Uhlenhorst Mülheim",
     "gast": "Crefelder HTC",
     "h": false,
+    "th": 4,
+    "tg": 6,
+    "ort": "muelheim"
+   },
+   {
+    "d": "2026-09-27",
+    "heim": "Crefelder HTC",
+    "gast": "-",
+    "h": true,
+    "zeit": "18:30",
     "ort": "muelheim"
    }
   ],
@@ -2207,7 +2218,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "Gladbacher HTC",
     "h": true,
-    "zeit": "16:00",
+    "th": 8,
+    "tg": 2,
     "ort": "dsc99"
    },
    {
@@ -2215,7 +2227,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "HTC Schwarz-Weiß Neuss",
     "h": true,
-    "zeit": "16:30",
+    "th": 1,
+    "tg": 1,
     "ort": "dsc99"
    }
   ],
@@ -4372,16 +4385,6 @@
   "mu12": [
    [
     1,
-    "HTC Uhlenhorst Mülheim",
-    11,
-    9,
-    1,
-    1,
-    "52:9",
-    28
-   ],
-   [
-    2,
     "Rot-Weiss Köln",
     10,
     9,
@@ -4389,6 +4392,16 @@
     1,
     "80:11",
     27
+   ],
+   [
+    2,
+    "HTC Uhlenhorst Mülheim",
+    10,
+    8,
+    1,
+    1,
+    "51:9",
+    25
    ],
    [
     3,
@@ -4424,31 +4437,31 @@
    [
     6,
     "Marienburger SC",
-    11,
-    5,
+    10,
+    4,
     2,
     4,
-    "28:26",
-    17
+    "27:26",
+    14
    ],
    [
     7,
     "Blau-Weiß Köln",
-    10,
+    9,
     4,
     0,
-    6,
-    "17:15",
+    5,
+    "17:14",
     12
    ],
    [
     8,
     "TV Jahn Hiesfeld",
-    10,
+    9,
     3,
     0,
-    7,
-    "13:37",
+    6,
+    "13:36",
     9
    ],
    [
@@ -4954,12 +4967,12 @@
    [
     1,
     "Crefelder HTC 1 CHTC 1",
-    10,
-    8,
+    12,
+    9,
+    2,
     1,
-    1,
-    "34:6",
-    25,
+    "43:9",
+    29,
     true
    ],
    [
@@ -4975,12 +4988,12 @@
    [
     3,
     "HTC Schwarz-Weiß Neuss",
-    11,
+    12,
     6,
-    3,
+    4,
     2,
-    "32:10",
-    21
+    "33:11",
+    22
    ],
    [
     4,
@@ -4995,31 +5008,31 @@
    [
     5,
     "Düsseldorfer SC",
-    10,
-    2,
+    11,
+    3,
     3,
     5,
-    "13:19",
-    9
+    "17:20",
+    12
    ],
    [
     6,
     "Gladbacher HTC",
-    10,
+    11,
     1,
     2,
-    7,
-    "8:33",
+    8,
+    "10:41",
     5
    ],
    [
     7,
     "Düsseldorfer HC  2 DHC 2",
-    10,
+    11,
     0,
     1,
-    9,
-    "4:50",
+    10,
+    "5:54",
     1
    ]
   ],
