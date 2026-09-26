@@ -3,8 +3,7 @@ VERSION:2.0
 PRODID:-//CHTC//App//DE
 BEGIN:VEVENT
 UID:chtc-mu16-20260926-crefelder-htc@chtc
-DTSTART:20260926T163000
-DTEND:20260926T183000
+DTSTART;VALUE=DATE:20260926
 SUMMARY:🏑 HTC Uhlenhorst Mülheim – Crefelder HTC
 LOCATION:HTC Uhlenhorst Mülheim\, Uhlenhorstweg 19\, 45479 Mülheim an der Ruhr
 END:VEVENT

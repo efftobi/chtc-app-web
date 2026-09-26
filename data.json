@@ -1,5 +1,5 @@
 {
- "stand": "26.09.2026 14:50",
+ "stand": "26.09.2026 16:56",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1970,7 +1970,6 @@
     "heim": "HTC Uhlenhorst Mülheim",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "16:30",
     "ort": "muelheim"
    }
   ],
@@ -2321,7 +2320,8 @@
     "heim": "Düsseldorfer SC 3",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "12:30",
+    "th": 0,
+    "tg": 7,
     "ort": "mettmann"
    },
    {
@@ -2329,7 +2329,8 @@
     "heim": "Düsseldorfer HC  3",
     "gast": "Crefelder HTC  2",
     "h": false,
-    "zeit": "14:00",
+    "th": 0,
+    "tg": 2,
     "ort": "mettmann"
    },
    {
@@ -4423,12 +4424,12 @@
    [
     6,
     "Marienburger SC",
-    10,
-    4,
+    11,
+    5,
     2,
     4,
-    "27:26",
-    14
+    "28:26",
+    17
    ],
    [
     7,
@@ -4443,11 +4444,11 @@
    [
     8,
     "TV Jahn Hiesfeld",
-    9,
+    10,
     3,
     0,
-    6,
-    "13:36",
+    7,
+    "13:37",
     9
    ],
    [
@@ -4964,31 +4965,31 @@
    [
     2,
     "Düsseldorfer HC",
-    10,
-    6,
+    12,
+    8,
     1,
     3,
-    "19:9",
-    19
+    "24:9",
+    25
    ],
    [
     3,
     "HTC Schwarz-Weiß Neuss",
-    9,
-    5,
+    11,
+    6,
     3,
-    1,
-    "29:7",
-    18
+    2,
+    "32:10",
+    21
    ],
    [
     4,
     "DSD Düsseldorf 1 DSD 1",
-    10,
+    11,
     5,
     3,
-    2,
-    "24:11",
+    3,
+    "26:14",
     18
    ],
    [
@@ -5004,11 +5005,11 @@
    [
     6,
     "Gladbacher HTC",
-    9,
+    10,
     1,
     2,
-    6,
-    "8:29",
+    7,
+    "8:33",
     5
    ],
    [
@@ -5025,73 +5026,73 @@
   "wu10-2": [
    [
     1,
-    "Mettmanner THC wU10 1 MTHC wU10...",
+    "Crefelder HTC  2 CHTC 2",
+    13,
     11,
-    9,
     1,
     1,
-    "36:6",
-    28
+    "42:8",
+    34,
+    true
    ],
    [
     2,
-    "Crefelder HTC  2 CHTC 2",
-    11,
-    9,
-    1,
-    1,
-    "33:8",
-    28,
-    true
+    "Mettmanner THC wU10 1 MTHC wU10...",
+    14,
+    10,
+    2,
+    2,
+    "45:11",
+    32
    ],
    [
     3,
     "DSD Düsseldorf 2",
-    11,
+    14,
+    7,
+    5,
+    2,
+    "26:24",
+    26
+   ],
+   [
+    4,
+    "Düsseldorfer SC 2 DSC 2",
+    14,
     5,
     4,
-    2,
-    "19:20",
+    5,
+    "21:15",
     19
    ],
    [
-    4,
+    5,
     "HTC Schwarz-Weiß Neuss 2",
-    11,
+    14,
     5,
-    2,
-    4,
-    "16:11",
-    17
-   ],
-   [
-    5,
-    "Düsseldorfer SC 2 DSC 2",
-    11,
     3,
-    3,
-    5,
-    "17:14",
-    12
+    6,
+    "17:19",
+    18
    ],
    [
     6,
     "Düsseldorfer HC  3 DHC 3",
-    11,
+    13,
     3,
     2,
-    6,
-    "13:26",
+    8,
+    "14:30",
     11
    ],
    [
     7,
     "Düsseldorfer SC 3 DSC 3",
-    11,
+    13,
     3,
     1,
-    7,
-    "13:21",
+    9,
+    "13:30",
     10
    ],
    [
