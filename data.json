@@ -1,5 +1,5 @@
 {
- "stand": "26.09.2026 11:47",
+ "stand": "26.09.2026 14:50",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -4371,6 +4371,16 @@
   "mu12": [
    [
     1,
+    "HTC Uhlenhorst Mülheim",
+    11,
+    9,
+    1,
+    1,
+    "52:9",
+    28
+   ],
+   [
+    2,
     "Rot-Weiss Köln",
     10,
     9,
@@ -4378,16 +4388,6 @@
     1,
     "80:11",
     27
-   ],
-   [
-    2,
-    "HTC Uhlenhorst Mülheim",
-    10,
-    8,
-    1,
-    1,
-    "51:9",
-    25
    ],
    [
     3,
@@ -4433,11 +4433,11 @@
    [
     7,
     "Blau-Weiß Köln",
-    9,
+    10,
     4,
     0,
-    5,
-    "17:14",
+    6,
+    "17:15",
     12
    ],
    [
