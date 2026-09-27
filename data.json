@@ -1,5 +1,5 @@
 {
- "stand": "27.09.2026 15:42",
+ "stand": "27.09.2026 17:36",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1837,7 +1837,6 @@
     "heim": "DSD Düsseldorf",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "17:30",
     "ort": "gwa"
    }
   ],
@@ -4396,6 +4395,16 @@
   "mu12": [
    [
     1,
+    "Rot-Weiss Köln",
+    11,
+    10,
+    0,
+    1,
+    "93:11",
+    30
+   ],
+   [
+    2,
     "HTC Uhlenhorst Mülheim",
     11,
     9,
@@ -4403,16 +4412,6 @@
     1,
     "52:9",
     28
-   ],
-   [
-    2,
-    "Rot-Weiss Köln",
-    10,
-    9,
-    0,
-    1,
-    "80:11",
-    27
    ],
    [
     3,
@@ -4477,22 +4476,22 @@
    ],
    [
     9,
-    "HC Essen 99",
-    10,
-    2,
-    2,
-    6,
-    "14:22",
-    8
-   ],
-   [
-    10,
     "Düsseldorfer SC",
     10,
     2,
     2,
     6,
     "17:37",
+    8
+   ],
+   [
+    10,
+    "HC Essen 99",
+    11,
+    2,
+    2,
+    7,
+    "14:35",
     8
    ],
    [
