@@ -1,5 +1,5 @@
 {
- "stand": "28.09.2026 01:44",
+ "stand": "28.09.2026 13:36",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -5056,11 +5056,11 @@
     1,
     "Crefelder HTC  2 CHTC 2",
     14,
-    11,
-    2,
+    12,
     1,
-    "42:8",
-    35,
+    1,
+    "45:8",
+    37,
     true
    ],
    [
@@ -5128,10 +5128,10 @@
     "Gladbacher HTC 2",
     14,
     0,
-    1,
-    13,
-    "2:49",
-    1
+    0,
+    14,
+    "2:52",
+    0
    ]
   ],
   "wu10-3": [
