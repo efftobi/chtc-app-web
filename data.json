@@ -1,5 +1,5 @@
 {
- "stand": "30.09.2026 00:55",
+ "stand": "30.09.2026 13:03",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1564,7 +1564,6 @@
     "heim": "Düsseldorfer SC 2",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "15:00",
     "ort": "dsc99"
    }
   ],
@@ -4444,6 +4443,16 @@
    ],
    [
     3,
+    "Düsseldorfer SC 2 DSC 2",
+    5,
+    3,
+    0,
+    2,
+    "10:8",
+    9
+   ],
+   [
+    4,
     "SG HTC Kupferdreh / Hockey Club Essen 1899 SG HTCK/H...",
     5,
     2,
@@ -4453,23 +4462,13 @@
     7
    ],
    [
-    4,
-    "Düsseldorfer SC 2 DSC 2",
-    4,
-    2,
-    0,
-    2,
-    "7:8",
-    6
-   ],
-   [
     5,
     "Crefelder HTC",
-    4,
+    5,
     2,
     1,
-    1,
-    "14:6",
+    2,
+    "14:9",
     4,
     true
    ],
