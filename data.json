@@ -1,5 +1,5 @@
 {
- "stand": "04.10.2026 01:43",
+ "stand": "04.10.2026 13:03",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -4528,12 +4528,12 @@
    [
     5,
     "Club Raffelberg",
-    10,
+    11,
     6,
-    1,
+    2,
     3,
     "33:18",
-    19
+    20
    ],
    [
     6,
@@ -4557,6 +4557,16 @@
    ],
    [
     8,
+    "Düsseldorfer SC",
+    11,
+    2,
+    3,
+    6,
+    "17:37",
+    9
+   ],
+   [
+    9,
     "TV Jahn Hiesfeld",
     11,
     3,
@@ -4564,16 +4574,6 @@
     8,
     "13:44",
     9
-   ],
-   [
-    9,
-    "Düsseldorfer SC",
-    10,
-    2,
-    2,
-    6,
-    "17:37",
-    8
    ],
    [
     10,
