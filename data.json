@@ -1,5 +1,5 @@
 {
- "stand": "10.10.2026 13:04",
+ "stand": "10.10.2026 16:21",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1689,7 +1689,6 @@
     "heim": "Rot-Weiss Köln",
     "gast": "Crefelder HTC",
     "h": false,
-    "zeit": "15:30",
     "ort": "rwk"
    }
   ],
@@ -2275,7 +2274,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC",
     "h": true,
-    "zeit": "15:30",
+    "th": 3,
+    "tg": 0,
     "ort": "gwa"
    },
    {
@@ -2283,7 +2283,6 @@
     "heim": "DSD Düsseldorf 1",
     "gast": "Crefelder HTC 1",
     "h": false,
-    "zeit": "16:10",
     "ort": "gwa"
    },
    {
@@ -3018,7 +3017,8 @@
     "heim": "Crefelder HTC 1",
     "gast": "Düsseldorfer HC  2",
     "h": true,
-    "zeit": "15:30",
+    "th": 3,
+    "tg": 1,
     "ort": "gwa"
    },
    {
@@ -5079,43 +5079,43 @@
   "wu10-1": [
    [
     1,
-    "HTC Schwarz-Weiß Neuss",
+    "Crefelder HTC 1 CHTC 1",
+    1,
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
-    0
+    "3:0",
+    3,
+    true
    ],
    [
     2,
-    "Crefelder HTC 1 CHTC 1",
+    "HTC Schwarz-Weiß Neuss",
+    1,
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
-    0,
-    true
+    "2:1",
+    3
    ],
    [
     3,
     "DSD Düsseldorf 1 DSD 1",
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
+    1,
+    "1:2",
     0
    ],
    [
     4,
     "Düsseldorfer HC",
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
+    1,
+    "0:3",
     0
    ]
   ],
@@ -5826,42 +5826,42 @@
    [
     1,
     "Crefelder HTC 1 CHTC 1",
+    1,
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
-    0,
+    "3:1",
+    3,
     true
    ],
    [
     2,
-    "DSD Düsseldorf",
+    "Düsseldorfer HC",
+    1,
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
-    0
+    "3:1",
+    3
    ],
    [
     3,
-    "Düsseldorfer HC",
+    "DSD Düsseldorf",
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
+    1,
+    "1:3",
     0
    ],
    [
     4,
     "Düsseldorfer HC  2 DHC 2",
+    1,
     0,
     0,
-    0,
-    0,
-    "0:0",
+    1,
+    "1:3",
     0
    ]
   ],
