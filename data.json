@@ -1,5 +1,5 @@
 {
- "stand": "11.10.2026 00:23",
+ "stand": "11.10.2026 13:21",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1058,7 +1058,8 @@
     "heim": "Crefelder HTC",
     "gast": "Rot-Weiss Köln",
     "h": true,
-    "zeit": "10:00",
+    "th": 2,
+    "tg": 4,
     "ort": "muelheim"
    }
   ],
