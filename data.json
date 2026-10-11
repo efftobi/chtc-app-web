@@ -1,5 +1,5 @@
 {
- "stand": "11.10.2026 13:21",
+ "stand": "11.10.2026 16:47",
  "venues_offen": [
   "Spielort noch unbekannt",
   "Sportanlage Dünnwalder TV"
@@ -1699,7 +1699,8 @@
     "heim": "Crefelder HTC",
     "gast": "DSD Düsseldorf",
     "h": true,
-    "zeit": "14:00",
+    "th": 0,
+    "tg": 5,
     "ort": "rwk"
    }
   ],
